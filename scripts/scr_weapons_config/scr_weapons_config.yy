@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_weapons_config",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_weapons_config",
+  "parent":{
+    "name":"Inventory",
+    "path":"folders/Custom/Scripts/Configs/Inventory.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
