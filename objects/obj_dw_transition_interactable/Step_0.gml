@@ -28,7 +28,7 @@ if (con == 1)
         
         with (su_actor)
         {
-            scr_depth();
+            scr_depth(0);
             image_speed = 0.25;
             scr_move_to_point_over_time(313, 86, 6);
         }

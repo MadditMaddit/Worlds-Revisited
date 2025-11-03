@@ -21,5 +21,5 @@ if (global.chapter > 1)
     var gameover_bg = instance_create(0, 20, obj_gameoverbg);
     
     with (gameover_bg)
-        scr_depth();
+        scr_depth(0);
 }

@@ -126,7 +126,7 @@ if (debug_killtimer > 0)
 
 if (auto_depth == 1)
 {
-    scr_depth();
+    scr_depth(0);
     depth += depthbonus;
 }
 

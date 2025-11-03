@@ -1001,4 +1001,4 @@ if (scr_debug())
 }
 
 if !ignoredepth
-	scr_depth();
+	scr_depth(0);

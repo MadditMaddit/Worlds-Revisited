@@ -1,6 +1,6 @@
 {
   "$GMProject":"v1",
-  "%Name":"DELTAModKit",
+  "%Name":"Worlds Revisited",
   "AudioGroups":[
     {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
     {"$GMAudioGroup":"v1","%Name":"audio_sfx","exportDir":"","name":"audio_sfx","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -159,15 +159,13 @@
     {"$GMFolder":"","%Name":"Chapter 1","folderPath":"folders/DELTARUNE/Tilesets/Dark World/Tilesets/Chapter 1.yy","name":"Chapter 1","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[
-    {"$GMIncludedFile":"","%Name":"8bitoperator_jve.ttf","CopyToMask":-1,"filePath":"datafiles","name":"8bitoperator_jve.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-  ],
+  "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.1400.0.907",
+    "IDEVersion":"2024.1400.3.974",
   },
-  "name":"DELTAModKit",
+  "name":"Worlds Revisited",
   "resources":[
     {"id":{"name":"fnt_comicsans","path":"fonts/fnt_comicsans/fnt_comicsans.yy",},},
     {"id":{"name":"fnt_dotumche","path":"fonts/fnt_dotumche/fnt_dotumche.yy",},},
@@ -540,6 +538,7 @@
     {"id":{"name":"snd_txtspam2","path":"sounds/snd_txtspam2/snd_txtspam2.yy",},},
     {"id":{"name":"snd_txtsus","path":"sounds/snd_txtsus/snd_txtsus.yy",},},
     {"id":{"name":"snd_weaponpull_fast","path":"sounds/snd_weaponpull_fast/snd_weaponpull_fast.yy",},},
+    {"id":{"name":"world_buster","path":"sounds/world_buster/world_buster.yy",},},
     {"id":{"name":"bg_battleback1","path":"sprites/bg_battleback1/bg_battleback1.yy",},},
     {"id":{"name":"bg_dw_rounded_edges","path":"sprites/bg_dw_rounded_edges/bg_dw_rounded_edges.yy",},},
     {"id":{"name":"bg_fountain1","path":"sprites/bg_fountain1/bg_fountain1.yy",},},
@@ -648,6 +647,11 @@
     {"id":{"name":"spr_btspare","path":"sprites/spr_btspare/spr_btspare.yy",},},
     {"id":{"name":"spr_bttech","path":"sprites/spr_bttech/spr_bttech.yy",},},
     {"id":{"name":"spr_chartarget","path":"sprites/spr_chartarget/spr_chartarget.yy",},},
+    {"id":{"name":"spr_clogsb_idle","path":"sprites/spr_clogsb_idle/spr_clogsb_idle.yy",},},
+    {"id":{"name":"spr_clogsd","path":"sprites/spr_clogsd/spr_clogsd.yy",},},
+    {"id":{"name":"spr_clogsl","path":"sprites/spr_clogsl/spr_clogsl.yy",},},
+    {"id":{"name":"spr_clogsr","path":"sprites/spr_clogsr/spr_clogsr.yy",},},
+    {"id":{"name":"spr_clogsu","path":"sprites/spr_clogsu/spr_clogsu.yy",},},
     {"id":{"name":"spr_custommenu_arrow_nooutline","path":"sprites/spr_custommenu_arrow_nooutline/spr_custommenu_arrow_nooutline.yy",},},
     {"id":{"name":"spr_custommenu_arrow","path":"sprites/spr_custommenu_arrow/spr_custommenu_arrow.yy",},},
     {"id":{"name":"spr_darkconfigbt","path":"sprites/spr_darkconfigbt/spr_darkconfigbt.yy",},},

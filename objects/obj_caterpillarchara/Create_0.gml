@@ -1,4 +1,4 @@
-scr_depth();
+scr_depth(0);
 image_speed = 0;
 
 if (global.darkzone)

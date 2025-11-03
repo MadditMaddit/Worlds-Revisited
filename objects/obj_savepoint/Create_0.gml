@@ -2,7 +2,7 @@ image_speed = 0.2;
 myinteract = 0;
 talked = 0;
 mydialoguer = 3478247328;
-scr_depth();
+scr_depth(0);
 
 if (global.darkzone == 1)
 {

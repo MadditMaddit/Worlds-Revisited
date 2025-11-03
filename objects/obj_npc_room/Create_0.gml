@@ -19,7 +19,7 @@ USECUSTOMFUNC = false
 CUSTOM_FUNC = function() {}
 TALKSPRITE = true
 if (depthcancel == 0)
-    scr_depth();
+    scr_depth(0);
 	
 if CUSTOM
 {

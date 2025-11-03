@@ -1,3 +1,3 @@
 con = 0;
 
-scr_depth();
+scr_depth(0);

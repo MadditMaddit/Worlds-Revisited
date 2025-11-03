@@ -25,7 +25,7 @@ if (i_ex(target))
         with (body_obj)
         {
             _remdepth = depth;
-            scr_depth();
+            scr_depth(0);
             
             if (_remdepth != depth)
                 __depthcheck = 1;
@@ -41,7 +41,7 @@ if (i_ex(target))
         shadowoffy = 0;
         shadowheight = sprite_get_height(checksprite);
         y = endy;
-        scr_depth();
+        scr_depth(0);
         y = remy;
         target.visible = 0;
         fakeendx = endx;
@@ -144,7 +144,7 @@ if (i_ex(target))
         
         if (ignoredepth == 0)
         {
-            scr_depth();
+            scr_depth(0);
             depth -= 5000;
             body_obj.depth = depth;
         }

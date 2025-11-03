@@ -36,7 +36,7 @@ if (!init)
 
 if (!ignoredepth)
 {
-    scr_depth();
+    scr_depth(0);
     depth += 5;
     
     if (name == "ralsei")
