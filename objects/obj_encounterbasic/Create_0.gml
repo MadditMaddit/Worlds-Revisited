@@ -21,7 +21,7 @@ with (obj_caterpillarchara)
     fun = 0;
 
 count = 0;
-c[0] = scr_dark_marker(obj_mainchara.x, obj_mainchara.y, spr_kris_sword_jump_down);
+c[0] = scr_dark_marker(obj_mainchara.x, obj_mainchara.y, spr_clogs_sword_jump_down);
 
 if (i_ex(global.cinstance[0]))
 {

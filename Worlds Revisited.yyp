@@ -652,6 +652,7 @@
     {"id":{"name":"spr_clogs_fall_ball","path":"sprites/spr_clogs_fall_ball/spr_clogs_fall_ball.yy",},},
     {"id":{"name":"spr_clogs_landed","path":"sprites/spr_clogs_landed/spr_clogs_landed.yy",},},
     {"id":{"name":"spr_clogs_scratchass","path":"sprites/spr_clogs_scratchass/spr_clogs_scratchass.yy",},},
+    {"id":{"name":"spr_clogs_sword_jump_down","path":"sprites/spr_clogs_sword_jump_down/spr_clogs_sword_jump_down.yy",},},
     {"id":{"name":"spr_clogsb_act","path":"sprites/spr_clogsb_act/spr_clogsb_act.yy",},},
     {"id":{"name":"spr_clogsb_actready","path":"sprites/spr_clogsb_actready/spr_clogsb_actready.yy",},},
     {"id":{"name":"spr_clogsb_attack","path":"sprites/spr_clogsb_attack/spr_clogsb_attack.yy",},},
