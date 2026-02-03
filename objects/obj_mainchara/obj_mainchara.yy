@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_krisd_dark",
-    "path":"sprites/spr_krisd_dark/spr_krisd_dark.yy",
+    "name":"spr_clogsd",
+    "path":"sprites/spr_clogsd/spr_clogsd.yy",
   },
   "spriteMaskId":null,
   "visible":true,

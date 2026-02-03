@@ -40,7 +40,7 @@ if (con == 7)
     if (sndplay == 1)
         snd_resume(global.currentsong[1]);
     
-    msgset(0, "* It's nothing but garbage noise./%");
+    msgset(0, "* Just garbage noise./%");
     instance_create(0, 0, obj_dialoguer);
     con = 5;
     global.interact = 6;

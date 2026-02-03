@@ -1,4 +1,4 @@
-global.currentsong[0] = snd_init("legend.ogg");
+global.currentsong[0] = snd_init("old_legend.wav");
 snd_pitch(global.currentsong[0], 0.95);
 global.currentsong[1] = mus_play(global.currentsong[0]);
 

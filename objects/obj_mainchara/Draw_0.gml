@@ -60,20 +60,20 @@ if (swordmode == 0)
     if (fun == 0)
     {
         if (global.facing == 0)
-            draw_sprite_ext(spr_krisd_heart, image_index, x, y, image_xscale, image_yscale, 0, image_blend, battlealpha);
+            draw_sprite_ext(spr_clogsd_heart, image_index, x, y, image_xscale, image_yscale, 0, image_blend, battlealpha);
         
         if (global.facing == 1)
-            draw_sprite_ext(spr_krisr_heart, image_index, x, y, image_xscale, image_yscale, 0, image_blend, battlealpha);
+            draw_sprite_ext(spr_clogsr_heart, image_index, x, y, image_xscale, image_yscale, 0, image_blend, battlealpha);
         
         if (global.facing == 2)
-            draw_sprite_ext(spr_krisu_heart, image_index, x, y, image_xscale, image_yscale, 0, image_blend, battlealpha);
+            draw_sprite_ext(spr_clogsu_heart, image_index, x, y, image_xscale, image_yscale, 0, image_blend, battlealpha);
         
         if (global.facing == 3)
-            draw_sprite_ext(spr_krisl_heart, image_index, x, y, image_xscale, image_yscale, 0, image_blend, battlealpha);
+            draw_sprite_ext(spr_clogsl_heart, image_index, x, y, image_xscale, image_yscale, 0, image_blend, battlealpha);
     }
-    //else if (sprite_index == spr_krisd_slide)
+    //else if (sprite_index == spr_clogsd_slide)
     //{
-    //    draw_sprite_ext(spr_krisd_slide_heart, image_index, x, y, image_xscale, image_yscale, 0, image_blend, battlealpha);
+    //    draw_sprite_ext(spr_clogsd_slide_heart, image_index, x, y, image_xscale, image_yscale, 0, image_blend, battlealpha);
     //}
     else if (global.chapter == 3)
     {

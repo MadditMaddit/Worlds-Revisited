@@ -58,17 +58,17 @@ walkanim = 0;
 walkbuffer = 0;
 walktimer = 0;
 image_speed = 0;
-dsprite = spr_krisd;
-rsprite = spr_krisr;
-usprite = spr_krisu;
-lsprite = spr_krisl;
+dsprite = spr_clogsd;
+rsprite = spr_clogsr;
+usprite = spr_clogsu;
+lsprite = spr_clogsl;
 climbsprite = 3707;
 
 if darkmode {
-	dsprite = spr_krisd_dark;
-	rsprite = spr_krisr_dark;
-	usprite = spr_krisu_dark;
-	lsprite = spr_krisl_dark;	
+	dsprite = spr_clogsd;
+	rsprite = spr_clogsr;
+	usprite = spr_clogsu;
+	lsprite = spr_clogsl;	
 	
 	stepping = 1;
     image_xscale = 2;
