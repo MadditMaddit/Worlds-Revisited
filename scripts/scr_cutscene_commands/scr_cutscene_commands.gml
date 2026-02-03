@@ -695,7 +695,7 @@ function scr_cutscene_commands()
             if (!instant)
             {
                 with (command_actor[i])
-                    scr_shakeobj();
+                    scr_shakeobj(id, 10, 2);
             }
         }
         else
