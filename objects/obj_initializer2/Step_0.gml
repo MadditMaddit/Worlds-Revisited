@@ -47,7 +47,7 @@ var CH = string(global.chapter);
         if (global.is_console)
             global.screen_border_alpha = 1;
         
-        scr_windowcaption("DELTARUNE");
+        scr_windowcaption("DELTARUNE: Worlds Revisited");
         global.tempflag[10] = 1;
         roomchoice = room_legend;
         global.plot = 0;

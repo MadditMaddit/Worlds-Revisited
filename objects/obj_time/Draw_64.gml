@@ -11,7 +11,7 @@ if scr_debug() {
 	draw_set_color(c_white);
 	draw_set_alpha(0.6);
 	
-	var th = string_height("Hello!");
+	var th = string_height("Hello.");
 	var thp = (th + 2); // th + padding
 	var starty = 16;
 	

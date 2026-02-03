@@ -58,19 +58,19 @@ if (global.interact == 5)
                     i = round(random(30));
                     
                     if (i == 0)
-                        global.msg[0] = stringsetsub("* You bid a quiet farewell to the ~1.", global.litemname[global.menucoord[1]]);
+                        global.msg[0] = stringsetsub("* You bid a bittersweet farewell to the ~1.", global.litemname[global.menucoord[1]]);
                     
                     if (i == 1)
-                        global.msg[0] = stringsetsub("* You put the ~1 on the ground and gave it a little pat.", global.litemname[global.menucoord[1]]);
+                        global.msg[0] = stringsetsub("* You put the ~1 on the ground and lovingly tucked it in.", global.litemname[global.menucoord[1]]);
                     
                     if (i == 2)
-                        global.msg[0] = stringsetsub("* You threw the ~1 on the ground like the piece of trash it is.", global.litemname[global.menucoord[1]]);
+                        global.msg[0] = stringsetsub("* You threw the ~1 on the ground like it FREAKING deserves.", global.litemname[global.menucoord[1]]);
                     
                     if (i == 3)
-                        global.msg[0] = stringsetsub("* You abandoned the ~1.", global.litemname[global.menucoord[1]]);
+                        global.msg[0] = stringsetsub("* You heartlessly abandoned the ~1.", global.litemname[global.menucoord[1]]);
                     
                     if (i > 3)
-                        global.msg[0] = stringsetsub("* The ~1 was thrown away.", global.litemname[global.menucoord[1]]);
+                        global.msg[0] = stringsetsub("* The ~1 was discarded.", global.litemname[global.menucoord[1]]);
                     
                     global.msg[0] += "/%";
                     
@@ -101,14 +101,14 @@ if (global.interact == 5)
                     }
                     else if (dontthrowtype == 2)
                     {
-                        msgset(0, "* (For some reason you felt like if you throw it away...)/");
+                        msgset(0, "* (Clogs doesn't want to throw this away...)/");
                         msgnext("* (It would be like throwing away someone's..^1. ???)/");
-                        msgnext("* (..^1. But you didn't fully understand it.)/%");
+                        msgnext("* (..^1. You don't understand it.)/%");
                         script_execute(scr_writetext, 0, "x", 0, 0);
                     }
                     else if (dontthrowtype == 3)
                     {
-                        msgset(0, "* (Recently, seems like weapons can't be thrown away so easily.)/%");
+                        msgset(0, "* (As of recent, weapons have gotten increasingly difficult to discard.)/%");
                         script_execute(scr_writetext, 0, "x", 0, 0);
                     }
                 }

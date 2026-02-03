@@ -430,7 +430,7 @@ if (MENU_NO >= 0)
         draw_set_color(c_white);
         draw_set_halign(fa_right);
         draw_set_valign(fa_bottom);
-        draw_text_transformed(313, 236, "DELTARUNE " + global.versionno + " (C) Toby Fox 2018-2025 ", 0.5, 0.5, 0);
+        draw_text_transformed(313, 236, "DELTARUNE: Worlds Revisited " + global.versionno + " Weird Secret Team ", 0.5, 0.5, 0);
         draw_set_halign(fa_left);
         draw_set_valign(fa_top);
     }

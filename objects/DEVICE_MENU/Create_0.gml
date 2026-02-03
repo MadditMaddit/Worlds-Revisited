@@ -24,7 +24,7 @@ if (TYPE == 1)
 {
     instance_create(0, 0, obj_fadein);
     global.tempflag[10] = 1;
-    scr_windowcaption("DELTARUNE");
+    scr_windowcaption("REVISITED");
     
     if (SUBTYPE == 0)
         global.currentsong[0] = snd_init("menu.ogg");

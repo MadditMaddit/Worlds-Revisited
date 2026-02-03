@@ -25,7 +25,7 @@ function scr_encountersetup(encounterid)
         global.heromakey[1] = yy + 180;
     }
     
-    global.battlemsg[0] = "* It is known.";
+    global.battlemsg[0] = "* It is known more than ever before.";
 	
 	scr_encounter_get(encounterid);
 	

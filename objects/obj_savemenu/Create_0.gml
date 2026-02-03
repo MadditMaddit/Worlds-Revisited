@@ -4,7 +4,7 @@ xcoord = 0;
 ycoord = 0;
 ini_ex = 0;
 buffer = 3;
-name = "Kris";
+name = "Clogs";
 level = 1;
 love = 1;
 time = 0;
@@ -54,7 +54,7 @@ if (ossafe_file_exists("dr.ini"))
 {
     ini_ex = 1;
     iniread = ossafe_ini_open("dr.ini");
-    name = ini_read_string(scr_ini_chapter(global.chapter, global.filechoice), "Name", "Kris");
+    name = ini_read_string(scr_ini_chapter(global.chapter, global.filechoice), "Name", "Clogs");
     level = ini_read_real(scr_ini_chapter(global.chapter, global.filechoice), "Level", 1);
     love = ini_read_real(scr_ini_chapter(global.chapter, global.filechoice), "Love", 1);
     time = ini_read_real(scr_ini_chapter(global.chapter, global.filechoice), "Time", 0);
@@ -82,7 +82,7 @@ if (d == 1)
     heartsprite = spr_heartsmall;
 
 if (d == 1)
-    name = "Kris";
+    name = "Clogs";
 
 name_current = global.truename;
 love_current = global.llv;
@@ -92,7 +92,7 @@ time_current = global.time;
 
 for (var i = 0; i < 3; i++)
 {
-    name_file[i] = "Kris";
+    name_file[i] = "Clogs";
     level_file[i] = 0;
     love_file[i] = 1;
     time_file[i] = 0;
@@ -102,7 +102,7 @@ for (var i = 0; i < 3; i++)
     {
         ini_ex_file[i] = 1;
         iniread_file[i] = ossafe_ini_open("dr.ini");
-        name_file[i] = ini_read_string(scr_ini_chapter(global.chapter, i), "Name", "Kris");
+        name_file[i] = ini_read_string(scr_ini_chapter(global.chapter, i), "Name", "Clogs");
         level_file[i] = ini_read_real(scr_ini_chapter(global.chapter, i), "Level", 0);
         love_file[i] = ini_read_real(scr_ini_chapter(global.chapter, i), "Love", 1);
         time_file[i] = ini_read_real(scr_ini_chapter(global.chapter, i), "Time", 0);

@@ -99,7 +99,7 @@ function scr_hero_get_nameplate(heroIdx) {
 	switch (heroIdx) {
 		default:
 		case DRHero.Kris: {
-			headspr = spr_headkris;
+			headspr = spr_headclogs;
 			namespr = spr_bnamekris;
 			break;	
 		}

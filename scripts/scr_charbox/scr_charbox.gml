@@ -136,7 +136,7 @@ function scr_charbox()
             if (global.fighting == 1)
                 b_offset = 336;
 			
-			headspr = spr_headkris;
+			headspr = spr_headclogs;
 			namespr = spr_bnamekris;
 			
 			scr_hero_get_nameplate(c);
