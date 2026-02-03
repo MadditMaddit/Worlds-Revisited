@@ -100,7 +100,7 @@ function scr_hero_get_nameplate(heroIdx) {
 		default:
 		case DRHero.Kris: {
 			headspr = spr_headclogs;
-			namespr = spr_bnamekris;
+			namespr = spr_bnameclogs;
 			break;	
 		}
 		
@@ -135,20 +135,20 @@ function scr_hero_set_sprites(heroObject) {
 	switch (heroObject) {
 		default:
 		case obj_herokris: {
-			normalsprite = spr_krisr_dark;
-		    idlesprite = spr_krisb_idle;
-		    defendsprite = spr_krisb_defend;
-		    hurtsprite = spr_krisb_hurt;
-		    attackreadysprite = spr_krisb_attackready;
-		    attacksprite = spr_krisb_attack;
-		    itemsprite = spr_krisb_item;
-		    actreadysprite = spr_krisb_actready;
-		    actsprite = spr_krisb_act;
-		    itemreadysprite = spr_krisb_itemready;
-		    spellreadysprite = spr_krisb_actready;
-		    spellsprite = spr_krisb_act;
-		    defeatsprite = spr_krisb_defeat;
-		    victorysprite = spr_krisb_victory;
+			normalsprite = spr_clogsr;
+		    idlesprite = spr_clogsb_idle;
+		    defendsprite = spr_clogsb_defend;
+		    hurtsprite = spr_clogsb_hurt;
+		    attackreadysprite = spr_clogsb_attackready;
+		    attacksprite = spr_clogsb_attack;
+		    itemsprite = spr_clogsb_item;
+		    actreadysprite = spr_clogsb_actready;
+		    actsprite = spr_clogsb_act;
+		    itemreadysprite = spr_clogsb_itemready;
+		    spellreadysprite = spr_clogsb_actready;
+		    spellsprite = spr_clogsb_act;
+		    defeatsprite = spr_clogsb_defeat;
+		    victorysprite = spr_clogsb_victory;
 		    actframes = 7;
 		    actreturnframes = 10;
 		    attackframes = 6;
