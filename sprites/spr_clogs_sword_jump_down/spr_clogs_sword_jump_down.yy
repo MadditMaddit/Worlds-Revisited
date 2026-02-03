@@ -28,7 +28,7 @@
   "origin":0,
   "parent":{
     "name":"Battle",
-    "path":"folders/DELTARUNE/Sprites/Characters/Kris/Battle.yy",
+    "path":"folders/DELTARUNE/Sprites/Characters/Clogs/Battle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

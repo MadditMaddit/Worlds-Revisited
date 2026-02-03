@@ -29,7 +29,7 @@
   "origin":9,
   "parent":{
     "name":"Dark",
-    "path":"folders/DELTARUNE/Sprites/Characters/Susie/Dark.yy",
+    "path":"folders/DELTARUNE/Sprites/Characters/Sluzishy/Dark.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

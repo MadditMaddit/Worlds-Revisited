@@ -6,7 +6,7 @@ function scr_battle(encounterno, specialbattle, enemy0, enemy1, enemy2)
     if (global.flag[9] != 2)
     {
         global.flag[9] = 1;
-        var batmusic = "mus/world_buster.ogg";//"battle.ogg";
+        var batmusic =  "mus/worldbuster.wav";//"battle.ogg";
         
         /*if (global.chapter == 3)
         {

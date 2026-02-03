@@ -28,7 +28,7 @@
   "origin":0,
   "parent":{
     "name":"Light",
-    "path":"folders/DELTARUNE/Sprites/Characters/Kris/Light.yy",
+    "path":"folders/DELTARUNE/Sprites/Characters/Clogs/Light.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

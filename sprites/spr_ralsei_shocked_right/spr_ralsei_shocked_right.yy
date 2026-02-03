@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Dark",
-    "path":"folders/DELTARUNE/Sprites/Characters/Ralsei/Dark.yy",
+    "path":"folders/DELTARUNE/Sprites/Characters/Ralsbajeej/Dark.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

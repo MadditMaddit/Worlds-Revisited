@@ -48,7 +48,7 @@ function scr_hero_uses_acts_instead_of_spells(heroIdx) {
 
 function scr_hero_get_color(heroIdx) {
 	switch (heroIdx) {
-		case DRHero.Kris:	return c_aqua;
+		case DRHero.Kris:	return c_red;
 		case DRHero.Susie:	return c_fuchsia;
 		case DRHero.Ralsei: return c_lime;
 		case DRHero.Noelle: return c_yellow;
@@ -61,7 +61,7 @@ function scr_hero_get_color(heroIdx) {
 
 function scr_hero_get_attackbackground_color(heroIdx) {
 	switch (heroIdx) {
-		case DRHero.Kris:	return c_blue;
+		case DRHero.Kris:	return c_red;
 		case DRHero.Susie:	return c_purple;
 		case DRHero.Ralsei: return c_green;
 		
@@ -199,7 +199,7 @@ function scr_hero_set_sprites(heroObject) {
 		    actframes = 7;
 		    actreturnframes = 10;
 		    attackspeed = 0.5;
-		    normalsprite = spr_ralsei_walk_right;
+		    normalsprite = spr_ralsbajeejr;
 		    idlesprite = spr_ralsei_idle;
 		    defendsprite = spr_ralsei_defend;
 		    hurtsprite = spr_ralsei_hurt_fixed;
@@ -309,10 +309,10 @@ function scr_character_set_caterpillar_sprites(charIdx) {
 		case DRCharacter.Susie: {
 			name = "susie";
 			
-			usprite = global.darkzone ? (global.chapter >= 2 ? spr_susie_walk_up_dw : spr_susieu_dark) : spr_susie_walk_up_lw;
-			dsprite = global.darkzone ? (global.chapter >= 2 ? spr_susie_walk_down_dw : spr_susied_dark) : spr_susie_walk_down_lw;
-			rsprite = global.darkzone ? (global.chapter >= 2 ? spr_susie_walk_right_dw : spr_susier_dark) : spr_susie_walk_right_lw;
-			lsprite = global.darkzone ? (global.chapter >= 2 ? spr_susie_walk_left_dw : spr_susiel_dark) : spr_susie_walk_left_lw;
+			usprite = global.darkzone ? (global.chapter >= 2 ? spr_sluzishy_up : spr_sluzishy_up) : spr_sluzishy_up;
+			dsprite = global.darkzone ? (global.chapter >= 2 ? spr_sluzishy_down : spr_sluzishy_down) : spr_sluzishy_down;
+			rsprite = global.darkzone ? (global.chapter >= 2 ? spr_sluzishy_right : spr_sluzishy_right) : spr_sluzishy_right;
+			lsprite = global.darkzone ? (global.chapter >= 2 ? spr_sluzishy_left : spr_sluzishy_left) : spr_sluzishy_left;
 			
 			x -= (global.darkzone == 1) ? 6 : 3;
 			y -= (global.darkzone == 1) ? 16 : 6;
@@ -324,9 +324,9 @@ function scr_character_set_caterpillar_sprites(charIdx) {
 			name = "ralsei";
                 
             usprite = spr_ralsei_walk_up;
-            dsprite = spr_ralsei_walk_down;
-            rsprite = spr_ralsei_walk_right;
-            lsprite = spr_ralsei_walk_left;
+            dsprite = spr_ralsbajeejd;
+            rsprite = spr_ralsbajeejr;
+            lsprite = spr_ralsbajeejl;
 			
 			usprite_blush = spr_ralsei_walk_up;
 			dsprite_blush = spr_ralsei_walk_down_blush;

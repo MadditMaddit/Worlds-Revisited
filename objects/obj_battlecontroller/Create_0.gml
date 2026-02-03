@@ -6,7 +6,7 @@ if (global.flag[9] == 1)
     {
         if (obj_astream.mystream == global.batmusic[0])
         {
-            if (obj_astream.songname != "mus/world_buster.ogg")
+            if (obj_astream.songname != "mus/worldbuster.wav")
                 battlemusicvolume = 1;
         }
     }

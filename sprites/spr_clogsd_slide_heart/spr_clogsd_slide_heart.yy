@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Dark",
-    "path":"folders/DELTARUNE/Sprites/Characters/Kris/Dark.yy",
+    "path":"folders/DELTARUNE/Sprites/Characters/Clogs/Dark.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
