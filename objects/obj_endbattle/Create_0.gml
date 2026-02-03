@@ -14,7 +14,7 @@ if (!skipplmove)
 {
     if (global.specialbattle == 0 || global.specialbattle == 3)
     {
-        c[0] = scr_dark_marker(global.heromakex[0], global.heromakey[0], spr_krisr_dark);
+        c[0] = scr_dark_marker(global.heromakex[0], global.heromakey[0], spr_clogsr);
         
         if (i_ex(global.cinstance[0]))
         {
