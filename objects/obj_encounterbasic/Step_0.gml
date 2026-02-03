@@ -35,7 +35,7 @@ if (fightcon == 1)
                 c[i].image_index = 0;
             
             if (global.char[i] == 1)
-                c[i].sprite_index = spr_krisb_attack;
+                c[i].sprite_index = spr_clogsb_attack;
             
             if (global.char[i] == 2)
             {
