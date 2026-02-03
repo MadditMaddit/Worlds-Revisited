@@ -634,6 +634,7 @@
     {"id":{"name":"spr_battleblcon","path":"sprites/spr_battleblcon/spr_battleblcon.yy",},},
     {"id":{"name":"spr_battlemsg","path":"sprites/spr_battlemsg/spr_battlemsg.yy",},},
     {"id":{"name":"spr_blockguy_spared","path":"sprites/spr_blockguy_spared/spr_blockguy_spared.yy",},},
+    {"id":{"name":"spr_bnameclogs","path":"sprites/spr_bnameclogs/spr_bnameclogs.yy",},},
     {"id":{"name":"spr_bnamekris","path":"sprites/spr_bnamekris/spr_bnamekris.yy",},},
     {"id":{"name":"spr_bnamenoelle","path":"sprites/spr_bnamenoelle/spr_bnamenoelle.yy",},},
     {"id":{"name":"spr_bnameralsei","path":"sprites/spr_bnameralsei/spr_bnameralsei.yy",},},

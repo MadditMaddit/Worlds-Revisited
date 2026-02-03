@@ -137,7 +137,7 @@ function scr_charbox()
                 b_offset = 336;
 			
 			headspr = spr_headclogs;
-			namespr = spr_bnamekris;
+			namespr = spr_bnameclogs;
 			
 			scr_hero_get_nameplate(c);
             
