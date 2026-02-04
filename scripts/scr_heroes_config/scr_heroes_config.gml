@@ -48,7 +48,7 @@ function scr_hero_uses_acts_instead_of_spells(heroIdx) {
 
 function scr_hero_get_color(heroIdx) {
 	switch (heroIdx) {
-		case DRHero.Kris:	return c_aqua;
+		case DRHero.Kris:	return c_red;
 		case DRHero.Susie:	return c_fuchsia;
 		case DRHero.Ralsei: return c_lime;
 		case DRHero.Noelle: return c_yellow;
@@ -61,7 +61,7 @@ function scr_hero_get_color(heroIdx) {
 
 function scr_hero_get_attackbackground_color(heroIdx) {
 	switch (heroIdx) {
-		case DRHero.Kris:	return c_blue;
+		case DRHero.Kris:	return c_red;
 		case DRHero.Susie:	return c_purple;
 		case DRHero.Ralsei: return c_green;
 		
@@ -100,7 +100,7 @@ function scr_hero_get_nameplate(heroIdx) {
 		default:
 		case DRHero.Kris: {
 			headspr = spr_headclogs;
-			namespr = spr_bnamekris;
+			namespr = spr_bnameclogs;
 			break;	
 		}
 		
@@ -135,20 +135,20 @@ function scr_hero_set_sprites(heroObject) {
 	switch (heroObject) {
 		default:
 		case obj_herokris: {
-			normalsprite = spr_krisr_dark;
-		    idlesprite = spr_krisb_idle;
-		    defendsprite = spr_krisb_defend;
-		    hurtsprite = spr_krisb_hurt;
-		    attackreadysprite = spr_krisb_attackready;
-		    attacksprite = spr_krisb_attack;
-		    itemsprite = spr_krisb_item;
-		    actreadysprite = spr_krisb_actready;
-		    actsprite = spr_krisb_act;
-		    itemreadysprite = spr_krisb_itemready;
-		    spellreadysprite = spr_krisb_actready;
-		    spellsprite = spr_krisb_act;
-		    defeatsprite = spr_krisb_defeat;
-		    victorysprite = spr_krisb_victory;
+			normalsprite = spr_clogsr;
+		    idlesprite = spr_clogsb_idle;
+		    defendsprite = spr_clogsb_defend;
+		    hurtsprite = spr_clogsb_hurt;
+		    attackreadysprite = spr_clogsb_attackready;
+		    attacksprite = spr_clogsb_attack;
+		    itemsprite = spr_clogsb_item;
+		    actreadysprite = spr_clogsb_actready;
+		    actsprite = spr_clogsb_act;
+		    itemreadysprite = spr_clogsb_itemready;
+		    spellreadysprite = spr_clogsb_actready;
+		    spellsprite = spr_clogsb_act;
+		    defeatsprite = spr_clogsb_defeat;
+		    victorysprite = spr_clogsb_victory;
 		    actframes = 7;
 		    actreturnframes = 10;
 		    attackframes = 6;
@@ -309,10 +309,10 @@ function scr_character_set_caterpillar_sprites(charIdx) {
 		case DRCharacter.Susie: {
 			name = "susie";
 			
-			usprite = global.darkzone ? (global.chapter >= 2 ? spr_susie_walk_up_dw : spr_susieu_dark) : spr_susie_walk_up_lw;
-			dsprite = global.darkzone ? (global.chapter >= 2 ? spr_susie_walk_down_dw : spr_susied_dark) : spr_susie_walk_down_lw;
-			rsprite = global.darkzone ? (global.chapter >= 2 ? spr_susie_walk_right_dw : spr_susier_dark) : spr_susie_walk_right_lw;
-			lsprite = global.darkzone ? (global.chapter >= 2 ? spr_susie_walk_left_dw : spr_susiel_dark) : spr_susie_walk_left_lw;
+			usprite = global.darkzone ? (global.chapter >= 2 ? spr_susie_walk_up_dw : spr_susie_walk_up_dw) : spr_susie_walk_up_lw;
+			dsprite = global.darkzone ? (global.chapter >= 2 ? spr_susie_walk_down_dw : spr_susie_walk_down_dw) : spr_sluzishy_down;
+			rsprite = global.darkzone ? (global.chapter >= 2 ? spr_susie_walk_right_dw : spr_susie_walk_right_dw) : spr_susie_walk_right_lw;
+			lsprite = global.darkzone ? (global.chapter >= 2 ? spr_susie_walk_left_dw : spr_susie_walk_left_dw) : spr_susie_walk_left_lw;
 			
 			x -= (global.darkzone == 1) ? 6 : 3;
 			y -= (global.darkzone == 1) ? 16 : 6;

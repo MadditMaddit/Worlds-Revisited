@@ -364,8 +364,8 @@ function scr_getfacingsprites(nameidentifier)
 }
 
 // Base Deltarune
-scr_createfacingsprites("krislight", spr_krisd, spr_krisl, spr_krisu, spr_krisr)
-scr_createfacingsprites("krisdark", spr_krisd_dark, spr_krisl_dark, spr_krisu_dark, spr_krisr_dark)
+scr_createfacingsprites("krislight", spr_clogsd, spr_clogsl, spr_clogsu, spr_clogsr)
+scr_createfacingsprites("krisdark", spr_clogsd, spr_clogsl, spr_clogsu, spr_clogsr)
 
 scr_createfacingsprites("susielighteyes", spr_susie_walk_down_lw, spr_susie_walk_left_lw, spr_susie_walk_up_lw, spr_susie_walk_right_lw)
 scr_createfacingspritessubname("susielight", "susielighteyes") // Doesn't Exist in DELTAMODKIT

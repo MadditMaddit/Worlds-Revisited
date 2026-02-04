@@ -29,7 +29,7 @@
   "origin":0,
   "parent":{
     "name":"Battle",
-    "path":"folders/DELTARUNE/Sprites/Characters/Susie/Battle.yy",
+    "path":"folders/DELTARUNE/Sprites/Characters/Sluzishy/Battle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

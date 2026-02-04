@@ -4,7 +4,7 @@ scr_character_set_names();
 autorun = 0;
 bg = 0;
 
-scr_depth(0);
+scr_depth();
 stepping = 0;
 stepped = 0;
 drawbattlemode = 1;

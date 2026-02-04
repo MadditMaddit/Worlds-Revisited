@@ -1,4 +1,4 @@
-scr_depth(0);
+scr_depth(107);
 image_speed = 0;
 
 if (global.darkzone)
@@ -42,7 +42,7 @@ for (i = 0; i < 75; i += 1)
     special[i] = 0;
 }
 
-depth = parent.depth + 5;
+depth = parent.depth + 5
 mywidth = sprite_width;
 myheight = sprite_height;
 xoffset = 0;
