@@ -199,7 +199,7 @@ function scr_hero_set_sprites(heroObject) {
 		    actframes = 7;
 		    actreturnframes = 10;
 		    attackspeed = 0.5;
-		    normalsprite = spr_ralsbajeejr;
+		    normalsprite = spr_ralsei_walk_right;
 		    idlesprite = spr_ralsei_idle;
 		    defendsprite = spr_ralsei_defend;
 		    hurtsprite = spr_ralsei_hurt_fixed;
@@ -309,10 +309,10 @@ function scr_character_set_caterpillar_sprites(charIdx) {
 		case DRCharacter.Susie: {
 			name = "susie";
 			
-			usprite = global.darkzone ? (global.chapter >= 2 ? spr_sluzishy_up : spr_sluzishy_up) : spr_sluzishy_up;
-			dsprite = global.darkzone ? (global.chapter >= 2 ? spr_sluzishy_down : spr_sluzishy_down) : spr_sluzishy_down;
-			rsprite = global.darkzone ? (global.chapter >= 2 ? spr_sluzishy_right : spr_sluzishy_right) : spr_sluzishy_right;
-			lsprite = global.darkzone ? (global.chapter >= 2 ? spr_sluzishy_left : spr_sluzishy_left) : spr_sluzishy_left;
+			usprite = global.darkzone ? (global.chapter >= 2 ? spr_susie_walk_up_dw : spr_susie_walk_up_dw) : spr_susie_walk_up_lw;
+			dsprite = global.darkzone ? (global.chapter >= 2 ? spr_susie_walk_down_dw : spr_susie_walk_down_dw) : spr_sluzishy_down;
+			rsprite = global.darkzone ? (global.chapter >= 2 ? spr_susie_walk_right_dw : spr_susie_walk_right_dw) : spr_susie_walk_right_lw;
+			lsprite = global.darkzone ? (global.chapter >= 2 ? spr_susie_walk_left_dw : spr_susie_walk_left_dw) : spr_susie_walk_left_lw;
 			
 			x -= (global.darkzone == 1) ? 6 : 3;
 			y -= (global.darkzone == 1) ? 16 : 6;
@@ -324,9 +324,9 @@ function scr_character_set_caterpillar_sprites(charIdx) {
 			name = "ralsei";
                 
             usprite = spr_ralsei_walk_up;
-            dsprite = spr_ralsbajeejd;
-            rsprite = spr_ralsbajeejr;
-            lsprite = spr_ralsbajeejl;
+            dsprite = spr_ralsei_walk_down;
+            rsprite = spr_ralsei_walk_right;
+            lsprite = spr_ralsei_walk_left;
 			
 			usprite_blush = spr_ralsei_walk_up;
 			dsprite_blush = spr_ralsei_walk_down_blush;
