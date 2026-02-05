@@ -509,9 +509,9 @@ if (con == 33)
         draw_sprite_ext(spr_susie_dw_fall_ball, timer / 2, sus_x, sus_y, 1, 1, 0, c_white, 1);
     }
     
-    draw_sprite_ext(spr_kris_fall_ball, timer / 2, kris_x, kris_y - (sus_v * 2), 1, 1, 0, c_white, 0.25);
-    draw_sprite_ext(spr_kris_fall_ball, timer / 2, kris_x, kris_y - sus_v, 1, 1, 0, c_white, 0.5);
-    draw_sprite_ext(spr_kris_fall_ball, timer / 2, kris_x, kris_y, 1, 1, 0, c_white, 1);
+    draw_sprite_ext(spr_clogs_fall_ball, timer / 2, kris_x, kris_y - (sus_v * 2), 1, 1, 0, c_white, 0.25);
+    draw_sprite_ext(spr_clogs_fall_ball, timer / 2, kris_x, kris_y - sus_v, 1, 1, 0, c_white, 0.5);
+    draw_sprite_ext(spr_clogs_fall_ball, timer / 2, kris_x, kris_y, 1, 1, 0, c_white, 1);
     
     if (timer == 14)
         linecon = 0;
@@ -576,7 +576,7 @@ if (con == 34)
         if (kris_only == 0)
             draw_sprite_ext(spr_susie_dw_landed, getup_index, (sus_x * dz) + fake_shakeamount, sus_y * dz, 1 * dz, 1 * dz, 0, c_white, 1);
         
-        draw_sprite_ext(spr_kris_dw_landed, getup_index, (kris_x * dz) + fake_shakeamount, kris_y * dz, 1 * dz, 1 * dz, 0, c_white, 1);
+        draw_sprite_ext(spr_clogs_landed, getup_index, (kris_x * dz) + fake_shakeamount, kris_y * dz, 1 * dz, 1 * dz, 0, c_white, 1);
     }
     
     if (timer == 26)
