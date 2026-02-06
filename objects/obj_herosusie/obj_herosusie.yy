@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_susieb_idle",
-    "path":"sprites/spr_susieb_idle/spr_susieb_idle.yy",
+    "name":"spr_sluzishyb_idle",
+    "path":"sprites/spr_sluzishyb_idle/spr_sluzishyb_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

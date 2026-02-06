@@ -171,7 +171,7 @@ function scr_hero_set_sprites(heroObject) {
 		    spellframes = 8;
 		    attackspeed = 0.5;
 		    normalsprite = spr_sluzishy_walk_right;
-		    idlesprite = spr_susieb_idle;
+		    idlesprite = spr_sluzishyb_idle;
 		    defendsprite = spr_susieb_defend;
 		    hurtsprite = spr_susieb_hurt;
 		    actreadysprite = spr_susieb_actready;
@@ -199,7 +199,7 @@ function scr_hero_set_sprites(heroObject) {
 		    actframes = 7;
 		    actreturnframes = 10;
 		    attackspeed = 0.5;
-		    normalsprite = spr_ralsei_walk_right;
+		    normalsprite = spr_ralsbajeej_right;
 		    idlesprite = spr_ralsei_idle;
 		    defendsprite = spr_ralsei_defend;
 		    hurtsprite = spr_ralsei_hurt_fixed;
@@ -324,9 +324,9 @@ function scr_character_set_caterpillar_sprites(charIdx) {
 			name = "ralsei";
                 
             usprite = spr_ralsei_walk_up;
-            dsprite = spr_ralsei_walk_down;
-            rsprite = spr_ralsei_walk_right;
-            lsprite = spr_ralsei_walk_left;
+            dsprite = spr_ralsbajeej_down;
+            rsprite = spr_ralsbajeej_right;
+            lsprite = spr_ralsbajeej_left;
 			
 			usprite_blush = spr_ralsei_walk_up;
 			dsprite_blush = spr_ralsei_walk_down_blush;

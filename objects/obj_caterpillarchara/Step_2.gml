@@ -167,7 +167,7 @@ if (fun == 0 && slided == 0)
         sprite_index = lsprite;
 }
 
-if ((/*dsprite == spr_ralseid || */dsprite == spr_ralsbajeejd) && global.interact == 0 && fun == 0)
+if ((/*dsprite == spr_ralseid || */dsprite == spr_ralsbajeej_down) && global.interact == 0 && fun == 0)
 {
     distfrommcx = obj_mainchara.x - (x + 2);
     distfrommcy = obj_mainchara.y - (y + 12);
