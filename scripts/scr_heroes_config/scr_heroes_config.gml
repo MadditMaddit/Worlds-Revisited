@@ -310,7 +310,7 @@ function scr_character_set_caterpillar_sprites(charIdx) {
 			name = "susie";
 			
 			usprite = global.darkzone ? (global.chapter >= 2 ? spr_susie_walk_up_dw : spr_susie_walk_up_dw) : spr_susie_walk_up_lw;
-			dsprite = global.darkzone ? (global.chapter >= 2 ? spr_susie_walk_down_dw : spr_susie_walk_down_dw) : spr_sluzishy_down;
+			dsprite = global.darkzone ? (global.chapter >= 2 ? spr_susie_walk_down_dw : spr_susie_walk_down_dw) : spr_susie_walk_down_dw;
 			rsprite = global.darkzone ? (global.chapter >= 2 ? spr_sluzishy_walk_right : spr_sluzishy_walk_right) : spr_sluzishy_walk_right;
 			lsprite = global.darkzone ? (global.chapter >= 2 ? spr_sluzishy_walk_left : spr_sluzishy_walk_left) : spr_sluzishy_walk_left;
 			
