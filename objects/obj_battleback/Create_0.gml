@@ -4,3 +4,5 @@ image_alpha = 0;
 destroy = 0;
 bgtype = 0;
 bgspeed = 1;
+sinner = 1
+evilsinner = 1

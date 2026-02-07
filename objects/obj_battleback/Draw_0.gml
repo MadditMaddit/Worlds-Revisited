@@ -2,6 +2,7 @@ xx = __view_get(e__VW.XView, 0);
 yy = __view_get(e__VW.YView, 0);
 siner += (bgspeed / 2);
 siner2 += bgspeed;
+sinner++
 
 //if (room == room_dw_castle_dojo)
 //    bgtype = 1;
@@ -31,6 +32,13 @@ if (siner >= 100)
 
 if (siner2 >= 100)
     siner2 -= 100;
+
+evilsinner = sin(sinner * 0.5) * 20
+
+draw_set_alpha(image_alpha / 2);
+draw_rectangle_colour(xx, yy, xx + camerawidth(),  yy + cameraheight() + 40 + evilsinner, #ffff00, #ffff00, #00ffff, #00ffff, false);
+draw_set_alpha(1);
+
 
 if (destroy == 1)
 {
