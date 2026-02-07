@@ -5,9 +5,13 @@ image_speed=0
 
 amove = 10 + random(15)
 <<<<<<< HEAD
+<<<<<<< HEAD
 xmove = random(20)
 
 scale = random(0.08)
+=======
+xmove = (-10 + random(20))
+>>>>>>> 4c974a5b751c5e199acdfd699da95259ccb951a0
 =======
 xmove = (-10 + random(20))
 >>>>>>> 4c974a5b751c5e199acdfd699da95259ccb951a0
