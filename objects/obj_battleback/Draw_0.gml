@@ -39,6 +39,10 @@ draw_set_alpha(image_alpha / 2);
 draw_rectangle_colour(xx, yy, xx + camerawidth(),  yy + cameraheight() + 40 + evilsinner, #ffff00, #ffff00, #00ffff, #00ffff, false);
 draw_set_alpha(1);
 
+repeat(3){
+xxx = random_range(xx, xx + camerawidth())
+yyy = random_range(yy, yy + cameraheight())
+instance_create_depth(xxx,yyy,depth-1,obj_battleback_shape)}
 
 if (destroy == 1)
 {
