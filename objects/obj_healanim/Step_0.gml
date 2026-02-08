@@ -16,10 +16,10 @@ if (i_ex(target))
         if (target.object_index == obj_herokris)
             herocheck = 1;
         
-        if (target.object_index == obj_herosusie)
+        if (target.object_index == obj_herosluzishy)
             herocheck = 1;
         
-        if (target.object_index == obj_heroralsei)
+        if (target.object_index == obj_heroralsbajeej)
             herocheck = 1;
         
         if (herocheck == 1)

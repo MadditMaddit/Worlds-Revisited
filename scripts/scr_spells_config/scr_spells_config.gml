@@ -373,7 +373,7 @@ function scr_spell_use_action(casterid, spellid) {
                 if (global.automiss[star] == 1)
                     damage = 0;
                 
-                attack = instance_create(obj_herosusie.x, obj_herosusie.y, obj_rudebuster_anim);
+                attack = instance_create(obj_herosluzishy.x, obj_herosluzishy.y, obj_rudebuster_anim);
                 attack.damage = damage;
                 attack.star = star;
                 attack.caster = caster;
@@ -398,7 +398,7 @@ function scr_spell_use_action(casterid, spellid) {
                 if (global.automiss[star] == 1)
                     damage = 0;
                 
-                attack = instance_create(obj_herosusie.x, obj_herosusie.y, obj_rudebuster_anim);
+                attack = instance_create(obj_herosluzishy.x, obj_herosluzishy.y, obj_rudebuster_anim);
                 attack.damage = damage;
                 attack.star = star;
                 attack.caster = caster;

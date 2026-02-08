@@ -63,13 +63,13 @@ if (global.hp[global.char[myself]] > 0)
             if (object_index == obj_herokris)
                 snd_play(snd_laz_c);
             
-            if (object_index == obj_heroralsei)
+            if (object_index == obj_heroralsbajeej)
             {
                 ls = snd_play(snd_laz_c);
                 snd_pitch(ls, 1.15);
             }
             
-            if (object_index == obj_herosusie)
+            if (object_index == obj_herosluzishy)
             {
                 ls = snd_play(snd_laz_c);
                 snd_pitch(ls, 0.9);
@@ -348,7 +348,7 @@ if (finishattacktimer > 0)
                 scr_tensionheal(round(points / 10));
                 attack = instance_create(global.monsterx[global.chartarget[myself]] + random(6), global.monstery[global.chartarget[myself]] + random(6), obj_basicattack);
                     
-                if (object_index == obj_herosusie)
+                if (object_index == obj_herosluzishy)
                 {
                     attack.sprite_index = spr_attack_mash2;
                     attack.image_speed = 0.5;
@@ -357,7 +357,7 @@ if (finishattacktimer > 0)
                     instance_create(0, 0, obj_shake);
                 }
                     
-                if (object_index == obj_heroralsei)
+                if (object_index == obj_heroralsbajeej)
                 {
                     attack.sprite_index = spr_attack_slap1;
                     attack.maxindex = 4;

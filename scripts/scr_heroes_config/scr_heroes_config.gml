@@ -85,8 +85,8 @@ function scr_hero_get_attacktarget_color(heroIdx) {
 function scr_hero_get_battle_instance(heroIdx) {
 	switch (heroIdx) {
 		case DRHero.Kris:	return obj_herokris;
-		case DRHero.Susie:	return obj_herosusie;
-		case DRHero.Ralsei: return obj_heroralsei;
+		case DRHero.Susie:	return obj_herosluzishy;
+		case DRHero.Ralsei: return obj_heroralsbajeej;
 		case DRHero.Noelle: return obj_heronoelle;
 		
 		case DRHero.Starwalker: return obj_herostarwalker;
@@ -162,7 +162,7 @@ function scr_hero_set_sprites(heroObject) {
 			break;	
 		}
 		
-		case obj_herosusie: {
+		case obj_herosluzishy: {
 			attackframes = 5;
 		    itemframes = 5;
 		    defendframes = 5;
@@ -192,7 +192,7 @@ function scr_hero_set_sprites(heroObject) {
 			break;
 		}
 		
-		case obj_heroralsei: {
+		case obj_heroralsbajeej: {
 			attackframes = 6;
 		    itemframes = 6;
 		    defendframes = 7;
