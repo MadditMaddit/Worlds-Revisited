@@ -1,0 +1,38 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"TileSet3",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"TileSet3",
+  "out_columns":11,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Worlds Revisited",
+    "path":"Worlds Revisited.yyp",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"fiber_trash_tiles",
+    "path":"sprites/fiber_trash_tiles/fiber_trash_tiles.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":40,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":40,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":132,
+}
