@@ -2,7 +2,7 @@ image_index = t / 2;
 
 if (t >= 28)
 {
-    with (obj_herosusie)
+    with (obj_herosluzishy)
         visible = 1;
     
     instance_destroy();

@@ -8,11 +8,11 @@ caster = 0;
 star = 0;
 battlemode = 1;
 
-if (instance_exists(obj_herosusie))
+if (instance_exists(obj_herosluzishy))
 {
-    depth = obj_herosusie.depth;
+    depth = obj_herosluzishy.depth;
     
-    with (obj_herosusie)
+    with (obj_herosluzishy)
         visible = 0;
 }
 else

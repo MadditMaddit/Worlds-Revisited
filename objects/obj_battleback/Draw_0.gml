@@ -44,6 +44,9 @@ xxx = random_range(xx, xx + camerawidth())
 yyy = random_range(yy, yy + cameraheight())
 instance_create_depth(xxx,yyy,depth-1,obj_battleback_shape)}
 
+
+
+
 if (destroy == 1)
 {
     image_alpha -= 0.1;
@@ -51,3 +54,6 @@ if (destroy == 1)
     if (image_alpha <= 0)
         instance_destroy();
 }
+
+
+

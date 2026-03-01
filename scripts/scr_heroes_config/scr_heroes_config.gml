@@ -85,8 +85,8 @@ function scr_hero_get_attacktarget_color(heroIdx) {
 function scr_hero_get_battle_instance(heroIdx) {
 	switch (heroIdx) {
 		case DRHero.Kris:	return obj_herokris;
-		case DRHero.Susie:	return obj_herosusie;
-		case DRHero.Ralsei: return obj_heroralsei;
+		case DRHero.Susie:	return obj_herosluzishy;
+		case DRHero.Ralsei: return obj_heroralsbajeej;
 		case DRHero.Noelle: return obj_heronoelle;
 		
 		case DRHero.Starwalker: return obj_herostarwalker;
@@ -162,7 +162,7 @@ function scr_hero_set_sprites(heroObject) {
 			break;	
 		}
 		
-		case obj_herosusie: {
+		case obj_herosluzishy: {
 			attackframes = 5;
 		    itemframes = 5;
 		    defendframes = 5;
@@ -192,7 +192,7 @@ function scr_hero_set_sprites(heroObject) {
 			break;
 		}
 		
-		case obj_heroralsei: {
+		case obj_heroralsbajeej: {
 			attackframes = 6;
 		    itemframes = 6;
 		    defendframes = 7;
@@ -309,8 +309,8 @@ function scr_character_set_caterpillar_sprites(charIdx) {
 		case DRCharacter.Susie: {
 			name = "susie";
 			
-			usprite = global.darkzone ? (global.chapter >= 2 ? spr_susie_walk_up_dw : spr_susie_walk_up_dw) : spr_susie_walk_up_lw;
-			dsprite = global.darkzone ? (global.chapter >= 2 ? spr_susie_walk_down_dw : spr_susie_walk_down_dw) : spr_susie_walk_down_dw;
+			usprite = global.darkzone ? (global.chapter >= 2 ? spr_sluzishy_walk_up : spr_sluzishy_walk_up) : spr_sluzishy_walk_up;
+			dsprite = global.darkzone ? (global.chapter >= 2 ? spr_sluzishy_walk_down : spr_sluzishy_walk_down) : spr_sluzishy_walk_down;
 			rsprite = global.darkzone ? (global.chapter >= 2 ? spr_sluzishy_walk_right : spr_sluzishy_walk_right) : spr_sluzishy_walk_right;
 			lsprite = global.darkzone ? (global.chapter >= 2 ? spr_sluzishy_walk_left : spr_sluzishy_walk_left) : spr_sluzishy_walk_left;
 			

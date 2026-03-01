@@ -26,7 +26,7 @@
   ],
   "name":"spr_clogsl_heart",
   "nineSlice":null,
-  "origin":0,
+  "origin":9,
   "parent":{
     "name":"Dark",
     "path":"folders/DELTARUNE/Sprites/Characters/Clogs/Dark.yy",
@@ -88,7 +88,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":0,
-    "yorigin":0,
+    "yorigin":1,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
