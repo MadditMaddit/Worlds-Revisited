@@ -437,7 +437,7 @@ if (global.bmenuno == 9 && global.myfight == 0)
         cant = 0;
         chartime = 0;
         
-        if (global.char[global.charturn] == DRCharacter.Kris)
+        if (global.char[global.charturn] == DRCharacter.Clogs)
             chartime = global.actactor[1][global.bmenucoord[11][global.charturn]][i];
         
         charoffset = 0;

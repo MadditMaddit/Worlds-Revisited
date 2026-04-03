@@ -221,7 +221,7 @@ function scr_enemy_process_phase(enemyId, phase) {
 					
 						if acting[DRCharacter.Clogs] == 4 {
 							nextact = 0;
-							actcon[DRCharacter.Clogs] = simulorder[DRCharacter.Kris] == 0 ? 20 : 0;
+							actcon[DRCharacter.Clogs] = simulorder[DRCharacter.Clogs] == 0 ? 20 : 0;
 						
 							msgset(0, simultotal == 1 ? "* Kris decided to have a really long message when acting alone." : "* Kris's simul act!");
 						
