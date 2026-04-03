@@ -24,7 +24,7 @@ if (con == 1)
     
     if (instance_exists(obj_caterpillarchara))
     {
-        su_actor = scr_marker(obj_caterpillarchara.x, obj_caterpillarchara.y, spr_susie_walk_up_lw);
+        su_actor = scr_marker(obj_caterpillarchara.x, obj_caterpillarchara.y, spr_sluzishy_walk_up);
         
         with (su_actor)
         {

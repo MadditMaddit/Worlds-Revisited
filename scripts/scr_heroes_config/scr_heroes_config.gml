@@ -1,7 +1,7 @@
 enum DRHero {
-	Kris = 0,
-	Susie = 1,
-	Ralsei = 2,
+	Clogs = 0,
+	Sluzishy = 1,
+	Ralsbajeej = 2,
 	Noelle = 3,
 	
 	Starwalker = 4,
@@ -11,9 +11,9 @@ enum DRHero {
 
 enum DRCharacter {
 	None = 0,
-	Kris = 1,
-	Susie = 2,
-	Ralsei = 3,
+	Clogs = 1,
+	Sluzishy = 2,
+	Ralsbajeej = 3,
 	Noelle = 4,
 	
 	Starwalker = 5,
@@ -22,16 +22,16 @@ enum DRCharacter {
 }
 
 function scr_hero_has_pacify(heroIdx) {
-	return heroIdx == DRHero.Ralsei || heroIdx == DRHero.Noelle;
+	return heroIdx == DRHero.Ralsbajeej || heroIdx == DRHero.Noelle;
 }
 
 function scr_character_is_lightner(charIdx) {
-	return charIdx == DRCharacter.Kris || charIdx == DRCharacter.Susie || charIdx == DRCharacter.Noelle;	
+	return charIdx == DRCharacter.Clogs || charIdx == DRCharacter.Sluzishy || charIdx == DRCharacter.Noelle;	
 }
 
 function scr_hero_get_pacify_spell_cost(heroIdx) {
 	switch (heroIdx) {
-		case DRHero.Ralsei: return 40;
+		case DRHero.Ralsbajeej: return 40;
 		case DRHero.Noelle: return 80;
 		
 		default: return -1;
@@ -40,7 +40,7 @@ function scr_hero_get_pacify_spell_cost(heroIdx) {
 
 function scr_hero_uses_acts_instead_of_spells(heroIdx) {
 	switch (heroIdx) {
-		case DRHero.Kris: return true;
+		case DRHero.Clogs: return true;
 		
 		default: return false;
 	}
@@ -48,9 +48,9 @@ function scr_hero_uses_acts_instead_of_spells(heroIdx) {
 
 function scr_hero_get_color(heroIdx) {
 	switch (heroIdx) {
-		case DRHero.Kris:	return c_red;
-		case DRHero.Susie:	return c_fuchsia;
-		case DRHero.Ralsei: return c_lime;
+		case DRHero.Clogs:	return c_red;
+		case DRHero.Sluzishy:	return c_fuchsia;
+		case DRHero.Ralsbajeej: return c_lime;
 		case DRHero.Noelle: return c_yellow;
 		
 		case DRHero.Starwalker: return c_yellow;
@@ -61,9 +61,9 @@ function scr_hero_get_color(heroIdx) {
 
 function scr_hero_get_attackbackground_color(heroIdx) {
 	switch (heroIdx) {
-		case DRHero.Kris:	return c_red;
-		case DRHero.Susie:	return c_purple;
-		case DRHero.Ralsei: return c_green;
+		case DRHero.Clogs:	return c_red;
+		case DRHero.Sluzishy:	return c_purple;
+		case DRHero.Ralsbajeej: return c_green;
 		
 		default: return scr_hero_get_color(heroIdx);
 	}
@@ -71,9 +71,9 @@ function scr_hero_get_attackbackground_color(heroIdx) {
 
 function scr_hero_get_attacktarget_color(heroIdx) {
 	switch (heroIdx) {
-		case DRHero.Kris:	return make_color_rgb(0, 162, 232);
-		case DRHero.Susie:	return make_color_rgb(234, 121, 200);
-		case DRHero.Ralsei: return make_color_rgb(181, 230, 29);
+		case DRHero.Clogs:	return make_color_rgb(0, 162, 232);
+		case DRHero.Sluzishy:	return make_color_rgb(234, 121, 200);
+		case DRHero.Ralsbajeej: return make_color_rgb(181, 230, 29);
 		case DRHero.Noelle: return make_color_rgb(255, 255, 153);
 		
 		case DRHero.Starwalker: return make_color_rgb(255, 255, 153);
@@ -84,9 +84,9 @@ function scr_hero_get_attacktarget_color(heroIdx) {
 
 function scr_hero_get_battle_instance(heroIdx) {
 	switch (heroIdx) {
-		case DRHero.Kris:	return obj_heroclogs;
-		case DRHero.Susie:	return obj_herosluzishy;
-		case DRHero.Ralsei: return obj_heroralsbajeej;
+		case DRHero.Clogs:	return obj_heroclogs;
+		case DRHero.Sluzishy:	return obj_herosluzishy;
+		case DRHero.Ralsbajeej: return obj_heroralsbajeej;
 		case DRHero.Noelle: return obj_heronoelle;
 		
 		case DRHero.Starwalker: return obj_herostarwalker;
@@ -98,19 +98,19 @@ function scr_hero_get_battle_instance(heroIdx) {
 function scr_hero_get_nameplate(heroIdx) {
 	switch (heroIdx) {
 		default:
-		case DRHero.Kris: {
+		case DRHero.Clogs: {
 			headspr = spr_headclogs;
 			namespr = spr_bnameclogs;
 			break;	
 		}
 		
-		case DRHero.Susie: {
+		case DRHero.Sluzishy: {
 			headspr = spr_headsusie;
 			namespr = spr_bnamesusie;
 			break;
 		}
 				
-		case DRHero.Ralsei: {
+		case DRHero.Ralsbajeej: {
 			headspr = spr_headralsei;
 			namespr = spr_bnameralsei;
 			break;
@@ -306,8 +306,8 @@ function scr_hero_set_sprites(heroObject) {
 function scr_character_set_caterpillar_sprites(charIdx) {
 	switch (charIdx) {
 		default:
-		case DRCharacter.Susie: {
-			name = "susie";
+		case DRCharacter.Sluzishy: {
+			name = "Sluzishy";
 			
 			usprite = global.darkzone ? (global.chapter >= 2 ? spr_sluzishy_walk_up : spr_sluzishy_walk_up) : spr_sluzishy_walk_up;
 			dsprite = global.darkzone ? (global.chapter >= 2 ? spr_sluzishy_walk_down : spr_sluzishy_walk_down) : spr_sluzishy_walk_down;
@@ -320,8 +320,8 @@ function scr_character_set_caterpillar_sprites(charIdx) {
 			break;
 		}
 		
-		case DRCharacter.Ralsei: {
-			name = "ralsei";
+		case DRCharacter.Ralsbajeej: {
+			name = "Ralsbajeej";
                 
             usprite = spr_ralsbajeej_up;
             dsprite = spr_ralsbajeej_down;
@@ -371,9 +371,9 @@ function scr_character_get_max_hp(charIdx) {
 	var defaultChapterIncreaseFormula = (chapter > 1 ? 30 : 0) + (chapter - 1) * 40;
 	
 	switch (charIdx) {
-		case DRCharacter.Kris: return 90 + defaultChapterIncreaseFormula + 20;
-		case DRCharacter.Susie: return 110 + defaultChapterIncreaseFormula + 20;
-		case DRCharacter.Ralsei: return 70 + defaultChapterIncreaseFormula + 20;
+		case DRCharacter.Clogs: return 90 + defaultChapterIncreaseFormula + 20;
+		case DRCharacter.Sluzishy: return 110 + defaultChapterIncreaseFormula + 20;
+		case DRCharacter.Ralsbajeej: return 70 + defaultChapterIncreaseFormula + 20;
 		
 		default:
 		case DRCharacter.Noelle: return 999;
@@ -396,7 +396,7 @@ function scr_character_get_base_stats(charIdx) {
 	__spells = [];
 	
 	switch (charIdx) {
-		case DRCharacter.Kris: {
+		case DRCharacter.Clogs: {
 			__hp = 90 + defaultChapterHpIncreaseFormula;
 			__atk = 10 + chapter * 2 + max(chapter - 3, 0);
 			__weapon = DRWeapon.WoodBlade;
@@ -414,7 +414,7 @@ function scr_character_get_base_stats(charIdx) {
 			__spells[0] = DRSpell.ACT;
 			break;
 		}
-		case DRCharacter.Susie: {
+		case DRCharacter.Sluzishy: {
 			__hp = 110 + defaultChapterHpIncreaseFormula;
 			__atk = 14 + chapter * 2 + 2 * max(chapter - 3, 0);
 			__mag = 1 + max(chapter - 2, 0);
@@ -434,7 +434,7 @@ function scr_character_get_base_stats(charIdx) {
 			__spells[1] = DRSpell.UltraHeal;
 			break;
 		}
-		case DRCharacter.Ralsei: {
+		case DRCharacter.Ralsbajeej: {
 			__hp = 70 + defaultChapterHpIncreaseFormula;
 			__atk = 8 + chapter * 2 + max(chapter - 3, 0);
 			__mag = 7 + chapter * 2 + max(chapter - 3, 0);
@@ -484,17 +484,17 @@ function scr_character_get_rank(charIdx) {
 	char_desc = "LV1 ";
 	
 	switch (charIdx) {
-		case DRCharacter.Kris: {
+		case DRCharacter.Clogs: {
 			char_desc = stringsetsub("LV~1 Tactician#Commands the party#by ACTs.", global.chapter);
 			break;
 		}
 		
-		case DRCharacter.Susie: {
+		case DRCharacter.Sluzishy: {
 			char_desc = stringsetsub("LV~1 Dark Knight#Does damage using#dark energy.", global.chapter);
 			break;
 		}
 		
-		case DRCharacter.Ralsei: {
+		case DRCharacter.Ralsbajeej: {
 			char_desc = stringsetsub("LV~1 Dark Prince#Dark-World being.#Has friends.", global.chapter);
 			break;
 		}
@@ -512,7 +512,7 @@ function scr_character_get_powers(charIdx) {
 	_powers = [false, false]; // array of [ color, text, customDrawFunc(ch_y), icon, value ]
 	
 	switch (charIdx) {
-		case DRCharacter.Kris: {
+		case DRCharacter.Clogs: {
 			guts_amount = global.chapter > 1 ? 2 : 1;
 			
 			_powers[0] = false; // ???
@@ -524,7 +524,7 @@ function scr_character_get_powers(charIdx) {
 			break;
 		}
 		
-		case DRCharacter.Susie: {
+		case DRCharacter.Sluzishy: {
 			guts_amount = global.chapter >= 3 ? 3 : 2;
 			rude_amount = global.chapter >= 2 ? 89 : 100;
 			
@@ -533,7 +533,7 @@ function scr_character_get_powers(charIdx) {
 			break;	
 		}
 		
-		case DRCharacter.Ralsei: {
+		case DRCharacter.Ralsbajeej: {
 			guts_amount = global.chapter >= 3 ? 1 : 0;
 			fluff_amount = 1;
 			kindness_amount = obj_darkcontroller.dograndom >= 97 ? 1 : 100;
@@ -576,7 +576,7 @@ function scr_character_get_powers(charIdx) {
 
 function scr_character_has_magic(charIdx) {
 	switch (charIdx) {
-		case DRCharacter.Kris: return false;
+		case DRCharacter.Clogs: return false;
 		
 		default: return true;
 	}
@@ -585,10 +585,10 @@ function scr_character_has_magic(charIdx) {
 function scr_character_get_act_name_override(charIdx) {
 	switch (charIdx) {
 		default:
-		case DRCharacter.Kris: return "";
+		case DRCharacter.Clogs: return "";
 		
-		case DRCharacter.Susie: return "S-Action";
-		case DRCharacter.Ralsei: return "R-Action";
+		case DRCharacter.Sluzishy: return "S-Action";
+		case DRCharacter.Ralsbajeej: return "R-Action";
 		case DRCharacter.Noelle: return "N-Action";
 		
 		case DRCharacter.Starwalker: return "S-TARction";
@@ -596,11 +596,11 @@ function scr_character_get_act_name_override(charIdx) {
 }
 
 function scr_character_set_names() {
-	global.lcharname = "Kris";
+	global.lcharname = "Clogs";
     global.charname[DRCharacter.None] = " ";
-    global.charname[DRCharacter.Kris] = "Kris";
-    global.charname[DRCharacter.Susie] = "Susie";
-    global.charname[DRCharacter.Ralsei] = "Ralsei";
+    global.charname[DRCharacter.Clogs] = "Clogs";
+    global.charname[DRCharacter.Sluzishy] = "Sluzishy";
+    global.charname[DRCharacter.Ralsbajeej] = "Ralsbajeej";
     global.charname[DRCharacter.Noelle] = "Noelle";	
 	
 	global.charname[DRCharacter.Starwalker] = "Starwalker";

@@ -1,6 +1,6 @@
 if (active == 1)
 {
-    if (drawkris == 1)
+    if (drawclogs == 1)
         draw_self();
     
     if (ballcon == 1)

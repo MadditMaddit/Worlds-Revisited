@@ -3,7 +3,7 @@ if (!init)
     ignoredepth = 0;
     init = 1;
     
-    if (name == "susie")
+    if (name == "sluzishy")
     {
         if (scr_havechar("no") && global.darkzone == 0)
             target = 8;
@@ -20,13 +20,13 @@ if (!init)
         //dsprite = (global.darkzone == 1) ? spr_noelle_walk_down_dw : spr_noelle_walk_down_lw;
         
         if (global.darkzone == 0)
-            target = scr_havechar("su") ? 17 : 12;
+            target = scr_havechar("sluz") ? 17 : 12;
         
         halign = (global.darkzone == 0) ? 2 : 4;
         valign = (global.darkzone == 0) ? 9 : 18;
     }
     
-    if (name == "ralsei")
+    if (name == "ralsbajeej")
     {
         climbsprite = 4220;
         halign = 2;
@@ -39,10 +39,10 @@ if (!ignoredepth)
     scr_depth(0);
     depth += 5;
     
-    if (name == "ralsei")
+    if (name == "ralsbajeej")
         depth -= 80;
     
-    if (name == "susie" && global.darkzone == 1)
+    if (name == "sluzishy" && global.darkzone == 1)
         depth -= 60;
     
     if (name == "noelle")
@@ -205,7 +205,7 @@ else
     blushtimer = 0;
 }
 
-if (name == "ralsei")
+if (name == "ralsbajeej")
 {
     if (sprite_index == dsprite)
         depth += 20;

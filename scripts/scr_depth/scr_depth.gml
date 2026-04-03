@@ -398,9 +398,9 @@ function __global_object_depths()
     global.__objectNames[137] = "obj_heartburst";
     global.__objectNames[138] = "obj_heartmarker";
     global.__objectNames[139] = "obj_lancerbike";
-    global.__objectNames[140] = "obj_herokris";
-    global.__objectNames[141] = "obj_herosusie";
-    global.__objectNames[142] = "obj_heroralsei";
+    global.__objectNames[140] = "obj_heroclogs";
+    global.__objectNames[141] = "obj_herosluzishy";
+    global.__objectNames[142] = "obj_heroralsbajeej";
     global.__objectNames[143] = "obj_heroparent";
     global.__objectNames[144] = "obj_initializer";
     global.__objectNames[145] = "obj_krisplace";

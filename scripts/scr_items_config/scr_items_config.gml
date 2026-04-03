@@ -945,13 +945,13 @@ function scr_item_use_action_overworld(itemid) {
         case DRItem.HeartsDonut:
             usable = 1;
             
-            if (global.char[global.charselect] == DRCharacter.Kris)
+            if (global.char[global.charselect] == DRCharacter.Clogs)
                 scr_healitem(global.charselect, 20);
             
-            if (global.char[global.charselect] == DRCharacter.Susie)
+            if (global.char[global.charselect] == DRCharacter.Sluzishy)
                 scr_healitem(global.charselect, 80);
             
-            if (global.char[global.charselect] == DRCharacter.Ralsei)
+            if (global.char[global.charselect] == DRCharacter.Ralsbajeej)
                 scr_healitem(global.charselect, 50);
             
             if (global.char[global.charselect] == DRCharacter.Noelle)
@@ -962,13 +962,13 @@ function scr_item_use_action_overworld(itemid) {
         case DRItem.ChocDiamond:
             usable = 1;
             
-            if (global.char[global.charselect] == DRCharacter.Kris)
+            if (global.char[global.charselect] == DRCharacter.Clogs)
                 scr_healitem(global.charselect, 80);
             
-            if (global.char[global.charselect] == DRCharacter.Susie)
+            if (global.char[global.charselect] == DRCharacter.Sluzishy)
                 scr_healitem(global.charselect, 20);
             
-            if (global.char[global.charselect] == DRCharacter.Ralsei)
+            if (global.char[global.charselect] == DRCharacter.Ralsbajeej)
                 scr_healitem(global.charselect, 50);
             
             if (global.char[global.charselect] == DRCharacter.Noelle)
@@ -1048,7 +1048,7 @@ function scr_item_use_action_overworld(itemid) {
             usable = 1;
             var heal_amount = 90;
             
-            if (global.char[global.charselect] == DRCharacter.Kris)
+            if (global.char[global.charselect] == DRCharacter.Clogs)
                 heal_amount = 100;
             
             scr_healitem(global.charselect, heal_amount);
@@ -1102,7 +1102,7 @@ function scr_item_use_action_overworld(itemid) {
             break;
         
         case DRItem.Pipis:
-            if (global.char[global.charselect] == DRCharacter.Kris)
+            if (global.char[global.charselect] == DRCharacter.Clogs)
             {
                 usable = 1;
                 scr_healitem(global.charselect, 100);
@@ -1139,7 +1139,7 @@ function scr_item_use_action_overworld(itemid) {
 		// Chapter 4
 		case DRItem.AncientSweet:
 			usable = 1;
-			_healamount = global.char[global.charselect] == DRCharacter.Kris ? 400 : 40;
+			_healamount = global.char[global.charselect] == DRCharacter.Clogs ? 400 : 40;
 			
 			scr_healitem(global.charselect, _healamount);
 			break;
@@ -1243,15 +1243,15 @@ function scr_item_use_action_battle(casterid, itemid) {
         case DRItem.HeartsDonut: {
 			switch (starChara) {
 				default:
-				case DRCharacter.Kris:
+				case DRCharacter.Clogs:
 					scr_healitemspell(20);
 					break;
 					
-				case DRCharacter.Susie:
+				case DRCharacter.Sluzishy:
 					scr_healitemspell(80);
 					break;
 					
-				case DRCharacter.Ralsei:
+				case DRCharacter.Ralsbajeej:
 					scr_healitemspell(30);
 					break;
 				
@@ -1266,15 +1266,15 @@ function scr_item_use_action_battle(casterid, itemid) {
         case DRItem.ChocDiamond: {
 			switch (starChara) {
 				default:
-				case DRCharacter.Kris:
+				case DRCharacter.Clogs:
 					scr_healitemspell(80);
 					break;
 					
-				case DRCharacter.Susie:
+				case DRCharacter.Sluzishy:
 					scr_healitemspell(20);
 					break;
 					
-				case DRCharacter.Ralsei:
+				case DRCharacter.Ralsbajeej:
 					scr_healitemspell(50);
 					break;
 				
@@ -1331,7 +1331,7 @@ function scr_item_use_action_battle(casterid, itemid) {
 		}
         
         case DRItem.JavaCookie: {
-			scr_healitemspell(starChara == DRCharacter.Kris ? 100 : 90);
+			scr_healitemspell(starChara == DRCharacter.Clogs ? 100 : 90);
             break;	
 		}
         
@@ -1413,7 +1413,7 @@ function scr_item_use_action_battle(casterid, itemid) {
 		
 		// Chapter 4
 		case DRItem.AncientSweet: {
-			scr_healitemspell(scr_heal_amount_modify_by_equipment(starChara == DRCharacter.Kris ? 400 : 40));
+			scr_healitemspell(scr_heal_amount_modify_by_equipment(starChara == DRCharacter.Clogs ? 400 : 40));
 			break;
 		}
 		

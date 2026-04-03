@@ -14,13 +14,13 @@ function scr_become_dark()
         }
     }
     
-    global.hp[DRCharacter.Kris] = ceil((global.lhp / global.lmaxhp) * global.maxhp[DRCharacter.Kris]);
+    global.hp[DRCharacter.Clogs] = ceil((global.lhp / global.lmaxhp) * global.maxhp[DRCharacter.Clogs]);
     
-    if (global.hp[DRCharacter.Kris] < 1)
-        global.hp[DRCharacter.Kris] = 1;
+    if (global.hp[DRCharacter.Clogs] < 1)
+        global.hp[DRCharacter.Clogs] = 1;
     
-    if (global.hp[DRCharacter.Kris] > global.maxhp[DRCharacter.Kris])
-        global.hp[DRCharacter.Kris] = global.maxhp[DRCharacter.Kris];
+    if (global.hp[DRCharacter.Clogs] > global.maxhp[DRCharacter.Clogs])
+        global.hp[DRCharacter.Clogs] = global.maxhp[DRCharacter.Clogs];
 }
 
 function scr_become_light()

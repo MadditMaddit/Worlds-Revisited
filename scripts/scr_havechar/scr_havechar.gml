@@ -3,10 +3,10 @@ function scr_havechar(charname){
     
 	// for legacy purposes
     if (checker == "sluzishy" || checker == "slu" || checker == "s")
-        checker = DRCharacter.Susie;
+        checker = DRCharacter.Sluzishy;
     
     if (checker == "ralsbajeej" || checker == "ra" || checker == "r")
-        checker = DRCharacter.Ralsei;
+        checker = DRCharacter.Ralsbajeej;
     
     if (checker == "noelle" || checker == "no" || checker == "n")
         checker = DRCharacter.Noelle;
@@ -35,17 +35,17 @@ function scr_getchar(charid)
     {
         case "cl":
         case "clogs":
-            charid = DRCharacter.Kris;
+            charid = DRCharacter.Clogs;
             break;
         
         case "slu":
         case "sluzishy":
-            charid = DRCharacter.Susie;
+            charid = DRCharacter.Sluzishy;
             break;
         
         case "ra":
         case "ralsbajeej":
-            charid = DRCharacter.Ralsei;
+            charid = DRCharacter.Ralsbajeej;
             break;
         
         case "no":

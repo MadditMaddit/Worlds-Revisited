@@ -43,15 +43,15 @@ if (con == 8)
         depth = obj_dw_transition.depth - 10;
     }*/
     
-    sus_draw = 1;
-    sus_sprite = spr_susie_walk_up_lw;
-    sus_index = 0;
-    kris_sprite = spr_krisu;
-    kris_index = 0;
-    sus_v = 1.2;
+    sluz_draw = 1;
+    sluz_sprite = spr_sluzishy_walk_up;
+    sluz_index = 0;
+    clogs_sprite = spr_clogsu;
+    clogs_index = 0;
+    sluz_v = 1.2;
     
     if (quick_mode == 1)
-        sus_v = 2;
+        sluz_v = 2;
     
     timer = 0;
     con = 9;
@@ -79,17 +79,17 @@ if (con == 9)
                 doorblack = 1;
             }
             
-            sus_v = 6;
-            sus_f = 0.4;
+            sluz_v = 6;
+            sluz_f = 0.4;
             timer = 45;
-            kris_x -= 4;
-            sus_sprite = spr_susieu_run;
-            kris_sprite = spr_krisu_run;
+            clogs_x -= 4;
+            sluz_sprite = spr_susieu_run;
+            clogs_sprite = spr_krisu_run;
         }
     }
     
     if (timer < 30)
-        sus_index += 0.2;
+        sluz_index += 0.2;
     
     if (timer == 30)
     {
@@ -105,35 +105,35 @@ if (con == 9)
             instance_destroy();
         
         doorblack = 1;
-        sus_index = 0;
-        sus_v = 0;
-        kris_x -= 4;
-        sus_sprite = spr_susieu_run;
-        kris_sprite = spr_krisu_run;
+        sluz_index = 0;
+        sluz_v = 0;
+        clogs_x -= 4;
+        sluz_sprite = spr_susieu_run;
+        clogs_sprite = spr_krisu_run;
     }
     
     if (timer == 60)
     {
-        sus_sprite = spr_susieu_run;
-        kris_sprite = spr_krisu_run;
-        sus_v = -5;
-        sus_f = 0;
+        sluz_sprite = spr_susieu_run;
+        clogs_sprite = spr_krisu_run;
+        sluz_v = -5;
+        sluz_f = 0;
     }
     
     if (timer > 60 && timer < 68)
     {
-        kris_y -= 1;
-        sus_index += 0.25;
+        clogs_y -= 1;
+        sluz_index += 0.25;
     }
     
     if (timer == 68)
     {
-        sus_f = 0.15;
-        sus_v = -4;
-        sus_y -= 2;
-        sus_x -= 2;
-        sus_sprite = spr_susie_lw_fall_u;
-        kris_sprite = spr_krisu_fall_lw;
+        sluz_f = 0.15;
+        sluz_v = -4;
+        sluz_y -= 2;
+        sluz_x -= 2;
+        sluz_sprite = spr_susie_lw_fall_u;
+        clogs_sprite = spr_krisu_fall_lw;
         con = 15;
         soundtimer = 0;
     }
@@ -191,12 +191,12 @@ if (con == 16)
         rectsound++;
     }
     
-    sus_index += 0.25;
+    sluz_index += 0.25;
     
-    if (sus_v >= 0)
+    if (sluz_v >= 0)
     {
-        sus_f = 0;
-        sus_v += 0.005;
+        sluz_f = 0;
+        sluz_v += 0.005;
     }
     
     timer += 1;
@@ -218,10 +218,10 @@ if (con == 17)
     //__background_set(e__BG.Visible, 0, 0);
     draw_rect = 0;
     linecon = 1;
-    sus_x_current = sus_x;
-    kris_x_current = kris_x;
-    sus_sprite = spr_susie_lw_fall_turn;
-    kris_sprite = spr_kris_fall_turnaround;
+    sluz_x_current = sus_x;
+    clogs_x_current = kris_x;
+    sluz_sprite = spr_susie_lw_fall_turn;
+    clogs_sprite = spr_kris_fall_turnaround;
     con = 18;
     soundcon = 1;
     radius = 60;
@@ -262,17 +262,17 @@ if (con == 18)
     if (quick_mode == 1)
         timer += 1;
     
-    sus_index = (timer / 36) * 5;
-    sus_x = sus_x_current - (sin(degtorad(timer * 2.5)) * radius);
+    sluz_index = (timer / 36) * 5;
+    sluz_x = sluz_x_current - (sin(degtorad(timer * 2.5)) * radius);
     
-    if (kris_only == 0)
-        kris_x = kris_x_current + (sin(degtorad(timer * 2.5)) * radius);
+    if (clogs_only == 0)
+        clogs_x = clogs_x_current + (sin(degtorad(timer * 2.5)) * radius);
     
     if (timer >= 35)
     {
-        sus_sprite = spr_susie_lw_fall_d;
-        kris_sprite = spr_kris_fall_d_lw;
-        sus_index = 0;
+        sluz_sprite = spr_susie_lw_fall_d;
+        clogs_sprite = spr_kris_fall_d_lw;
+        sluz_index = 0;
         con = 19;
         timer = 0;
     }
@@ -280,7 +280,7 @@ if (con == 18)
 
 if (con == 19)
 {
-    sus_index += 0.2;
+    sluz_index += 0.2;
     timer += 1;
     
     if (quick_mode == 1)
@@ -290,16 +290,16 @@ if (con == 19)
     {
         con = 30;
         timer = 0;
-        sus_draw = 0;
+        sluz_draw = 0;
     }
 }
 
 if (con == 30)
 {
-    if (kris_only == 0)
-        draw_sprite_ext(spr_susie_lw_fall_d, index / 4, sus_x, sus_y, 1, 1, 0, c_white, char_alpha);
+    if (clogs_only == 0)
+        draw_sprite_ext(spr_susie_lw_fall_d, index / 4, sluz_x, sluz_y, 1, 1, 0, c_white, char_alpha);
     
-    draw_sprite_ext(spr_kris_fall_d_lw, index / 4, kris_x, kris_y, 1, 1, 0, c_white, char_alpha);
+    draw_sprite_ext(spr_kris_fall_d_lw, index / 4, clogs_x, clogs_y, 1, 1, 0, c_white, char_alpha);
     timer += 1;
     
     if (quick_mode == 1)
@@ -309,12 +309,12 @@ if (con == 30)
     {
         con = 31;
         timer = 0;
-        sus_width = sprite_get_width(spr_susie_dw_fall_d);
-        sus_height = sprite_get_height(spr_susie_dw_fall_d);
-        sus_top = sus_height;
-        kris_width = sprite_get_width(spr_kris_fall_d_dw);
-        kris_height = sprite_get_height(spr_kris_fall_d_dw);
-        kris_top = kris_height;
+        sluz_width = sprite_get_width(spr_susie_dw_fall_d);
+        sluz_height = sprite_get_height(spr_susie_dw_fall_d);
+        sluz_top = sus_height;
+        clogs_width = sprite_get_width(spr_kris_fall_d_dw);
+        clogs_height = sprite_get_height(spr_kris_fall_d_dw);
+        clogs_top = kris_height;
     }
 }
 
@@ -322,12 +322,12 @@ if (con == 31)
 {
     timer += 1;
     
-    if (kris_only == 0)
+    if (clogs_only == 0)
         draw_sprite_part(spr_susie_lw_fall_d, index / 4, 0, 0, sus_width, sus_top, sus_x, sus_y);
     
     draw_sprite_part(spr_kris_fall_d_lw, index / 4, 0, 0, kris_width, kris_top, kris_x, kris_y);
     
-    if (kris_only == 0)
+    if (clogs_only == 0)
         draw_sprite_part(spr_susie_dw_fall_d, index / 4, 0, sus_top, sus_width, sus_height - sus_top, sus_x, sus_y + sus_top);
     
     draw_sprite_part(spr_kris_fall_d_dw, index / 4, 0, kris_top, kris_width, kris_height - kris_top, kris_x, kris_y + kris_top);
@@ -371,40 +371,40 @@ if (con == 31)
     
     if (timer >= 4)
     {
-        if (sus_top > 2)
+        if (sluz_top > 2)
         {
-            sus_top -= 0.5;
+            sluz_top -= 0.5;
             
             if (quick_mode == 1)
-                sus_top -= 1.5;
+                sluz_top -= 1.5;
         }
         else
         {
-            sus_top = 0;
+            sluz_top = 0;
         }
         
-        if (sus_top >= 2 && kris_only == 0)
+        if (sluz_top >= 2 && clogs_only == 0)
         {
-            sus_particle = instance_create(sus_x + 3 + random(sus_width - 6), sus_y + sus_top, obj_dw_transition_particle);
-            draw_sprite_part(spr_susie_white_fall_d, index / 4, 0, sus_top, sus_width, 1, sus_x, sus_y + sus_top);
+            sluz_particle = instance_create(sluz_x + 3 + random(sluz_width - 6), sluz_y + sluz_top, obj_dw_transition_particle);
+            draw_sprite_part(spr_susie_white_fall_d, index / 4, 0, sluz_top, sluz_width, 1, sluz_x, sluz_y + sluz_top);
         }
         
-        if (kris_top > 5)
+        if (clogs_top > 5)
         {
-            kris_top -= 0.5;
+            clogs_top -= 0.5;
             
             if (quick_mode == 1)
-                kris_top -= 1.5;
+                clogs_top -= 1.5;
         }
         else
         {
-            kris_top = 0;
+            clogs_top = 0;
         }
         
-        if (kris_top >= 2)
+        if (clogs_top >= 2)
         {
-            kris_particle = instance_create(kris_x + 3 + random(kris_width - 6), kris_y + kris_top, obj_dw_transition_particle);
-            draw_sprite_part(spr_kris_fall_d_white, index / 4, 0, kris_top, kris_width, 1, kris_x, kris_y + kris_top);
+            clogs_particle = instance_create(clogs_x + 3 + random(clogs_width - 6), clogs_y + clogs_top, obj_dw_transition_particle);
+            draw_sprite_part(spr_kris_fall_d_white, index / 4, 0, clogs_top, clogs_width, 1, clogs_x, clogs_y + clogs_top);
         }
     }
     
@@ -418,13 +418,13 @@ if (con == 31)
         if (quick_mode == 1)
             linecon = 0;
         
-        sus_y = round(sus_y);
-        sus_x = round(sus_x);
-        kris_y = round(kris_y);
-        kris_x = round(kris_x);
+        sluz_y = round(sluz_y);
+        sluz_x = round(sluz_x);
+        clogs_y = round(clogs_y);
+        clogs_x = round(clogs_x);
         timer = 0;
-        sus_v = -0.2;
-        sus_f = 0.01;
+        sluz_v = -0.2;
+        sluz_f = 0.01;
         con = 32;
     }
 }
@@ -454,41 +454,41 @@ if (con == 32)
     
     if (timer >= 0 && timer < 8)
     {
-        sus_v -= 0.5;
+        sluz_v -= 0.5;
         
-        if (kris_only == 0)
-            draw_sprite_ext(spr_susie_dw_fall_smear, 0, sus_x, sus_y, 1, 1, 0, c_white, char_alpha);
+        if (clogs_only == 0)
+            draw_sprite_ext(spr_susie_dw_fall_smear, 0, sluz_x, sluz_y, 1, 1, 0, c_white, char_alpha);
         
-        draw_sprite_ext(spr_kris_fall_smear, 0, kris_x, kris_y, 1, 1, 0, c_white, char_alpha);
+        draw_sprite_ext(spr_kris_fall_smear, 0, clogs_x, clogs_y, 1, 1, 0, c_white, char_alpha);
     }
     
     if (timer >= 8 && timer < 12)
     {
-        sus_v += 1;
-        sus_f = 0;
+        sluz_v += 1;
+        sluz_f = 0;
         
-        if (kris_only == 0)
-            draw_sprite_ext(spr_susie_dw_fall_smear, 1, sus_x, sus_y, 1, 1, 0, c_white, char_alpha);
+        if (clogs_only == 0)
+            draw_sprite_ext(spr_susie_dw_fall_smear, 1, sluz_x, sluz_y, 1, 1, 0, c_white, char_alpha);
         
-        draw_sprite_ext(spr_kris_fall_smear, 1, kris_x, kris_y, 1, 1, 0, c_white, char_alpha);
+        draw_sprite_ext(spr_kris_fall_smear, 1, clogs_x, clogs_y, 1, 1, 0, c_white, char_alpha);
     }
     
     if (timer >= 12 && timer <= 13)
     {
-        sus_v += 4;
+        sluz_v += 4;
         
-        if (kris_only == 0)
-            draw_sprite_ext(spr_susie_dw_fall_smear, 2, sus_x, sus_y, 1, 1, 0, c_white, char_alpha);
+        if (clogs_only == 0)
+            draw_sprite_ext(spr_susie_dw_fall_smear, 2, sluz_x, sluz_y, 1, 1, 0, c_white, char_alpha);
         
-        draw_sprite_ext(spr_kris_fall_smear, 2, kris_x, kris_y, 1, 1, 0, c_white, char_alpha);
+        draw_sprite_ext(spr_kris_fall_smear, 2, clogs_x, clogs_y, 1, 1, 0, c_white, char_alpha);
     }
     
     if (timer >= 14)
     {
         soundcon = 4;
         snd_volume(dronesfx, 0, 30);
-        sus_v = 13;
-        sus_f = 0;
+        sluz_v = 13;
+        sluz_f = 0;
         timer = 0;
         con = 33;
         rect_draw = 0;
@@ -502,24 +502,24 @@ if (con == 33)
     if (quick_mode == 1 && timer < 31)
         timer = 31;
     
-    if (kris_only == 0)
+    if (clogs_only == 0)
     {
-        draw_sprite_ext(spr_susie_dw_fall_ball, timer / 2, sus_x, sus_y - (sus_v * 2), 1, 1, 0, c_white, 0.25);
-        draw_sprite_ext(spr_susie_dw_fall_ball, timer / 2, sus_x, sus_y - sus_v, 1, 1, 0, c_white, 0.5);
-        draw_sprite_ext(spr_susie_dw_fall_ball, timer / 2, sus_x, sus_y, 1, 1, 0, c_white, 1);
+        draw_sprite_ext(spr_susie_dw_fall_ball, timer / 2, sluz_x, sluz_y - (sluz_v * 2), 1, 1, 0, c_white, 0.25);
+        draw_sprite_ext(spr_susie_dw_fall_ball, timer / 2, sluz_x, sluz_y - sluz_v, 1, 1, 0, c_white, 0.5);
+        draw_sprite_ext(spr_susie_dw_fall_ball, timer / 2, sluz_x, sluz_y, 1, 1, 0, c_white, 1);
     }
     
-    draw_sprite_ext(spr_clogs_fall_ball, timer / 2, kris_x, kris_y - (sus_v * 2), 1, 1, 0, c_white, 0.25);
-    draw_sprite_ext(spr_clogs_fall_ball, timer / 2, kris_x, kris_y - sus_v, 1, 1, 0, c_white, 0.5);
-    draw_sprite_ext(spr_clogs_fall_ball, timer / 2, kris_x, kris_y, 1, 1, 0, c_white, 1);
+    draw_sprite_ext(spr_clogs_fall_ball, timer / 2, clogs_x, clogs_y - (sluz_v * 2), 1, 1, 0, c_white, 0.25);
+    draw_sprite_ext(spr_clogs_fall_ball, timer / 2, clogs_x, clogs_y - sluz_v, 1, 1, 0, c_white, 0.5);
+    draw_sprite_ext(spr_clogs_fall_ball, timer / 2, clogs_x, clogs_y, 1, 1, 0, c_white, 1);
     
     if (timer == 14)
         linecon = 0;
     
     if (timer == 30)
     {
-        sus_y = -20;
-        kris_y = -14;
+        sluz_y = -20;
+        clogs_y = -14;
     }
     
     if (timer > 30)
@@ -549,9 +549,9 @@ if (con == 33)
         {
             con = 34;
             timer = 0;
-            sus_v = 0;
-            kris_y = finaly + 6;
-            sus_y = finaly;
+            sluz_v = 0;
+            clogs_y = finaly + 6;
+            sluz_y = finaly;
             getup_index = 0;
             fake_screenshake = 1;
             fake_shakeamount = 8;
@@ -573,10 +573,10 @@ if (con == 34)
     
     if (timer > 1)
     {
-        if (kris_only == 0)
-            draw_sprite_ext(spr_susie_dw_landed, getup_index, (sus_x * dz) + fake_shakeamount, sus_y * dz, 1 * dz, 1 * dz, 0, c_white, 1);
+        if (clogs_only == 0)
+            draw_sprite_ext(spr_susie_dw_landed, getup_index, (sluz_x * dz) + fake_shakeamount, sluz_y * dz, 1 * dz, 1 * dz, 0, c_white, 1);
         
-        draw_sprite_ext(spr_clogs_landed, getup_index, (kris_x * dz) + fake_shakeamount, kris_y * dz, 1 * dz, 1 * dz, 0, c_white, 1);
+        draw_sprite_ext(spr_clogs_landed, getup_index, (clogs_x * dz) + fake_shakeamount, clogs_y * dz, 1 * dz, 1 * dz, 0, c_white, 1);
     }
     
     if (timer == 26)
@@ -587,10 +587,10 @@ if (con == 34)
                 show_border();
         }*/
         
-        kris_x = remkrisx;
-        kris_y = remkrisy;
-        sus_x = remsusx;
-        sus_y = remsusy;
+        clogs_x = remclogsx;
+        clogs_y = remclogsy;
+        sluz_x = remsluzx;
+        sluz_y = remsluzy;
         
         if (global.flag[302] == 1)
             global.flag[302] = 2;
@@ -621,8 +621,8 @@ if (con == 34)
         {
             if (global.plot == 9)
             {
-                obj_mainchara.y = kris_y;
-                kris_y += 200;
+                obj_mainchara.y = clogs_y;
+                clogs_y += 200;
                 cameray_set(cameray() + 400);
             }
         }
@@ -654,8 +654,8 @@ if (con == 34)
         persistent = 0;
         global.interact = 0;
         global.facing = 0;
-        obj_mainchara.x = (kris_x * 2) + 8;
-        obj_mainchara.y = (kris_y * 2) + 4;
+        obj_mainchara.x = (clogs_x * 2) + 8;
+        obj_mainchara.y = (clogs_y * 2) + 4;
         
         with (obj_mainchara)
             visible = 1;
@@ -668,8 +668,8 @@ if (con == 34)
         
         if (kris_only == 0 && i_ex(global.cinstance[0]))
         {
-            global.cinstance[0].x = (sus_x * 2) + 10;
-            global.cinstance[0].y = sus_y * 2;
+            global.cinstance[0].x = (sluz_x * 2) + 10;
+            global.cinstance[0].y = sluz_y * 2;
             
             with (obj_caterpillarchara)
             {
@@ -684,7 +684,7 @@ if (con == 34)
     }
 }
 
-if (sus_draw == 1)
+if (sluz_draw == 1)
 {
     /*if (instance_exists(obj_kris_headobj))
     {
@@ -694,16 +694,16 @@ if (sus_draw == 1)
     
     if (global.darkzone == 0)
     {
-        draw_sprite_ext(kris_sprite, sus_index, kris_x + fake_shakeamount, kris_y, 1, 1, 0, c_white, char_alpha);
+        draw_sprite_ext(clogs_sprite, sluz_index, clogs_x + fake_shakeamount, clogs_y, 1, 1, 0, c_white, char_alpha);
         
         if (kris_only == 0)
-            draw_sprite_ext(sus_sprite, sus_index, sus_x + fake_shakeamount, sus_y, 1, 1, 0, c_white, char_alpha);
+            draw_sprite_ext(sluz_sprite, sluz_index, sluz_x + fake_shakeamount, sluz_y, 1, 1, 0, c_white, char_alpha);
     }
     else
     {
-        draw_sprite_ext(kris_sprite, sus_index, (kris_x * 2) + fake_shakeamount, kris_y * 2, 2, 2, 0, c_white, char_alpha);
+        draw_sprite_ext(clogs_sprite, sluz_index, (clogs_x * 2) + fake_shakeamount, clogs_y * 2, 2, 2, 0, c_white, char_alpha);
         
         if (kris_only == 0)
-            draw_sprite_ext(sus_sprite, sus_index, (sus_x * 2) + fake_shakeamount, sus_y * 2, 2, 2, 0, c_white, char_alpha);
+            draw_sprite_ext(sluz_sprite, sluz_index, (sluz_x * 2) + fake_shakeamount, sluz_y * 2, 2, 2, 0, c_white, char_alpha);
     }
 }

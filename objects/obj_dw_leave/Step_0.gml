@@ -5,30 +5,30 @@ if (con == 10)
     if (instance_exists(obj_mainchara))
     {
         obj_mainchara.visible = 0;
-        kr_actor = instance_create_depth(obj_mainchara.x, obj_mainchara.y, obj_mainchara.depth, obj_actor);
-        kr_actor.sprite_index = obj_mainchara.sprite_index;
-        kr_actor.__x = kris_x + 6;
-        kr_actor.__y = kris_y + 20;
+        clo_actor = instance_create_depth(obj_mainchara.x, obj_mainchara.y, obj_mainchara.depth, obj_actor);
+        clo_actor.sprite_index = obj_mainchara.sprite_index;
+        clo_actor.__x = clogs_x + 6;
+        clo_actor.__y = clogs_y + 20;
         
-        with (kr_actor)
+        with (clo_actor)
         {
-            scr_set_facing_sprites("kris");
+            scr_set_facing_sprites("clogs");
             fun = 1;
             image_speed = 0.25;
             scr_move_to_point_over_time(__x, __y, 10);
         }
     }
     
-    if (instance_exists(obj_caterpillarchara) && scr_havechar(DRCharacter.Susie))
+    if (instance_exists(obj_caterpillarchara) && scr_havechar(DRCharacter.Sluzishy))
     {
-        su_actor = instance_create_depth(global.cinstance[0].x, global.cinstance[0].y, global.cinstance[0].depth, obj_actor);
-        su_actor.__x = sus_x;
-        su_actor.__y = sus_y + 8;
+        sluz_actor = instance_create_depth(global.cinstance[0].x, global.cinstance[0].y, global.cinstance[0].depth, obj_actor);
+        sluz_actor.__x = sluz_x;
+        sluz_actor.__y = sluz_y + 8;
         
         with (su_actor)
         {
             sprite_index = global.cinstance[0].sprite_index;
-            scr_set_facing_sprites("susie");
+            scr_set_facing_sprites("sluzishy");
             scr_move_to_point_over_time(__x, __y, 10);
         }
         
@@ -72,7 +72,7 @@ if (con == 11)
         with (obj_dw_leave)
         {
             if (bottom == 1)
-                draw_kris = 1;
+                draw_clogs = 1;
         }
         
         with (obj_dw_leave)

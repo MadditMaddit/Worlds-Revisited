@@ -797,11 +797,11 @@ function scr_cutscene_commands()
         command_actor[i].visible = 0;
     }
     
-    if (_c == "actortokris")
+    if (_c == "actortoclogs")
     {
         for (jjj = 0; jjj < 20; jjj++)
         {
-            if (actor_name[jjj] == "kris" && i_ex(actor_id[jjj]))
+            if (actor_name[jjj] == "clogs" && i_ex(actor_id[jjj]))
             {
                 obj_mainchara.x = actor_id[jjj].x;
                 obj_mainchara.y = actor_id[jjj].y;

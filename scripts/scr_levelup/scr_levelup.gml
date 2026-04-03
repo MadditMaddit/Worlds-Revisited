@@ -27,7 +27,7 @@ function scr_levelup()
     
 	// default behaviour
     if ((global.flag[encountercountflag] % 2) == 0)
-        global.maxhp[DRCharacter.Susie] += 1;
+        global.maxhp[DRCharacter.Sluzishy] += 1;
     
     return gainedstats;
 }

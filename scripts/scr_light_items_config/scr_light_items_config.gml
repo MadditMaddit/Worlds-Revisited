@@ -263,7 +263,7 @@ function scr_litemuseb(idx, lightWorldId)
         
         case DRLightItem.BoxOfHeartCandy:
             var consume_item = 0;
-            var have_susie = scr_havechar(DRCharacter.Susie);
+            var have_susie = scr_havechar(DRCharacter.Sluzishy);
             var sans_npc = 0;
             
             /*if (i_ex(obj_marker))
@@ -316,7 +316,7 @@ function scr_litemuseb(idx, lightWorldId)
                 consume_item = 1;
                 global.lhp = 19;
                 global.flag[342] = 2;
-                scr_speaker("susie");
+                scr_speaker("sluzishy");
                 msgset(0, "\\E7* Woah^1, Kris^1, where the hell'd you get that?/");
                 msgnext("\\E6* ..^1. someone gave it to you?/");
                 msgnext("\\EY* HAHAHA!^1! YEAH RIGHT!!^1! You stole it^1, didn't you!?/");

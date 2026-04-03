@@ -4,7 +4,7 @@ function scr_save_point_text(){
 			nodialogue = false;
 			
 			scr_speaker("no_name");
-			msgset(0, "* You are filled with the power of DELTAModKit./%");
+			msgset(0, "* You are filled with the power of ROT./%");
 			break;
 		
 		default:

@@ -78,7 +78,7 @@ function scr_spellinfo(spellid)
             spelltarget = 2;
             cost = 125;
             
-            if (global.charweapon[DRCharacter.Susie] == 7)
+            if (global.charweapon[DRCharacter.Sluzishy] == 7)
                 cost = 100;
             
             spellusable = 0;
@@ -214,7 +214,7 @@ function scr_spell_get_battle_use_text(spellid) {
                 
                 if (global.monsterstatus[star] == 1)
                 {
-                    if (scr_havechar(DRCharacter.Ralsei))
+                    if (scr_havechar(DRCharacter.Ralsbajeej))
                     {
                         global.msg[0] = stringsetsub("* ~1 spared ~2^2!&* But its name wasn't \\cYYELLOW\\cW.../", global.charname[global.char[caster]], global.monstername[star]);
                         global.msg[1] = "* (Try using Ralsei's \\cBPACIFY\\cW!)/%";

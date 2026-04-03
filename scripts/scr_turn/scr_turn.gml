@@ -9,7 +9,7 @@ function scr_mnendturn()
     if (global.char[2] == 2)
         sus = 2;*/
 		
-	sus = arr_find_index(global.char, function(a) { return a == DRCharacter.Susie });
+	sus = arr_find_index(global.char, function(a) { return a == DRCharacter.Sluzishy });
     
     techwon = 0;
     
@@ -110,7 +110,7 @@ function scr_mnendturn()
         
         if (skip == 1)
         {
-            if (global.char[0] == DRCharacter.Susie && global.charauto[DRCharacter.Susie] == 1)
+            if (global.char[0] == DRCharacter.Sluzishy && global.charauto[DRCharacter.Sluzishy] == 1)
             {
                 global.acting[0] = 1;
                 global.myfight = 3;

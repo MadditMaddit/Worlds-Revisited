@@ -10,24 +10,24 @@ image_xscale = 2;
 image_yscale = 2;
 con = 0;
 image_speed = 0;
-kris_dist = 0;
-draw_kris = 0;
-kris_only = 1;
-kris_x = x - 24;
-kris_y = y - 80;
-sus_x = x - 60;
-sus_y = y - 94;
+clogs_dist = 0;
+draw_clogs = 0;
+clogs_only = 1;
+clogs_x = x - 24;
+clogs_y = y - 80;
+sluz_x = x - 60;
+sluz_y = y - 94;
 unlock_mode = global.plot >= 242;
 nextroom = room_lw_test;
 
 //if (unlock_mode)
 //    nextroom = 261;
 
-if (scr_havechar(DRCharacter.Susie))
+if (scr_havechar(DRCharacter.Sluzishy))
 {
-    kris_only = 0;
-    kris_x = x + 12;
-    kris_y = y - 80;
+    clogs_only = 0;
+    clogs_x = x + 12;
+    clogs_y = y - 80;
 }
 
 fake_v = 0;

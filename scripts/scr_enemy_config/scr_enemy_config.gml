@@ -74,39 +74,39 @@ function scr_monstersetup()
             global.mercymod[myself] = 0;
             global.mercymax[myself] = 100;
 			
-            global.canact[DRCharacter.Kris][myself][0] = 1;
-            global.actname[DRCharacter.Kris][myself][0] = "Check";
-            global.canact[DRCharacter.Kris][myself][1] = 1;
-            global.actname[DRCharacter.Kris][myself][1] = "Warning";
-            global.canact[DRCharacter.Kris][myself][2] = 1;
-            global.actname[DRCharacter.Kris][myself][2] = "Victory";
-            global.canact[DRCharacter.Kris][myself][3] = 1;
-            global.actname[DRCharacter.Kris][myself][3] = "SimuDance";
-            global.actsimul[DRCharacter.Kris][myself][3] = 1;
-            global.canact[DRCharacter.Kris][myself][4] = 1;
-            global.actname[DRCharacter.Kris][myself][4] = "Victory (S)";
-            global.canact[DRCharacter.Kris][myself][5] = 1;
-            global.actname[DRCharacter.Kris][myself][5] = "Lecture";
+            global.canact[DRCharacter.Clogs][myself][0] = 1;
+            global.actname[DRCharacter.Clogs][myself][0] = "Check";
+            global.canact[DRCharacter.Clogs][myself][1] = 1;
+            global.actname[DRCharacter.Clogs][myself][1] = "Warning";
+            global.canact[DRCharacter.Clogs][myself][2] = 1;
+            global.actname[DRCharacter.Clogs][myself][2] = "Victory";
+            global.canact[DRCharacter.Clogs][myself][3] = 1;
+            global.actname[DRCharacter.Clogs][myself][3] = "SimuDance";
+            global.actsimul[DRCharacter.Clogs][myself][3] = 1;
+            global.canact[DRCharacter.Clogs][myself][4] = 1;
+            global.actname[DRCharacter.Clogs][myself][4] = "Victory (S)";
+            global.canact[DRCharacter.Clogs][myself][5] = 1;
+            global.actname[DRCharacter.Clogs][myself][5] = "Lecture";
 			
-            global.canact[DRCharacter.Susie][myself][0] = 1;
-            global.actname[DRCharacter.Susie][myself][0] = "CoolDance";
-            global.canact[DRCharacter.Susie][myself][1] = 1;
-            global.actname[DRCharacter.Susie][myself][1] = "SimuDance";
-            global.actsimul[DRCharacter.Susie][myself][1] = 1;
+            global.canact[DRCharacter.Sluzishy][myself][0] = 1;
+            global.actname[DRCharacter.Sluzishy][myself][0] = "CoolDance";
+            global.canact[DRCharacter.Sluzishy][myself][1] = 1;
+            global.actname[DRCharacter.Sluzishy][myself][1] = "SimuDance";
+            global.actsimul[DRCharacter.Sluzishy][myself][1] = 1;
 			
-            global.canact[DRCharacter.Ralsei][myself][0] = 1;
-            global.actname[DRCharacter.Ralsei][myself][0] = "CoolDance";
-            global.canact[DRCharacter.Ralsei][myself][1] = 1;
-            global.actname[DRCharacter.Ralsei][myself][1] = "SimuDance";
-            global.actsimul[DRCharacter.Ralsei][myself][1] = 1;
+            global.canact[DRCharacter.Ralsbajeej][myself][0] = 1;
+            global.actname[DRCharacter.Ralsbajeej][myself][0] = "CoolDance";
+            global.canact[DRCharacter.Ralsbajeej][myself][1] = 1;
+            global.actname[DRCharacter.Ralsbajeej][myself][1] = "SimuDance";
+            global.actsimul[DRCharacter.Ralsbajeej][myself][1] = 1;
             break;
     }
 	
 	for (i = 0; i < DRCharacter.__MAX__; i++) {
 		if (!is_array(global.canact[i])) { // does not exist for this character
-			global.canact[i] = global.canact[DRCharacter.Kris];
-			global.actname[i] = global.actname[DRCharacter.Kris];
-			global.actsimul[i] = global.actsimul[DRCharacter.Kris];
+			global.canact[i] = global.canact[DRCharacter.Clogs];
+			global.actname[i] = global.actname[DRCharacter.Clogs];
+			global.actsimul[i] = global.actsimul[DRCharacter.Clogs];
 		}
 	}
 }
@@ -193,16 +193,16 @@ function scr_enemy_process_phase(enemyId, phase) {
 					
 					// Kris's ACTs
 					//if actcon[DRCharacter.Kris] == 0 && acting[DRCharacter.Kris] != 0 {
-					if actcon[DRCharacter.Kris] == 1 {
-					    actcon[DRCharacter.Kris] = 0;
+					if actcon[DRCharacter.Clogs] == 1 {
+					    actcon[DRCharacter.Clogs] = 0;
 					    nextact = 1;
 						
-						if acting[DRCharacter.Kris] == 1 {
+						if acting[DRCharacter.Clogs] == 1 {
 							msgset(0, "* ENEMY - AT 1 DF 1&* Susceptible to Brainshock./%");
 							scr_battletext_default();
 						}
 					
-						if acting[DRCharacter.Kris] == 2 {
+						if acting[DRCharacter.Clogs] == 2 {
 					        if (global.automiss[myself] == 0)
 					        {
 					            msgset(0, "* You warned the enemy^1.&* It guarded from Susie's attack./%");
@@ -213,28 +213,28 @@ function scr_enemy_process_phase(enemyId, phase) {
 					        scr_battletext_default();
 						}
 					
-						if acting[DRCharacter.Kris] == 3 {
+						if acting[DRCharacter.Clogs] == 3 {
 					        msgset(0, "* Its body was filled with a kind feeling./%");
 					        scr_mercyadd(myself, 100);
 					        scr_battletext_default();
 					    }
 					
-						if acting[DRCharacter.Kris] == 4 {
+						if acting[DRCharacter.Clogs] == 4 {
 							nextact = 0;
-							actcon[DRCharacter.Kris] = simulorder[DRCharacter.Kris] == 0 ? 20 : 0;
+							actcon[DRCharacter.Clogs] = simulorder[DRCharacter.Kris] == 0 ? 20 : 0;
 						
 							msgset(0, simultotal == 1 ? "* Kris decided to have a really long message when acting alone." : "* Kris's simul act!");
 						
 							scr_mercyadd(myself, 35);
-							scr_simultext(DRCharacter.Kris);
+							scr_simultext(DRCharacter.Clogs);
 						}
 					
-						if acting[DRCharacter.Kris] == 5 {
+						if acting[DRCharacter.Clogs] == 5 {
 							msgset(0, "* Its body will result in a speech after attack./%");
 							scr_battletext_default();
 						}
 					
-						if acting[DRCharacter.Kris] == 6 {
+						if acting[DRCharacter.Clogs] == 6 {
 							msgset(0, "* Its body became tired./%");
 							scr_monster_make_tired(myself);
 							scr_battletext_default();
@@ -242,42 +242,42 @@ function scr_enemy_process_phase(enemyId, phase) {
 					}
 					
 					// Susie's ACTs
-					if actcon[DRCharacter.Susie] == 1 {
-						if acting[DRCharacter.Susie] == 1 {
+					if actcon[DRCharacter.Sluzishy] == 1 {
+						if acting[DRCharacter.Sluzishy] == 1 {
 							nextact = 1;
-					        actcon[DRCharacter.Susie] = 0;
+					        actcon[DRCharacter.Sluzishy] = 0;
 						
 					        msgset(0, "* Susie's unique act A!./%");
 					        scr_mercyadd(myself, 35);
 					        scr_battletext_default();
 					    }
     
-					    if acting[DRCharacter.Susie] == 2 {
-					        actcon[DRCharacter.Susie] = simulorder[DRCharacter.Susie] == 0 ? 20 : 0;
+					    if acting[DRCharacter.Sluzishy] == 2 {
+					        actcon[DRCharacter.Sluzishy] = simulorder[DRCharacter.Sluzishy] == 0 ? 20 : 0;
 						
 					        msgset(0, "* Susie's simul act!");
 					        scr_mercyadd(myself, 35);
-					        scr_simultext(DRCharacter.Susie);
+					        scr_simultext(DRCharacter.Sluzishy);
 					    }	
 					}
 					
 					// Ralsei's ACTs
-					if actcon[DRCharacter.Ralsei] == 1 {
-						if acting[DRCharacter.Ralsei] == 1 {
+					if actcon[DRCharacter.Ralsbajeej] == 1 {
+						if acting[DRCharacter.Ralsbajeej] == 1 {
 							nextact = 1;
-					        actcon[DRCharacter.Ralsei] = 0;
+					        actcon[DRCharacter.Ralsbajeej] = 0;
 						
 					        msgset(0, "* Ralsei's unique act A!./%");
 					        scr_mercyadd(myself, 35);
 					        scr_battletext_default();
 					    }
     
-					    if acting[DRCharacter.Ralsei] == 2 {
-					        actcon[DRCharacter.Ralsei] = simulorder[DRCharacter.Ralsei] == 0 ? 20 : 0;
+					    if acting[DRCharacter.Ralsbajeej] == 2 {
+					        actcon[DRCharacter.Ralsbajeej] = simulorder[DRCharacter.Ralsbajeej] == 0 ? 20 : 0;
 							
 					        msgset(0, "* Ralsei's simul act!");
 					        scr_mercyadd(myself, 35);
-					        scr_simultext(DRCharacter.Ralsei);
+					        scr_simultext(DRCharacter.Ralsbajeej);
 					    }
 					}
 					

@@ -90,12 +90,12 @@ function scr_texttype()
         
         case 10:
         
-            scr_textsetup(scr_84_get_font("main"), c_white, x, y, 33, 0, 1, "snd_txtsus", 8, 18, false);
+            scr_textsetup(scr_84_get_font("main"), c_white, x, y, 33, 0, 1, "snd_txtsluz", 8, 18, false);
             break;
         
         case 11:
         
-            scr_textsetup(scr_84_get_font("main"), c_white, x, y, 33, 0, 1, "snd_txtsus", 8, 18, false);
+            scr_textsetup(scr_84_get_font("main"), c_white, x, y, 33, 0, 1, "snd_txtsluz", 8, 18, false);
             break;
         
         case 12:
@@ -160,12 +160,12 @@ function scr_texttype()
         
         case 30:
         
-            scr_textsetup(scr_84_get_font("mainbig"), c_white, x, y, 33, 0, 1, "snd_txtsus", 16, 36, true);
+            scr_textsetup(scr_84_get_font("mainbig"), c_white, x, y, 33, 0, 1, "snd_txtsluz", 16, 36, true);
             break;
         
         case 31:
         
-            scr_textsetup(scr_84_get_font("mainbig"), c_white, x, y, 33, 0, 1, "snd_txtral", 16, 36, true);
+            scr_textsetup(scr_84_get_font("mainbig"), c_white, x, y, 33, 0, 1, "snd_txtralsb", 16, 36, true);
             break;
         
         case 32:
@@ -190,7 +190,7 @@ function scr_texttype()
         
         case 37:
         
-            scr_textsetup(scr_84_get_font("mainbig"), c_white, x, y, 33, 0, 3, "snd_txtsus", 18, 36, true);
+            scr_textsetup(scr_84_get_font("mainbig"), c_white, x, y, 33, 0, 3, "snd_txtsluz", 18, 36, true);
             break;
         
         case 40:
@@ -210,7 +210,7 @@ function scr_texttype()
         
         case 45:
         
-            scr_textsetup(scr_84_get_font("mainbig"), c_white, x, y, 33, 0, 1, "snd_txtral", 16, 28, true);
+            scr_textsetup(scr_84_get_font("mainbig"), c_white, x, y, 33, 0, 1, "snd_txtralsb", 16, 28, true);
             extra_ja_vspace = 2;
             break;
         
@@ -222,7 +222,7 @@ function scr_texttype()
         
         case 47:
         
-            scr_textsetup(scr_84_get_font("mainbig"), c_white, x, y, 33, 0, 1, "snd_txtsus", 16, 28, true);
+            scr_textsetup(scr_84_get_font("mainbig"), c_white, x, y, 33, 0, 1, "snd_txtsluz", 16, 28, true);
             extra_ja_vspace = 2;
             break;
         
@@ -251,12 +251,12 @@ function scr_texttype()
         
         case 53:
         
-            scr_textsetup(scr_84_get_font("dotumche"), 0, x, y, 33, 0, 1, "snd_txtsus", 9, 20, false);
+            scr_textsetup(scr_84_get_font("dotumche"), 0, x, y, 33, 0, 1, "snd_txtsluz", 9, 20, false);
             break;
         
         case 54:
         
-            scr_textsetup(scr_84_get_font("dotumche"), 0, x, y, 33, 0, 2, "snd_txtsus", 9, 20, false);
+            scr_textsetup(scr_84_get_font("dotumche"), 0, x, y, 33, 0, 2, "snd_txtsluz", 9, 20, false);
             break;
         
         case 55:
@@ -287,12 +287,12 @@ function scr_texttype()
         
         case 60:
         
-            scr_textsetup(scr_84_get_font("main"), c_white, x, y, 33, 0, 2, "snd_txtral", 12, 20, false);
+            scr_textsetup(scr_84_get_font("main"), c_white, x, y, 33, 0, 2, "snd_txtralsb", 12, 20, false);
             break;
         
         case 61:
         
-            scr_textsetup(scr_84_get_font("main"), c_white, x, y, 33, 0, 2, "snd_txtsus", 12, 20, false);
+            scr_textsetup(scr_84_get_font("main"), c_white, x, y, 33, 0, 2, "snd_txtsluz", 12, 20, false);
             break;
         
         case 62:
@@ -356,13 +356,13 @@ function scr_texttype()
         
         case 74:
         
-            scr_textsetup(scr_84_get_font("dotumche"), 0, x, y, 33, 0, 1, "snd_txtral", 9, 20, false);
+            scr_textsetup(scr_84_get_font("dotumche"), 0, x, y, 33, 0, 1, "snd_txtralsb", 9, 20, false);
             extra_ja_vspace = 2;
             break;
         
         case 75:
         
-            scr_textsetup(scr_84_get_font("dotumche"), 0, x, y, 33, 0, 1, "snd_txtsus", 9, 20, false);
+            scr_textsetup(scr_84_get_font("dotumche"), 0, x, y, 33, 0, 1, "snd_txtsluz", 9, 20, false);
             extra_ja_vspace = 2;
             break;
         
@@ -385,7 +385,7 @@ function scr_texttype()
         
         case 79:
         
-            scr_textsetup(scr_84_get_font("mainbig"), c_white, x, y, 33, 0, 2, "snd_txtsus", 18, 36, true);
+            scr_textsetup(scr_84_get_font("mainbig"), c_white, x, y, 33, 0, 2, "snd_txtsluz", 18, 36, true);
             break;
         
         case 80:
