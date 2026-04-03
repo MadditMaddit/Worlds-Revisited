@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_txtsus",
+  "%Name":"snd_txtslus",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.12947845,
+  "duration":0.104240365,
   "exportDir":"",
-  "name":"snd_txtsus",
+  "name":"snd_txtslus",
   "parent":{
     "name":"Dialogue",
     "path":"folders/DELTARUNE/Sounds/Dark/Dialogue.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_txtsus.wav",
+  "soundFile":"snd_txtslus.ogg",
   "volume":1.0,
 }

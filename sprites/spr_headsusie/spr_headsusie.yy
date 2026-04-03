@@ -4,7 +4,7 @@
   "bboxMode":0,
   "bbox_bottom":23,
   "bbox_left":0,
-  "bbox_right":33,
+  "bbox_right":37,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -33,7 +33,7 @@
   ],
   "name":"spr_headsusie",
   "nineSlice":null,
-  "origin":0,
+  "origin":9,
   "parent":{
     "name":"Heads",
     "path":"folders/DELTARUNE/Sprites/Menus/Dark Menu/Heroes/Heads.yy",
@@ -117,7 +117,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":4,
     "yorigin":0,
   },
   "swatchColours":null,
@@ -128,5 +128,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":34,
+  "width":38,
 }

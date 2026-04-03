@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.13839002,
+  "duration":0.129161,
   "exportDir":"",
   "name":"snd_txtral",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_txtral.wav",
+  "soundFile":"snd_txtral.ogg",
   "volume":1.0,
 }
