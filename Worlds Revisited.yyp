@@ -159,15 +159,11 @@
     {"$GMFolder":"","%Name":"Chapter 1","folderPath":"folders/DELTARUNE/Tilesets/Dark World/Tilesets/Chapter 1.yy","name":"Chapter 1","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[
-    {"$GMIncludedFile":"","%Name":"oldlegend.ogg","CopyToMask":-1,"filePath":"datafiles/mus","name":"oldlegend.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"spamrotrevamp2.ogg","CopyToMask":3035426181059969262,"filePath":"datafiles/mus","name":"spamrotrevamp2.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"worldbuster.ogg","CopyToMask":-1,"filePath":"datafiles/mus","name":"worldbuster.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-  ],
+  "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.1400.3.974",
+    "IDEVersion":"2024.1400.4.1003",
   },
   "name":"Worlds Revisited",
   "resources":[
@@ -963,6 +959,7 @@
     {"id":{"name":"spr_sluzishy_walk_right","path":"sprites/spr_sluzishy_walk_right/spr_sluzishy_walk_right.yy",},},
     {"id":{"name":"spr_sluzishy_walk_up","path":"sprites/spr_sluzishy_walk_up/spr_sluzishy_walk_up.yy",},},
     {"id":{"name":"spr_sluzishyb_idle","path":"sprites/spr_sluzishyb_idle/spr_sluzishyb_idle.yy",},},
+    {"id":{"name":"spr_sluzishyb_spell","path":"sprites/spr_sluzishyb_spell/spr_sluzishyb_spell.yy",},},
     {"id":{"name":"spr_smallface_s0","path":"sprites/spr_smallface_s0/spr_smallface_s0.yy",},},
     {"id":{"name":"spr_soliddark","path":"sprites/spr_soliddark/spr_soliddark.yy",},},
     {"id":{"name":"spr_solidsmall","path":"sprites/spr_solidsmall/spr_solidsmall.yy",},},
@@ -1001,7 +998,6 @@
     {"id":{"name":"spr_susieb_idle_unarmed","path":"sprites/spr_susieb_idle_unarmed/spr_susieb_idle_unarmed.yy",},},
     {"id":{"name":"spr_susieb_item","path":"sprites/spr_susieb_item/spr_susieb_item.yy",},},
     {"id":{"name":"spr_susieb_itemready","path":"sprites/spr_susieb_itemready/spr_susieb_itemready.yy",},},
-    {"id":{"name":"spr_susieb_spell","path":"sprites/spr_susieb_spell/spr_susieb_spell.yy",},},
     {"id":{"name":"spr_susieb_spellready","path":"sprites/spr_susieb_spellready/spr_susieb_spellready.yy",},},
     {"id":{"name":"spr_susieb_victory","path":"sprites/spr_susieb_victory/spr_susieb_victory.yy",},},
     {"id":{"name":"spr_susied_dark","path":"sprites/spr_susied_dark/spr_susied_dark.yy",},},

@@ -182,7 +182,7 @@ function scr_hero_set_sprites(heroObject) {
 		    itemsprite = spr_susieb_item;
 		    itemreadysprite = spr_susieb_itemready;
 		    spellreadysprite = spr_susieb_spellready;
-		    spellsprite = spr_susieb_spell;
+		    spellsprite = spr_sluzishyb_spell;
 		    defeatsprite = spr_susieb_defeat;
 	
 		    victorysprite = spr_susieb_victory;
