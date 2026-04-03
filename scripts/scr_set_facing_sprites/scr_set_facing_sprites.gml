@@ -218,7 +218,7 @@ function scr_set_facing_sprites(arg0)
         if (_actorname == "ralseinohat")
         {
             name = "ralsei";
-            usprite = spr_ralsei_walk_up;
+            usprite = spr_ralsbajeej_up;
             rsprite = spr_ralsei_walk_right;
             dsprite = spr_ralsei_walk_down;
             lsprite = spr_ralsei_walk_left;
@@ -408,7 +408,7 @@ scr_createfacingspritessubname("noelle", function() {return global.darkzone ? "n
 scr_createfacingspritessubname("berdly", function() {return global.darkzone ? "berdlydark" : "berdlylight"})
 scr_createfacingspritessubname("ralsei", function() {return global.chapter <= 1 ? "ralseihat" : "ralseinohat"})
 
-scr_createfacingsprites("ralseinohat", spr_ralsei_walk_down, spr_ralsei_walk_left, spr_ralsei_walk_up, spr_ralsei_walk_right)
+scr_createfacingsprites("ralseinohat", spr_ralsei_walk_down, spr_ralsei_walk_left, spr_ralsbajeej_up, spr_ralsei_walk_right)
 scr_createfacingspritessubname("ralseihat", "ralseinohat") // Doesn't Exist yet in DELTAMODKIT, So it'll default to Ralsei's Nohat sprite
 
 if sprite_exists(asset_get_index("spr_toriel_u")) // We can assume Toriel Exists

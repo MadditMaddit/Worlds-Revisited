@@ -163,7 +163,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.1400.4.1030",
+    "IDEVersion":"2024.1400.4.1003",
   },
   "name":"Worlds Revisited",
   "resources":[
@@ -923,6 +923,7 @@
     {"id":{"name":"spr_ralsbajeej_down","path":"sprites/spr_ralsbajeej_down/spr_ralsbajeej_down.yy",},},
     {"id":{"name":"spr_ralsbajeej_left","path":"sprites/spr_ralsbajeej_left/spr_ralsbajeej_left.yy",},},
     {"id":{"name":"spr_ralsbajeej_right","path":"sprites/spr_ralsbajeej_right/spr_ralsbajeej_right.yy",},},
+    {"id":{"name":"spr_ralsbajeej_up","path":"sprites/spr_ralsbajeej_up/spr_ralsbajeej_up.yy",},},
     {"id":{"name":"spr_ralsei_act","path":"sprites/spr_ralsei_act/spr_ralsei_act.yy",},},
     {"id":{"name":"spr_ralsei_actready","path":"sprites/spr_ralsei_actready/spr_ralsei_actready.yy",},},
     {"id":{"name":"spr_ralsei_attack","path":"sprites/spr_ralsei_attack/spr_ralsei_attack.yy",},},
@@ -945,7 +946,6 @@
     {"id":{"name":"spr_ralsei_walk_left","path":"sprites/spr_ralsei_walk_left/spr_ralsei_walk_left.yy",},},
     {"id":{"name":"spr_ralsei_walk_right_blush","path":"sprites/spr_ralsei_walk_right_blush/spr_ralsei_walk_right_blush.yy",},},
     {"id":{"name":"spr_ralsei_walk_right","path":"sprites/spr_ralsei_walk_right/spr_ralsei_walk_right.yy",},},
-    {"id":{"name":"spr_ralsei_walk_up","path":"sprites/spr_ralsei_walk_up/spr_ralsei_walk_up.yy",},},
     {"id":{"name":"spr_ribbick_Idle","path":"sprites/spr_ribbick_Idle/spr_ribbick_Idle.yy",},},
     {"id":{"name":"spr_rudebuster_beam_red","path":"sprites/spr_rudebuster_beam_red/spr_rudebuster_beam_red.yy",},},
     {"id":{"name":"spr_rudebuster_beam","path":"sprites/spr_rudebuster_beam/spr_rudebuster_beam.yy",},},

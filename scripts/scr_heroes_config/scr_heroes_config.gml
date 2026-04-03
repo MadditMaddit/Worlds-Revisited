@@ -323,12 +323,12 @@ function scr_character_set_caterpillar_sprites(charIdx) {
 		case DRCharacter.Ralsei: {
 			name = "ralsei";
                 
-            usprite = spr_ralsei_walk_up;
+            usprite = spr_ralsbajeej_up;
             dsprite = spr_ralsbajeej_down;
             rsprite = spr_ralsbajeej_right;
             lsprite = spr_ralsbajeej_left;
 			
-			usprite_blush = spr_ralsei_walk_up;
+			usprite_blush = spr_ralsbajeej_up;
 			dsprite_blush = spr_ralsei_walk_down_blush;
 			rsprite_blush = spr_ralsei_walk_right_blush;
 			lsprite_blush = spr_ralsei_walk_left_blush;
