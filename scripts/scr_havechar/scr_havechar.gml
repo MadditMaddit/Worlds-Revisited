@@ -2,7 +2,7 @@ function scr_havechar(charname){
     var checker = charname;
     
 	// for legacy purposes
-    if (checker == "sluzishy" || checker == "slu" || checker == "s")
+    if (checker == "sluzishy" || checker == "sluz" || checker == "s")
         checker = DRCharacter.Sluzishy;
     
     if (checker == "ralsbajeej" || checker == "ra" || checker == "r")
@@ -33,12 +33,12 @@ function scr_getchar(charid)
 	// for legacy purposes
     switch (charid)
     {
-        case "cl":
+        case "clo":
         case "clogs":
             charid = DRCharacter.Clogs;
             break;
         
-        case "slu":
+        case "sluz":
         case "sluzishy":
             charid = DRCharacter.Sluzishy;
             break;
