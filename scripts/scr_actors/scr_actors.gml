@@ -3,7 +3,7 @@ function scr_maincharacters_actors()
     actor_count = 0;
     kr = 0;
     kr_actor = instance_create(obj_mainchara.x, obj_mainchara.y, obj_actor);
-    scr_actor_setup(kr, kr_actor, "kris");
+    scr_actor_setup(kr, kr_actor, "clogs");
     kr_actor.sprite_index = obj_mainchara.sprite_index;
     kr_actor.depth = obj_mainchara.depth;
     
@@ -14,12 +14,12 @@ function scr_maincharacters_actors()
     {
         if (i_ex(global.cinstance[__jj]))
         {
-            if (global.cinstance[__jj].name == "susie")
+            if (global.cinstance[__jj].name == "sluzishy")
             {
                 actor_count++;
                 su = __jj + 1;
                 su_actor = instance_create(global.cinstance[__jj].x, global.cinstance[__jj].y, obj_actor);
-                scr_actor_setup(su, su_actor, "susie");
+                scr_actor_setup(su, su_actor, "sluzishy");
                 su_actor.sprite_index = global.cinstance[__jj].sprite_index;
                 su_actor.depth = global.cinstance[__jj].depth;
                 
@@ -27,12 +27,12 @@ function scr_maincharacters_actors()
                     visible = 0;
             }
             
-            if (global.cinstance[__jj].name == "ralsei")
+            if (global.cinstance[__jj].name == "ralsbajeej")
             {
                 actor_count++;
                 ra = __jj + 1;
                 ra_actor = instance_create(global.cinstance[__jj].x, global.cinstance[__jj].y, obj_actor);
-                scr_actor_setup(ra, ra_actor, "ralsei");
+                scr_actor_setup(ra, ra_actor, "ralsbajeej");
                 ra_actor.sprite_index = global.cinstance[__jj].sprite_index;
                 ra_actor.depth = global.cinstance[__jj].depth;
                 

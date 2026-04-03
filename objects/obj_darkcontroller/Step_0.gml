@@ -152,7 +152,7 @@ if (global.interact == 5)
                         scr_ralface(1, 9);
                         global.msg[2] = stringsetloc("* ............../", "obj_darkcontroller_slash_Step_0_gml_143_0");
                         global.msg[3] = stringsetloc("\\E5* Umm..^1.&* Th-that's OK^1, Kris^1!&* I can always.../", "obj_darkcontroller_slash_Step_0_gml_144_0");
-                        global.msg[4] = stringsetloc("\\E6* I'll just make a better one next time!/%", "obj_darkcontroller_slash_Step_0_gml_145_0");
+                        global.msg[4] = stringsetloc("\\E6* I'll just print another copy./%", "obj_darkcontroller_slash_Step_0_gml_145_0");
                         global.flag[207] = 2;
                     }
                     
