@@ -185,7 +185,7 @@ function scr_hero_set_sprites(heroObject) {
 		    spellsprite = spr_sluzishyb_spell;
 		    defeatsprite = spr_susieb_defeat;
 	
-		    victorysprite = spr_susieb_victory;
+		    victorysprite = spr_sluzishyb_victory;
 		    victoryframes = sprite_get_number(victorysprite);
 		    mywidth = 70;
 		    myheight = 82;
