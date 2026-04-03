@@ -60,7 +60,7 @@ if (global.hp[global.char[myself]] > 0)
         {
             snd_stop(snd_laz_c);
             
-            if (object_index == obj_herokris)
+            if (object_index == obj_heroclogs)
                 snd_play(snd_laz_c);
             
             if (object_index == obj_heroralsbajeej)

@@ -63,7 +63,7 @@ function scr_speaker(speak){
             global.typer = 81;
     }
     
-    if (_speaker == "susie" || _speaker == "slus")
+    if (_speaker == "sluzishy" || _speaker == "sluz")
     {
         global.fc = 1;
         global.typer = 10;
@@ -77,7 +77,7 @@ function scr_speaker(speak){
         }
     }
     
-    if (_speaker == "ralsei" || _speaker == "ral")
+    if (_speaker == "ralsbajeej" || _speaker == "ralsb")
     {
         global.fc = 2;
         global.typer = 31;
@@ -196,8 +196,8 @@ function scr_anyface(speakerchar, msgno, emotion){
     _speaker = string_lower(_speakerC);
     msgsetsub(msgno, "* Face ~1 not found/", _speaker);
     
-    if _speaker == "susie" || _speaker == "slus" scr_susface(_msgno, _emotion);
-    if _speaker == "ralsei" || _speaker == "ral" scr_ralface(_msgno, _emotion);
+    if _speaker == "sluzishy" || _speaker == "sluz" scr_susface(_msgno, _emotion);
+    if _speaker == "ralsbajeej" || _speaker == "ralsb" scr_ralface(_msgno, _emotion);
     if _speaker == "noelle" || _speaker == "noe" scr_noeface(_msgno, _emotion);
     if _speaker == "toriel" || _speaker == "tor" scr_torface(_msgno, _emotion);
     if _speaker == "asgore" || _speaker == "asg" scr_asgface(_msgno, _emotion);

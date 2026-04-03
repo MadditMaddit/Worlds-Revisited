@@ -13,7 +13,7 @@ if (i_ex(target))
         sh = sprite_height;
         herocheck = 0;
         
-        if (target.object_index == obj_herokris)
+        if (target.object_index == obj_heroclogs)
             herocheck = 1;
         
         if (target.object_index == obj_herosluzishy)

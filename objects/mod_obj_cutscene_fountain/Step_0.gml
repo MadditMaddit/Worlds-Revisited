@@ -21,8 +21,8 @@ if con == 0 && obj_mainchara.x < x && global.interact == 0{
 	
 	c_wait(10);
 	
-	c_speaker("susie");
-	c_msgset(0, "* Kris, do your thing./%");
+	c_speaker("sluzishy");
+	c_msgset(0, "* Clogs, do your thing./%");
 	
 	c_talk_wait();
 	

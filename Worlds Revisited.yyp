@@ -159,7 +159,9 @@
     {"$GMFolder":"","%Name":"Chapter 1","folderPath":"folders/DELTARUNE/Tilesets/Dark World/Tilesets/Chapter 1.yy","name":"Chapter 1","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"worldbuster.ogg","CopyToMask":-1,"filePath":"datafiles","name":"worldbuster.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -288,7 +290,7 @@
     {"id":{"name":"obj_heart","path":"objects/obj_heart/obj_heart.yy",},},
     {"id":{"name":"obj_heartburst","path":"objects/obj_heartburst/obj_heartburst.yy",},},
     {"id":{"name":"obj_heartmarker","path":"objects/obj_heartmarker/obj_heartmarker.yy",},},
-    {"id":{"name":"obj_herokris","path":"objects/obj_herokris/obj_herokris.yy",},},
+    {"id":{"name":"obj_heroclogs","path":"objects/obj_heroclogs/obj_heroclogs.yy",},},
     {"id":{"name":"obj_heronoelle","path":"objects/obj_heronoelle/obj_heronoelle.yy",},},
     {"id":{"name":"obj_heroparent","path":"objects/obj_heroparent/obj_heroparent.yy",},},
     {"id":{"name":"obj_heroralsbajeej","path":"objects/obj_heroralsbajeej/obj_heroralsbajeej.yy",},},

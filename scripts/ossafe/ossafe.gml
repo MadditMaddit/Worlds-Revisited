@@ -46,7 +46,7 @@ function draw_background_tiled_ext(arg0, arg1, arg2, arg3, arg4, arg5, arg6)
 function scr_moveheart()
 {
     global.inv = 0;
-    return instance_create(obj_herokris.x + 10, obj_herokris.y + 40, obj_moveheart);
+    return instance_create(obj_heroclogs.x + 10, obj_heroclogs.y + 40, obj_moveheart);
 }
 
 function ossafe_ini_open(arg0)
