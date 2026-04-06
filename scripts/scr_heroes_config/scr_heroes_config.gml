@@ -71,9 +71,9 @@ function scr_hero_get_attackbackground_color(heroIdx) {
 
 function scr_hero_get_attacktarget_color(heroIdx) {
 	switch (heroIdx) {
-		case DRHero.Clogs:	return make_color_rgb(0, 162, 232);
-		case DRHero.Sluzishy:	return make_color_rgb(234, 121, 200);
-		case DRHero.Ralsbajeej: return make_color_rgb(181, 230, 29);
+		case DRHero.Clogs:	return make_color_rgb(255, 0, 0);
+		case DRHero.Sluzishy:	return make_color_rgb(102, 45, 145);
+		case DRHero.Ralsbajeej: return make_color_rgb(0, 255, 0);
 		case DRHero.Noelle: return make_color_rgb(255, 255, 153);
 		
 		case DRHero.Starwalker: return make_color_rgb(255, 255, 153);
