@@ -8,7 +8,7 @@ if (!init)
         if (scr_havechar("no") && global.darkzone == 0)
             target = 8;
         
-        halign = (global.darkzone == 0) ? 3 : 5;
+        halign = (global.darkzone == 0) ? 3 : 6;
         valign = (global.darkzone == 0) ? 6 : 16;
     }
     
