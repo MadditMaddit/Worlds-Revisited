@@ -161,7 +161,6 @@
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"old legend.wav","CopyToMask":-1,"filePath":"datafiles/Mus","name":"old legend.wav","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"worldbuster.ogg","CopyToMask":-1,"filePath":"datafiles/mus","name":"worldbuster.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"worldbuster.ogg","CopyToMask":-1,"filePath":"datafiles/Mus","name":"worldbuster.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
