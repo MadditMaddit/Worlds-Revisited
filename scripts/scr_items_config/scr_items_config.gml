@@ -1507,7 +1507,7 @@ function scr_key_item_use_action_overworld(itemid) {
                 scr_speaker("no_name");
                 msgset(0, "* You held the crystal up to your eye./");
                 msgnext("* For some strange reason^1, for just a brief moment.../");
-                msgnext("* You thought you saw a world you were able to design yourself using the power of GameMaker./%");
+                msgnext("* You thought you saw a world yet to be created./%");
             }
             else if (scr_flag_get(1270) == 0)
             {

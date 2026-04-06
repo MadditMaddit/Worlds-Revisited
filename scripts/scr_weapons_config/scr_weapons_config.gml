@@ -79,7 +79,7 @@ function scr_weaponinfo(weaponid)
             if (global.plot < 30 && global.chapter == 1)
                 wmessagetemp[DRCharacter.Sluzishy] = "... You have a SWORD!?";
             
-            wmessagetemp[DRCharacter.Ralsbajeej] = "That's yours, Kris...";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "That's yours, Clogs...";
             wmessagetemp[DRCharacter.Noelle] = "(It has bite marks...)";
 
             weaponchartemp[DRCharacter.Clogs] = true;
@@ -111,7 +111,7 @@ function scr_weaponinfo(weaponid)
             weapondesctemp = "A basic scarf made of lightly#magical fiber.";
 
             wmessagetemp[DRCharacter.Sluzishy] = "No. Just... no.";
-            wmessagetemp[DRCharacter.Ralsbajeej] = "Comfy! Touch it, Kris!";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "Comfy! Touch it, Clogs!";
             wmessagetemp[DRCharacter.Noelle] = "Huh? No, I'm not cold.";
             
             weaponchartemp[DRCharacter.Clogs] = false;

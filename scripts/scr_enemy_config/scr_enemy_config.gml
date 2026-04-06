@@ -205,7 +205,7 @@ function scr_enemy_process_phase(enemyId, phase) {
 						if acting[DRCharacter.Clogs] == 2 {
 					        if (global.automiss[myself] == 0)
 					        {
-					            msgset(0, "* You warned the enemy^1.&* It guarded from Susie's attack./%");
+					            msgset(0, "* You warned the enemy^1.&* It guarded from Sluzishy's attack./%");
 					            global.monstercomment[myself] = "(Warned)";
 					            global.automiss[myself] = 1;
 					        }
@@ -223,7 +223,7 @@ function scr_enemy_process_phase(enemyId, phase) {
 							nextact = 0;
 							actcon[DRCharacter.Clogs] = simulorder[DRCharacter.Clogs] == 0 ? 20 : 0;
 						
-							msgset(0, simultotal == 1 ? "* Kris decided to have a really long message when acting alone." : "* Kris's simul act!");
+							msgset(0, simultotal == 1 ? "* Clogs decided to have a really long message when acting alone." : "* Clogs's simul act!");
 						
 							scr_mercyadd(myself, 35);
 							scr_simultext(DRCharacter.Clogs);
@@ -247,7 +247,7 @@ function scr_enemy_process_phase(enemyId, phase) {
 							nextact = 1;
 					        actcon[DRCharacter.Sluzishy] = 0;
 						
-					        msgset(0, "* Susie's unique act A!./%");
+					        msgset(0, "* Sluzishy's unique act A!./%");
 					        scr_mercyadd(myself, 35);
 					        scr_battletext_default();
 					    }
@@ -255,7 +255,7 @@ function scr_enemy_process_phase(enemyId, phase) {
 					    if acting[DRCharacter.Sluzishy] == 2 {
 					        actcon[DRCharacter.Sluzishy] = simulorder[DRCharacter.Sluzishy] == 0 ? 20 : 0;
 						
-					        msgset(0, "* Susie's simul act!");
+					        msgset(0, "* Sluzishy's simul act!");
 					        scr_mercyadd(myself, 35);
 					        scr_simultext(DRCharacter.Sluzishy);
 					    }	
@@ -267,7 +267,7 @@ function scr_enemy_process_phase(enemyId, phase) {
 							nextact = 1;
 					        actcon[DRCharacter.Ralsbajeej] = 0;
 						
-					        msgset(0, "* Ralsei's unique act A!./%");
+					        msgset(0, "* Ralsbajeej's unique act A!./%");
 					        scr_mercyadd(myself, 35);
 					        scr_battletext_default();
 					    }
@@ -275,7 +275,7 @@ function scr_enemy_process_phase(enemyId, phase) {
 					    if acting[DRCharacter.Ralsbajeej] == 2 {
 					        actcon[DRCharacter.Ralsbajeej] = simulorder[DRCharacter.Ralsbajeej] == 0 ? 20 : 0;
 							
-					        msgset(0, "* Ralsei's simul act!");
+					        msgset(0, "* Ralsbajeej's simul act!");
 					        scr_mercyadd(myself, 35);
 					        scr_simultext(DRCharacter.Ralsbajeej);
 					    }

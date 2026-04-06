@@ -20,8 +20,8 @@ function scr_maincharacters_actors()
                 sluz = __jj + 1;
                 sluz_actor = instance_create(global.cinstance[__jj].x, global.cinstance[__jj].y, obj_actor);
                 scr_actor_setup(sluz, sluz_actor, "sluzishy");
-                su_actor.sprite_index = global.cinstance[__jj].sprite_index;
-                su_actor.depth = global.cinstance[__jj].depth;
+                sluz_actor.sprite_index = global.cinstance[__jj].sprite_index;
+                sluz_actor.depth = global.cinstance[__jj].depth;
                 
                 with (global.cinstance[__jj])
                     visible = 0;

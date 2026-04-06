@@ -71,10 +71,10 @@ function scr_spellinfo(spellid)
             break;
         
         case DRSpell.RudeBuster:
-            spellname = "Rude Buster";
-            spellnameb = "Rude Buster";
-            spelldescb = "Rude#Damage#";
-            spelldesc = "Deals moderate Rude-elemental damage to#one foe. Depends on Attack & Magic.";
+            spellname = "World Buster";
+            spellnameb = "World Buster";
+            spelldescb = "World#Damage#";
+            spelldesc = "Deals moderate World-elemental damage to#one foe. Depends on Attack & Magic.";
             spelltarget = 2;
             cost = 125;
             
@@ -85,9 +85,9 @@ function scr_spellinfo(spellid)
             break;
         
         case DRSpell.RedBuster:
-            spellname = "Red Buster";
-            spellnameb = "Red Buster";
-            spelldescb = "Red#Damage#";
+            spellname = "Galaxy Buster";
+            spellnameb = "Galaxy Buster";
+            spelldescb = "Galaxy#Damage#";
             spelldesc = " ";
             spelltarget = 2;
             cost = 0;
@@ -95,8 +95,8 @@ function scr_spellinfo(spellid)
             break;
         
         case DRSpell.DualHeal:
-            spellname = "Dual Heal";
-            spellnameb = "Dual Heal";
+            spellname = "Multi Heal";
+            spellnameb = "Multi Heal";
             spelldescb = "Heal All#30 HP";
             spelldesc = " ";
             spelltarget = 0;

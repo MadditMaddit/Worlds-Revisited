@@ -76,7 +76,7 @@ function scr_armorinfo(armorid)
             armordesctemp = "A thin square charm that sticks#to you, increasing defense.";
 
             amessagetemp[DRCharacter.Sluzishy] = "... better than nothing.";
-            amessagetemp[DRCharacter.Ralsbajeej] = "It's sticky, huh, Kris...";
+            amessagetemp[DRCharacter.Ralsbajeej] = "It's sticky, huh, Clogs...";
             amessagetemp[DRCharacter.Noelle] = "It's like a name-tag!";
             
             armordftemp = 1;
@@ -111,8 +111,8 @@ function scr_armorinfo(armorid)
             armornametemp = "Pink Ribbon";
             armordesctemp = "A cute hair ribbon. Increases the range#at which bullets raise tension.";
 
-            amessagetemp[DRCharacter.Sluzishy] = global.chapter == 2 ? "I said NO! C'mon already!" : "Nope. Not in 1st grade anymore.";
-            amessagetemp[DRCharacter.Ralsbajeej] = global.chapter == 2 ? "It's nice dressing up..." : "Um... D-do I look cute...?";
+            amessagetemp[DRCharacter.Sluzishy] = global.chapter == 2 ? "I said no." : "Nope. Not a baby.";
+            amessagetemp[DRCharacter.Ralsbajeej] = global.chapter == 2 ? "It's something to wear." : "Cool.";
             amessagetemp[DRCharacter.Noelle] = "... feels familiar.";
             
             armordftemp = 1;
