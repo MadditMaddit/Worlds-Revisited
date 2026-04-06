@@ -48,9 +48,9 @@ function scr_hero_uses_acts_instead_of_spells(heroIdx) {
 
 function scr_hero_get_color(heroIdx) {
 	switch (heroIdx) {
-		case DRHero.Clogs:	return c_red;
-		case DRHero.Sluzishy:	return c_fuchsia;
-		case DRHero.Ralsbajeej: return c_lime;
+		case DRHero.Clogs:	return make_color_rgb(255, 0, 0);
+		case DRHero.Sluzishy:	return make_color_rgb(102, 45, 145);
+		case DRHero.Ralsbajeej: return make_color_rgb(0, 255, 0);
 		case DRHero.Noelle: return c_yellow;
 		
 		case DRHero.Starwalker: return c_yellow;
@@ -61,9 +61,9 @@ function scr_hero_get_color(heroIdx) {
 
 function scr_hero_get_attackbackground_color(heroIdx) {
 	switch (heroIdx) {
-		case DRHero.Clogs:	return make_color_rgb(255, 0, 0);
-		case DRHero.Sluzishy:	return c_purple;
-		case DRHero.Ralsbajeej: return c_green;
+		case DRHero.Clogs:	return make_color_rgb(61, 0, 0);
+		case DRHero.Sluzishy:	return make_color_rgb(44, 0, 68);
+		case DRHero.Ralsbajeej: return make_color_rgb(0, 61, 0);
 		
 		default: return scr_hero_get_color(heroIdx);
 	}
