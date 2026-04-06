@@ -105,14 +105,14 @@ function scr_hero_get_nameplate(heroIdx) {
 		}
 		
 		case DRHero.Sluzishy: {
-			headspr = spr_headsusie;
-			namespr = spr_bnamesusie;
+			headspr = spr_headsluzishy;
+			namespr = spr_bnamesluzishy;
 			break;
 		}
 				
 		case DRHero.Ralsbajeej: {
-			headspr = spr_headralsei;
-			namespr = spr_bnameralsei;
+			headspr = spr_headralsbajeej;
+			namespr = spr_bnameralsbajeej;
 			break;
 		}
 				
