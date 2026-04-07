@@ -200,7 +200,7 @@ function scr_hero_set_sprites(heroObject) {
 		    actreturnframes = 10;
 		    attackspeed = 0.5;
 		    normalsprite = spr_ralsbajeej_right;
-		    idlesprite = spr_ralsei_idle;
+		    idlesprite = spr_ralsbajeej_idle;
 		    defendsprite = spr_ralsei_defend;
 		    hurtsprite = spr_ralsei_hurt_fixed;
 		    attackreadysprite = spr_ralsei_attackready;
