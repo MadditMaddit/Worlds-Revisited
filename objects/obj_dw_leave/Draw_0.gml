@@ -99,6 +99,6 @@ if (bottom == 1)
         if (clogs_only == 0)
             draw_sprite_ext(spr_susie_dw_fall_d, siner / 6, sluz_x, sluz_y, 2, 2, 0, c_white, 1);
         
-        draw_sprite_ext(spr_kris_fall_d_dw, siner / 6, clogs_x, s_y, 2, 2, 0, c_white, 1);
+        draw_sprite_ext(spr_kris_fall_d_dw, siner / 6, clogs_x, clogs_y, 2, 2, 0, c_white, 1);
     }
 }

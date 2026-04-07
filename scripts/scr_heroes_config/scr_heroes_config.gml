@@ -281,20 +281,20 @@ function scr_hero_set_sprites(heroObject) {
 		    actframes = 1;
 		    actreturnframes = 1;
 		    attackspeed = 0.5;
-		    normalsprite = spr_npc_originalstarwalker;
-		    idlesprite = spr_npc_originalstarwalker;
-		    defendsprite = spr_npc_originalstarwalker;
-		    hurtsprite = spr_npc_originalstarwalker;
-		    attackreadysprite = spr_npc_originalstarwalker;
-		    attacksprite = spr_npc_originalstarwalker;
-		    itemsprite = spr_npc_originalstarwalker;
-		    itemreadysprite = spr_npc_originalstarwalker;
-		    spellreadysprite = spr_npc_originalstarwalker;
-		    spellsprite = spr_npc_originalstarwalker;
-		    defeatsprite = spr_npc_originalstarwalker;
-		    victorysprite = spr_npc_originalstarwalker;
-		    actreadysprite = spr_npc_originalstarwalker;
-		    actsprite = spr_npc_originalstarwalker;
+		    normalsprite = spr_originalmoonstalker;
+		    idlesprite = spr_originalmoonstalker;
+		    defendsprite = spr_originalmoonstalker;
+		    hurtsprite = spr_originalmoonstalker;
+		    attackreadysprite = spr_originalmoonstalker;
+		    attacksprite = spr_originalmoonstalker;
+		    itemsprite = spr_originalmoonstalker;
+		    itemreadysprite = spr_originalmoonstalker;
+		    spellreadysprite = spr_originalmoonstalker;
+		    spellsprite = spr_originalmoonstalker;
+		    defeatsprite = spr_originalmoonstalker;
+		    victorysprite = spr_originalmoonstalker;
+		    actreadysprite = spr_originalmoonstalker;
+		    actsprite = spr_originalmoonstalker;
 		    victoryframes = sprite_get_number(victorysprite);
 		    mywidth = 37;
 		    myheight = 36;
@@ -357,10 +357,10 @@ function scr_character_set_caterpillar_sprites(charIdx) {
 		case DRCharacter.Starwalker: {
 			name = "starwalker";
 			
-			usprite = spr_npc_originalstarwalker;
-            dsprite = spr_npc_originalstarwalker;
-            rsprite = spr_npc_originalstarwalker;
-            lsprite = spr_npc_originalstarwalker;
+			usprite = spr_originalmoonstalker;
+            dsprite = spr_originalmoonstalker;
+            rsprite = spr_originalmoonstalker;
+            lsprite = spr_originalmoonstalker;
 			break;
 		}
 	}
