@@ -188,16 +188,16 @@ if ((/*dsprite == spr_ralseid || */dsprite == spr_ralsbajeej_down) && global.int
     if (blushtimer >= 300)
     {
         if (sprite_index == dsprite)
-            sprite_index = dsprite_blush;
+            sprite_index = dsprite;
         
         if (sprite_index == rsprite)
-            sprite_index = rsprite_blush;
+            sprite_index = rsprite;
         
         if (sprite_index == usprite)
-            sprite_index = usprite_blush;
+            sprite_index = usprite;
         
         if (sprite_index == lsprite)
-            sprite_index = lsprite_blush;
+            sprite_index = lsprite;
     }
 }
 else
