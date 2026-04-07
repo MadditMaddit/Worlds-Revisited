@@ -25,7 +25,7 @@ if (con == 10)
         sluz_actor.__x = sluz_x;
         sluz_actor.__y = sluz_y + 8;
         
-        with (su_actor)
+        with (sluz_actor)
         {
             sprite_index = global.cinstance[0].sprite_index;
             scr_set_facing_sprites("sluzishy");
