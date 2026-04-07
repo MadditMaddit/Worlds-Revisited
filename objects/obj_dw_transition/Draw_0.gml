@@ -360,7 +360,7 @@ if (con == 31)
             
             for (var i = 0; i < total_recruits; i++)
             {
-                sparkle[i] = scr_marker(kris_x + 15, kris_y + 15, spr_sparestar_anim);
+                sparkle[i] = scr_marker(clogs_x + 15, clogs_y + 15, spr_sparestar_anim);
                 sparkle[i].image_speed = 0.5;
                 sparkle[i].hspeed = random_range(-3, 3);
                 sparkle[i].friction = 0.05;
@@ -555,8 +555,8 @@ if (con == 33)
             getup_index = 0;
             fake_screenshake = 1;
             fake_shakeamount = 8;
-            remkrisx = kris_x - camerax();
-            remkrisy = kris_y - cameray();
+            remclogsx = clogs_x - camerax();
+            remclogsy = clogs_y - cameray();
             remsusx = sus_x - camerax();
             remsusy = sus_y - cameray();
         }
