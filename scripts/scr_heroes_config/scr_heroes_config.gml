@@ -172,18 +172,18 @@ function scr_hero_set_sprites(heroObject) {
 		    attackspeed = 0.5;
 		    normalsprite = spr_sluzishy_walk_right;
 		    idlesprite = spr_sluzishyb_idle;
-		    defendsprite = spr_susieb_defend;
-		    hurtsprite = spr_susieb_hurt;
-		    actreadysprite = spr_susieb_actready;
-		    actsprite = spr_susieb_act;
-		    attackreadysprite = spr_susieb_attackready;
-		    attacksprite = spr_susieb_attack;
+		    defendsprite = spr_sluzishyb_defend;
+		    hurtsprite = spr_sluzishyb_hurt;
+		    actreadysprite = spr_sluzishyb_actready;
+		    actsprite = spr_sluzishyb_act;
+		    attackreadysprite = spr_sluzishyb_attackready;
+		    attacksprite = spr_sluzishyb_attack;
     
-		    itemsprite = spr_susieb_item;
-		    itemreadysprite = spr_susieb_itemready;
-		    spellreadysprite = spr_susieb_spellready;
+		    itemsprite = spr_sluzishyb_item;
+		    itemreadysprite = spr_sluzishyb_itemready;
+		    spellreadysprite = spr_sluzishyb_spellready;
 		    spellsprite = spr_sluzishyb_spell;
-		    defeatsprite = spr_susieb_defeat;
+		    defeatsprite = spr_sluzishyb_defeat;
 	
 		    victorysprite = spr_sluzishyb_victory;
 		    victoryframes = sprite_get_number(victorysprite);

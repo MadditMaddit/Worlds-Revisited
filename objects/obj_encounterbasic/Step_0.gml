@@ -39,7 +39,7 @@ if (fightcon == 1)
             
             if (global.char[i] == 2)
             {
-                c[i].sprite_index = spr_susieb_attack;
+                c[i].sprite_index = spr_sluzishyb_attack;
                 
                 if (global.charweapon[global.char[i]] == 0)
                     c[i].sprite_index = spr_susieb_attack_unarmed;

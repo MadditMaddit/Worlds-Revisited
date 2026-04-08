@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_rudebuster_beam",
-    "path":"sprites/spr_rudebuster_beam/spr_rudebuster_beam.yy",
+    "name":"spr_worldbuster_beam",
+    "path":"sprites/spr_worldbuster_beam/spr_worldbuster_beam.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_susie_rudebuster",
-    "path":"sprites/spr_susie_rudebuster/spr_susie_rudebuster.yy",
+    "name":"spr_sluzishy_worldbuster",
+    "path":"sprites/spr_sluzishy_worldbuster/spr_sluzishy_worldbuster.yy",
   },
   "spriteMaskId":null,
   "visible":true,
