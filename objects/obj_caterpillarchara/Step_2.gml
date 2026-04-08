@@ -27,7 +27,7 @@ if (1)
     }
     
 
-    if (name == "ralsbajeej")
+    if (name == "Ralsbajeej")
 
     {
         climbsprite = 4220;
