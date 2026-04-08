@@ -1,4 +1,3 @@
-if (!init)
 if (1)
 {
     ignoredepth = 0;
@@ -34,6 +33,7 @@ if (1)
 >>>>>>> Stashed changes
     {
         climbsprite = 4220;
+		show_debug_message("ILIVE")
         halign = 100;
         valign = 12;
     }
@@ -86,7 +86,6 @@ if (moved == 1 && follow == 1)
     remy[0] = obj_mainchara.y;
     sliding[0] = obj_mainchara.sliding;
     facing[0] = global.facing;
-    x = remx[target] - halign;
 	if facing[target] = 3
 	ff = -1
 	else if facing[target] = 1
