@@ -26,11 +26,6 @@ if (1)
         valign = (global.darkzone == 0) ? 9 : 18;
     }
     
-<<<<<<< Updated upstream
-    if (name == "ralsbajeej")
-=======
-    if (name == "Ralsbajeej")
->>>>>>> Stashed changes
     {
         climbsprite = 4220;
 		show_debug_message("ILIVE")
