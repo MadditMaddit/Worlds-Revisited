@@ -1,0 +1,59 @@
+xx = __view_get(e__VW.XView, 0);
+yy = __view_get(e__VW.YView, 0);
+siner += (bgspeed / 2);
+siner2 += bgspeed;
+sinner++
+
+//if (room == room_dw_castle_dojo)
+//    bgtype = 1;
+
+draw_set_alpha(image_alpha);
+draw_set_color(c_black);
+draw_rectangle(-10, -10, room_width + 10, room_height + 10, false);
+draw_set_alpha(1);
+
+if (destroy == 0)
+{
+    if (image_alpha <= 1)
+        image_alpha += 0.1;
+}
+
+if (bgtype == 0)
+{
+    draw_background_tiled_ext(bg_battleback1, round(-100 + siner), round(-100 + siner), 1, 1, image_blend, image_alpha / 2);
+    draw_background_tiled_ext(bg_battleback1, round(-200 - siner2), round(-210 - siner2), 1, 1, image_blend, image_alpha);
+}
+
+if (bgtype == 1)
+    draw_sprite_ext(spr_dojo_battlebg, 0, xx + (camerawidth() / 2), yy + 340, 2 + (sin(siner / 2) * 0.008), 2 + (cos(siner / 2) * 0.008), 0, image_blend, image_alpha);
+
+if (siner >= 100)
+    siner -= 100;
+
+if (siner2 >= 100)
+    siner2 -= 100;
+
+evilsinner = sin(sinner * 0.5) * 20
+
+draw_set_alpha(image_alpha / 2);
+draw_rectangle_colour(xx, yy, xx + camerawidth(),  yy + cameraheight() + 40 + evilsinner, #ffff00, #ffff00, #00ffff, #00ffff, false);
+draw_set_alpha(1);
+
+repeat(3){
+xxx = random_range(xx, xx + camerawidth())
+yyy = random_range(yy, yy + cameraheight())
+instance_create_depth(xxx,yyy,depth-1,obj_battleback_shape)}
+
+
+
+
+if (destroy == 1)
+{
+    image_alpha -= 0.1;
+    
+    if (image_alpha <= 0)
+        instance_destroy();
+}
+
+
+

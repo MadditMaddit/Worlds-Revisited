@@ -1,4 +1,5 @@
 if (!init)
+if (1)
 {
     ignoredepth = 0;
     init = 1;
@@ -26,10 +27,14 @@ if (!init)
         valign = (global.darkzone == 0) ? 9 : 18;
     }
     
+<<<<<<< Updated upstream
     if (name == "ralsbajeej")
+=======
+    if (name == "Ralsbajeej")
+>>>>>>> Stashed changes
     {
         climbsprite = 4220;
-        halign = 2;
+        halign = 100;
         valign = 12;
     }
 }
@@ -82,6 +87,13 @@ if (moved == 1 && follow == 1)
     sliding[0] = obj_mainchara.sliding;
     facing[0] = global.facing;
     x = remx[target] - halign;
+	if facing[target] = 3
+	ff = -1
+	else if facing[target] = 1
+	ff = 1
+	else
+	ff = 0
+    x = remx[target] - halign * ff;
     y = remy[target] - valign;
     
     if (sliding[target] == 1)

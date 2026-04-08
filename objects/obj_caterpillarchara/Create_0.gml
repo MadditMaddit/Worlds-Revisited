@@ -50,5 +50,5 @@ yoffset = 0;
 init = 0;
 forget = 0;
 ignoredepth = 0;
-halign = 6;
+halign = 28;
 valign = 16;
