@@ -26,6 +26,9 @@ if (1)
         valign = (global.darkzone == 0) ? 9 : 18;
     }
     
+
+    if (name == "ralsbajeej")
+
     {
         climbsprite = 4220;
 		show_debug_message("ILIVE")
