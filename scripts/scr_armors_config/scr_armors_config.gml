@@ -54,8 +54,8 @@ function scr_armorinfo(armorid)
     armorgrazesizetemp = 0;
     for (p = 0; p < DRCharacter.__MAX__; p++) {
         // susie does not let you take off her armor
-        amessagetemp[p] = p == DRCharacter.Susie ? "Hey, hands off!" : " ";
-        armorchartemp[p] = p != DRCharacter.Susie;
+        amessagetemp[p] = p == DRCharacter.Sluzishy ? "Hey, hands off!" : " ";
+        armorchartemp[p] = p != DRCharacter.Sluzishy;
     }
     armorabilitytemp = " ";
     armorabilityicontemp = 0;
@@ -75,15 +75,15 @@ function scr_armorinfo(armorid)
             armornametemp = "Amber Card";
             armordesctemp = "A thin square charm that sticks#to you, increasing defense.";
 
-            amessagetemp[DRCharacter.Susie] = "... better than nothing.";
-            amessagetemp[DRCharacter.Ralsei] = "It's sticky, huh, Kris...";
+            amessagetemp[DRCharacter.Sluzishy] = "... better than nothing.";
+            amessagetemp[DRCharacter.Ralsbajeej] = "It's sticky, huh, Clogs...";
             amessagetemp[DRCharacter.Noelle] = "It's like a name-tag!";
             
             armordftemp = 1;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = true;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = true;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             
             armoricontemp = DRIcon.Shield;
             value = 100;
@@ -93,15 +93,15 @@ function scr_armorinfo(armorid)
             armornametemp = "Dice Brace";
             armordesctemp = "A bracelet made out of various#symbol-inscribed cubes.";
 
-            amessagetemp[DRCharacter.Susie] = "... okay.";
-            amessagetemp[DRCharacter.Ralsei] = "It says \"Friendship!\"";
+            amessagetemp[DRCharacter.Sluzishy] = "... okay.";
+            amessagetemp[DRCharacter.Ralsbajeej] = "It says \"Friendship!\"";
             amessagetemp[DRCharacter.Noelle] = "Hey, y-you jumbled it...";
             
             armordftemp = 2;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = true;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = true;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             
             armoricontemp = DRIcon.Shield;
             value = 150;
@@ -111,16 +111,16 @@ function scr_armorinfo(armorid)
             armornametemp = "Pink Ribbon";
             armordesctemp = "A cute hair ribbon. Increases the range#at which bullets raise tension.";
 
-            amessagetemp[DRCharacter.Susie] = global.chapter == 2 ? "I said NO! C'mon already!" : "Nope. Not in 1st grade anymore.";
-            amessagetemp[DRCharacter.Ralsei] = global.chapter == 2 ? "It's nice dressing up..." : "Um... D-do I look cute...?";
+            amessagetemp[DRCharacter.Sluzishy] = global.chapter == 2 ? "I said no." : "Nope. Not a baby.";
+            amessagetemp[DRCharacter.Ralsbajeej] = global.chapter == 2 ? "It's something to wear." : "Cool.";
             amessagetemp[DRCharacter.Noelle] = "... feels familiar.";
             
             armordftemp = 1;
             armorgrazesizetemp = 20;
 
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = false;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = false;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             armorchartemp[DRCharacter.Noelle] = true;
 
             armorabilitytemp = "GrazeArea";
@@ -132,15 +132,15 @@ function scr_armorinfo(armorid)
         case DRArmor.WhiteRibbon:
             armornametemp = "White Ribbon";
             armordesctemp = "A crinkly hair ribbon that slightly#increases your defense.";
-            amessagetemp[DRCharacter.Susie] = global.chapter == 2 ? "I said NO! C'mon already!" : "Nope. Not in 1st grade anymore.";
-            amessagetemp[DRCharacter.Ralsei] = global.chapter == 2 ? "It's nice being dressed up..." : "Um... D-do I look cute...?";
+            amessagetemp[DRCharacter.Sluzishy] = global.chapter == 2 ? "I said NO! C'mon already!" : "Nope. Not in 1st grade anymore.";
+            amessagetemp[DRCharacter.Ralsbajeej] = global.chapter == 2 ? "It's nice being dressed up..." : "Um... D-do I look cute...?";
             amessagetemp[DRCharacter.Noelle] = "... feels familiar.";
             
             armordftemp = 2;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = false;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = false;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
 
             armorabilitytemp = "Cuteness";
             armorabilityicontemp = DRIcon.UPStat;
@@ -152,16 +152,16 @@ function scr_armorinfo(armorid)
             armornametemp = "IronShackle";
             armordesctemp = "Shackle that ironically increases#your attack and defense.";
 
-            amessagetemp[DRCharacter.Susie] = "(Damn, it's actually cool...)";
-            amessagetemp[DRCharacter.Ralsei] = "*jingle jangle* Haha!";
+            amessagetemp[DRCharacter.Sluzishy] = "(Damn, it's actually cool...)";
+            amessagetemp[DRCharacter.Ralsbajeej] = "*jingle jangle* Haha!";
             amessagetemp[DRCharacter.Noelle] = "I'm the ghost of holidays past!";
 
             armorattemp = 1;
             armordftemp = 2;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = true;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = true;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             
             armoricontemp = DRIcon.Shield;
             value = 150;
@@ -171,15 +171,15 @@ function scr_armorinfo(armorid)
             armornametemp = "MouseToken";
             armordesctemp = "A golden coin with a once-powerful mouse#wizard engraved on it.";
 
-            amessagetemp[DRCharacter.Susie] = "This guy's... familiar?";
-            amessagetemp[DRCharacter.Ralsei] = "Chu! Healing power UP!";
+            amessagetemp[DRCharacter.Sluzishy] = "This guy's... familiar?";
+            amessagetemp[DRCharacter.Ralsbajeej] = "Chu! Healing power UP!";
             amessagetemp[DRCharacter.Noelle] = "... from the family entertainment center?";
             
             armormagtemp = 2;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = true;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = true;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             
             armoricontemp = DRIcon.Shield;
             value = 120;
@@ -192,17 +192,17 @@ function scr_armorinfo(armorid)
             armornametemp = "Jevilstail";
             armordesctemp = "A J-shaped tail that gives you devilenergy.";
 
-            amessagetemp[DRCharacter.Susie] = "Figured I'd grow one someday.";
-            amessagetemp[DRCharacter.Ralsei] = "I'm a good devil, OK?";
+            amessagetemp[DRCharacter.Sluzishy] = "Figured I'd grow one someday.";
+            amessagetemp[DRCharacter.Ralsbajeej] = "I'm a good devil, OK?";
             amessagetemp[DRCharacter.Noelle] = "... (I like it...)";
 
             armorattemp = 2;
             armordftemp = 2;
             armormagtemp = 2;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = true;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Sluzishy] = true;
+            armorchartemp[DRCharacter.Sluzishy] = true;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             
             armoricontemp = DRIcon.Shield;
             value = 0;
@@ -213,15 +213,15 @@ function scr_armorinfo(armorid)
             armornametemp = "Silver Card";
             armordesctemp = "A square charm that increases#dropped money by 5%";
 
-            amessagetemp[DRCharacter.Susie] = "Money, that's what I need.";
-            amessagetemp[DRCharacter.Ralsei] = "Do they take credit?";
+            amessagetemp[DRCharacter.Sluzishy] = "Money, that's what I need.";
+            amessagetemp[DRCharacter.Ralsbajeej] = "Do they take credit?";
             amessagetemp[DRCharacter.Noelle] = "It goes with my watch!";
             
             armordftemp = 2;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = true;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = true;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
 
             armorabilitytemp = "$ +5%";
             armorabilityicontemp = DRIcon.UPStat;
@@ -233,16 +233,16 @@ function scr_armorinfo(armorid)
             armornametemp = "TwinRibbon";
             armordesctemp = "Two ribbons. You'll have to put#your hair into pigtails.";
 
-            amessagetemp[DRCharacter.Susie] = "... it gets worse and worse.";
-            amessagetemp[DRCharacter.Ralsei] = "Try around my horns!";
+            amessagetemp[DRCharacter.Sluzishy] = "... it gets worse and worse.";
+            amessagetemp[DRCharacter.Ralsbajeej] = "Try around my horns!";
             amessagetemp[DRCharacter.Noelle] = "... nostalgic, huh.";
             
             armordftemp = 3;
             armorgrazesizetemp = 20;
 
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = false;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = false;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             armorchartemp[DRCharacter.Noelle] = true;
 
             armorabilitytemp = "GrazeArea";
@@ -255,15 +255,15 @@ function scr_armorinfo(armorid)
             armornametemp = "GlowWrist";
             armordesctemp = "A tough bracelet made of green wires,#and studded with sharp glowing lights.";
 
-            amessagetemp[DRCharacter.Susie] = "Whoops, it's tangled.";
-            amessagetemp[DRCharacter.Ralsei] = "Let me just untangle this...";
+            amessagetemp[DRCharacter.Sluzishy] = "Whoops, it's tangled.";
+            amessagetemp[DRCharacter.Ralsbajeej] = "Let me just untangle this...";
             amessagetemp[DRCharacter.Noelle] = "It's like holiday lights...";
             
             armordftemp = 2;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = true;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = true;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             armorchartemp[DRCharacter.Noelle] = true;
             
             armoricontemp = DRIcon.Shield;
@@ -274,15 +274,15 @@ function scr_armorinfo(armorid)
             armornametemp = "ChainMail";
             armordesctemp = "Chain-armor. Send it to 10 others#or it'll lose its defensive rating";
 
-            amessagetemp[DRCharacter.Susie] = "Damn, guess I'm cursed.";
-            amessagetemp[DRCharacter.Ralsei] = "A letter?... For me...?";
+            amessagetemp[DRCharacter.Sluzishy] = "Damn, guess I'm cursed.";
+            amessagetemp[DRCharacter.Ralsbajeej] = "A letter?... For me...?";
             amessagetemp[DRCharacter.Noelle] = "Armor? (It's cool...)";
             
             armordftemp = 3;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = true;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = true;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             armorchartemp[DRCharacter.Noelle] = true;
             
             armoricontemp = DRIcon.Shield;
@@ -293,16 +293,16 @@ function scr_armorinfo(armorid)
             armornametemp = "B.ShotBowtie";
             armordesctemp = "A handsome bowtie. Looks like the brand#name has been cut off.";
 
-            amessagetemp[DRCharacter.Susie] = "Ugh, I look like a nerd.";
-            amessagetemp[DRCharacter.Ralsei] = "Can I have suspenders?";
+            amessagetemp[DRCharacter.Sluzishy] = "Ugh, I look like a nerd.";
+            amessagetemp[DRCharacter.Ralsbajeej] = "Can I have suspenders?";
             amessagetemp[DRCharacter.Noelle] = "... do I put it in my hair?";
             
             armordftemp = 2;
             armormagtemp = 1;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = true;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = true;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             armorchartemp[DRCharacter.Noelle] = true;
             
             armoricontemp = DRIcon.Shield;
@@ -313,16 +313,16 @@ function scr_armorinfo(armorid)
             armornametemp = "SpikeBand";
             armordesctemp = "A black wristband covered in spikes.#Has the tendency to get stuck to itself.";
 
-            amessagetemp[DRCharacter.Susie] = "Can't say no to spikes.";
-            amessagetemp[DRCharacter.Ralsei] = "Um, do I... look tough?";
+            amessagetemp[DRCharacter.Sluzishy] = "Can't say no to spikes.";
+            amessagetemp[DRCharacter.Ralsbajeej] = "Um, do I... look tough?";
             amessagetemp[DRCharacter.Noelle] = "(Maybe Susie would like this look?)";
 
             armorattemp = 2;
             armordftemp = 1;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = true;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = true;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             armorchartemp[DRCharacter.Noelle] = true;
             
             armoricontemp = DRIcon.Shield;
@@ -333,15 +333,15 @@ function scr_armorinfo(armorid)
             armornametemp = "Silver Watch";
             armordesctemp = "Grazing bullets affects#the turn length by 10% more";
 
-            amessagetemp[DRCharacter.Susie] = "It's clobbering time.";
-            amessagetemp[DRCharacter.Ralsei] = "I'm late, I'm late!";
+            amessagetemp[DRCharacter.Sluzishy] = "It's clobbering time.";
+            amessagetemp[DRCharacter.Ralsbajeej] = "I'm late, I'm late!";
             amessagetemp[DRCharacter.Noelle] = "(Th-this was mine...)";
             
             armordftemp = 2;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = true;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = true;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             armorchartemp[DRCharacter.Noelle] = true;
 
             armorabilitytemp = "GrazeTime";
@@ -354,13 +354,13 @@ function scr_armorinfo(armorid)
             armornametemp = "TensionBow";
             armordesctemp = "Gain 10% more tension from#grazing bullets";
 
-            amessagetemp[DRCharacter.Susie] = " ";
+            amessagetemp[DRCharacter.Sluzishy] = " ";
             
             armordftemp = 2;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = true;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = true;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             armorchartemp[DRCharacter.Noelle] = true;
 
             armorabilitytemp = "TPGain";
@@ -373,13 +373,13 @@ function scr_armorinfo(armorid)
             armornametemp = "Mannequin";
             armordesctemp = "It's a mannequin with the clothes#permanently attached. Useless";
 
-            amessagetemp[DRCharacter.Susie] = "Not even gonna ask.";
-            amessagetemp[DRCharacter.Ralsei] = "Um, the d-dress is cute...";
+            amessagetemp[DRCharacter.Sluzishy] = "Not even gonna ask.";
+            amessagetemp[DRCharacter.Ralsbajeej] = "Um, the d-dress is cute...";
             amessagetemp[DRCharacter.Noelle] = "(Why did they spend $300 on this!?)";
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = false;
-            armorchartemp[DRCharacter.Ralsei] = false;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = false;
+            armorchartemp[DRCharacter.Ralsbajeej] = false;
             armorchartemp[DRCharacter.Noelle] = false;
 
             armorabilitytemp = "???";
@@ -395,13 +395,13 @@ function scr_armorinfo(armorid)
             armornametemp = "DarkGoldBand";
             armordesctemp = "A black metal with a golden shine.";
 
-            amessagetemp[DRCharacter.Susie] = "Not even gonna ask.";
-            amessagetemp[DRCharacter.Ralsei] = "Um, the d-dress is cute...";
+            amessagetemp[DRCharacter.Sluzishy] = "Not even gonna ask.";
+            amessagetemp[DRCharacter.Ralsbajeej] = "Um, the d-dress is cute...";
             amessagetemp[DRCharacter.Noelle] = "(Why did they spend $300 on this!?)";
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = false;
-            armorchartemp[DRCharacter.Ralsei] = false;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = false;
+            armorchartemp[DRCharacter.Ralsbajeej] = false;
             armorchartemp[DRCharacter.Noelle] = false;
 
             armorabilitytemp = " ";
@@ -414,13 +414,13 @@ function scr_armorinfo(armorid)
             armornametemp = "SkyMantle";
             armordesctemp = "A cape that shimmers fluorescently.#Protects against Elec and Holy attacks.";
 
-            amessagetemp[DRCharacter.Susie] = " ";
+            amessagetemp[DRCharacter.Sluzishy] = " ";
             
             armordftemp = 1;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = true;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = true;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             armorchartemp[DRCharacter.Noelle] = true;
 
             armorabilitytemp = "Elec/Holy";
@@ -436,16 +436,16 @@ function scr_armorinfo(armorid)
             armornametemp = "SpikeShackle";
             armordesctemp = " ";
 
-            amessagetemp[DRCharacter.Susie] = "Get a load of THIS!";
-            amessagetemp[DRCharacter.Ralsei] = "Looking SHARP!";
+            amessagetemp[DRCharacter.Sluzishy] = "Get a load of THIS!";
+            amessagetemp[DRCharacter.Ralsbajeej] = "Looking SHARP!";
             amessagetemp[DRCharacter.Noelle] = "(It's tearing my sleeves...)";
 
             armorattemp = 3;
             armordftemp = 1;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = true;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = true;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             armorchartemp[DRCharacter.Noelle] = true;
 
             armorabilitytemp = "Attack";
@@ -458,17 +458,17 @@ function scr_armorinfo(armorid)
             armornametemp = "FrayedBowtie";
             armordesctemp = "An old bowtie. It seems to have#lost much of its defensive value.";
 
-            amessagetemp[DRCharacter.Susie] = "Look. I have standards.";
-            amessagetemp[DRCharacter.Ralsei] = "It's still wearable!";
+            amessagetemp[DRCharacter.Sluzishy] = "Look. I have standards.";
+            amessagetemp[DRCharacter.Ralsbajeej] = "It's still wearable!";
             amessagetemp[DRCharacter.Noelle] = "(Reminds me of Asgore...)";
 
             armorattemp = 1;
             armordftemp = 1;
             armormagtemp = 1;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = false;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = false;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             armorchartemp[DRCharacter.Noelle] = true;
             
             armoricontemp = DRIcon.Shield;
@@ -482,16 +482,16 @@ function scr_armorinfo(armorid)
             armornametemp = "Dealmaker";
             armordesctemp = "Fashionable pink and yellow glasses.#Greatly increase $ gained, and...?";
 
-            amessagetemp[DRCharacter.Susie] = "Money, that's what I need.";
-            amessagetemp[DRCharacter.Ralsei] = "Two pairs of glasses?";
+            amessagetemp[DRCharacter.Sluzishy] = "Money, that's what I need.";
+            amessagetemp[DRCharacter.Ralsbajeej] = "Two pairs of glasses?";
             amessagetemp[DRCharacter.Noelle] = "(Seems... familiar?)";
             
             armordftemp = 5;
             armormagtemp = 5;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = true;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = true;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
 
             armorabilitytemp = "$ +30%";
             armorabilityicontemp = DRIcon.UPStat;
@@ -506,16 +506,16 @@ function scr_armorinfo(armorid)
             armornametemp = "RoyalPin";
             armordesctemp = "A brooch engraved with Queen's face.#Careful of the sharp part.";
 
-            amessagetemp[DRCharacter.Susie] = "ROACH? Oh, brooch. Heh.";
-            amessagetemp[DRCharacter.Ralsei] = "I'm a cute little corkboard!";
+            amessagetemp[DRCharacter.Sluzishy] = "ROACH? Oh, brooch. Heh.";
+            amessagetemp[DRCharacter.Ralsbajeej] = "I'm a cute little corkboard!";
             amessagetemp[DRCharacter.Noelle] = "Queen... gave this to me.";
             
             armordftemp = 3;
             armormagtemp = 1;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = true;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = true;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             armorchartemp[DRCharacter.Noelle] = true;
             
             armoricontemp = DRIcon.Shield;
@@ -527,15 +527,15 @@ function scr_armorinfo(armorid)
             armornametemp = "ShadowMantle";
             armordesctemp = "Shadows slip off like water.#Greatly protects against Dark and Star attacks.";
 
-            amessagetemp[DRCharacter.Susie] = "Hell yeah, what's this?";
-            amessagetemp[DRCharacter.Ralsei] = "Sh-should I wear this...?";
+            amessagetemp[DRCharacter.Sluzishy] = "Hell yeah, what's this?";
+            amessagetemp[DRCharacter.Ralsbajeej] = "Sh-should I wear this...?";
             amessagetemp[DRCharacter.Noelle] = "No... it's for someone... taller.";
             
             armordftemp = global.chapter;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = true;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = true;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             armorchartemp[DRCharacter.Noelle] = false;
 
             armorabilitytemp = "Dark/Star";
@@ -578,15 +578,15 @@ function scr_armorinfo(armorid)
             else if (global.flag[1036] == 2)
                 noe_text = "D-don't eat that! I'll wear it!";
             
-            amessagetemp[DRCharacter.Susie] = sus_text;
-            amessagetemp[DRCharacter.Ralsei] = ral_text;
+            amessagetemp[DRCharacter.Sluzishy] = sus_text;
+            amessagetemp[DRCharacter.Ralsbajeej] = ral_text;
             amessagetemp[DRCharacter.Noelle] = noe_text;
             
             armordftemp = 2;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = true;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = true;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             armorchartemp[DRCharacter.Noelle] = true;
 
             armorabilitytemp = "TPGain";
@@ -599,15 +599,15 @@ function scr_armorinfo(armorid)
             armornametemp = "GingerGuard";
             armordesctemp = "A steel bangle tempered by extreme flame.#Its shape is humanoid in nature.";
 
-            amessagetemp[DRCharacter.Susie] = "Look! I punched through a guy!";
-            amessagetemp[DRCharacter.Ralsei] = "A bigger one could make Kris!";
+            amessagetemp[DRCharacter.Sluzishy] = "Look! I punched through a guy!";
+            amessagetemp[DRCharacter.Ralsbajeej] = "A bigger one could make Kris!";
             amessagetemp[DRCharacter.Noelle] = "This smells amazing! Um, sorry.";
             
             armordftemp = 3;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = true;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = true;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             armorchartemp[DRCharacter.Noelle] = true;
             
             armoricontemp = DRIcon.GingerbreadCutout;
@@ -618,7 +618,7 @@ function scr_armorinfo(armorid)
             armornametemp = "BlueRibbon";
             armordesctemp = "A blue cheer bow. When the user uses a#healing move, it recovers slightly more HP.";
             
-            amessagetemp[DRCharacter.Susie] = "ABSOLUTELY not.";
+            amessagetemp[DRCharacter.Sluzishy] = "ABSOLUTELY not.";
             var ral_text_lines = [
                 "Give me a K! Give me an R!",
                 "Give me an I! Give me an S!",
@@ -637,15 +637,15 @@ function scr_armorinfo(armorid)
                 "D... don't give me anything else!",
                 "Yeah!"
             ];
-            amessagetemp[DRCharacter.Ralsei] = ral_text_lines[global.flag[1037]];
+            amessagetemp[DRCharacter.Ralsbajeej] = ral_text_lines[global.flag[1037]];
             amessagetemp[DRCharacter.Noelle] = "Go...  t... team?";
             
             armordftemp = 1;
             armormagtemp = 1;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = false;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = false;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             armorchartemp[DRCharacter.Noelle] = true;
 
             armorabilitytemp = "Heal+";
@@ -658,16 +658,16 @@ function scr_armorinfo(armorid)
             armornametemp = "TennaTie";
             armordesctemp = "A giant, heavy-duty, bullet-proof tie.#How to even wear it...?";
 
-            amessagetemp[DRCharacter.Susie] = "Bandana-style.";
-            amessagetemp[DRCharacter.Ralsei] = "Like a sash...?";
+            amessagetemp[DRCharacter.Sluzishy] = "Bandana-style.";
+            amessagetemp[DRCharacter.Ralsbajeej] = "Like a sash...?";
             amessagetemp[DRCharacter.Noelle] = "Look, I'm like a gift!";
             
             armordftemp = 5;
             armormagtemp = -2;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = true;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = true;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             armorchartemp[DRCharacter.Noelle] = true;
             
             armoricontemp = DRIcon.Shield;
@@ -679,15 +679,15 @@ function scr_armorinfo(armorid)
             armornametemp = "Waferguard";
             armordesctemp = "Although it looks brittle, it contains a magical#energy that blunts damage on impact. +4DF";
 
-            amessagetemp[DRCharacter.Susie] = "(Don't eat it. Don't eat it.)";
-            amessagetemp[DRCharacter.Ralsei] = "It's got drool on it.";
+            amessagetemp[DRCharacter.Sluzishy] = "(Don't eat it. Don't eat it.)";
+            amessagetemp[DRCharacter.Ralsbajeej] = "It's got drool on it.";
             amessagetemp[DRCharacter.Noelle] = "What's next, cheezy armor? Faha!";
             
             armordftemp = 4;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = true;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = true;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             armorchartemp[DRCharacter.Noelle] = true;
             
             armoricontemp = DRIcon.Shield;
@@ -698,15 +698,15 @@ function scr_armorinfo(armorid)
             armornametemp = "MysticBand";
             armordesctemp = "A silver armlet stained with amber.#Increases magic only. MAG +4";
 
-            amessagetemp[DRCharacter.Susie] = "Let's go, Rude Buster!";
-            amessagetemp[DRCharacter.Ralsei] = "Behold! Heal Prayer!";
+            amessagetemp[DRCharacter.Sluzishy] = "Let's go, Rude Buster!";
+            amessagetemp[DRCharacter.Ralsbajeej] = "Behold! Heal Prayer!";
             amessagetemp[DRCharacter.Noelle] = "(The other flavor is better)";
             
             armormagtemp = 4;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = true;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = true;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             armorchartemp[DRCharacter.Noelle] = true;
             
             armoricontemp = DRIcon.Shield;
@@ -717,15 +717,15 @@ function scr_armorinfo(armorid)
             armornametemp = "PowerBand";
             armordesctemp = "A silver armlet stained with red essence.#Increases strength only. ATK +4";
 
-            amessagetemp[DRCharacter.Susie] = "BLOOD POWER ACTIVATE!";
-            amessagetemp[DRCharacter.Ralsei] = "I'm juiced up!";
+            amessagetemp[DRCharacter.Sluzishy] = "BLOOD POWER ACTIVATE!";
+            amessagetemp[DRCharacter.Ralsbajeej] = "I'm juiced up!";
             amessagetemp[DRCharacter.Noelle] = "Why always jewelry?";
 
             armorattemp = 4;
 
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = true;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = true;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             armorchartemp[DRCharacter.Noelle] = true;
             
             armoricontemp = DRIcon.Shield;
@@ -736,16 +736,16 @@ function scr_armorinfo(armorid)
             armornametemp = "PrincessRBN";
             armordesctemp = "Elegant lace ribbon with gloves,#delicate enough to see through. +4 DEF +2 ATK";
 
-            amessagetemp[DRCharacter.Susie] = "Nah. Gloves don't fit.";
-            amessagetemp[DRCharacter.Ralsei] = "Cute! (Gloves don't fit)";
+            amessagetemp[DRCharacter.Sluzishy] = "Nah. Gloves don't fit.";
+            amessagetemp[DRCharacter.Ralsbajeej] = "Cute! (Gloves don't fit)";
             amessagetemp[DRCharacter.Noelle] = "Kris, you can wear the gloves!";
 
             armorattemp = 2;
             armordftemp = 4;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = false;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = false;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             armorchartemp[DRCharacter.Noelle] = true;
 
             armorabilitytemp = "Elegance";
@@ -758,17 +758,17 @@ function scr_armorinfo(armorid)
             armornametemp = "GoldWidow";
             armordesctemp = "A spider made of gold. It gathers coins#into it, reducing $ gained.";
 
-            amessagetemp[DRCharacter.Susie] = "Spider on my head. K.";
-            amessagetemp[DRCharacter.Ralsei] = "Itsy and/or bitsy!";
+            amessagetemp[DRCharacter.Sluzishy] = "Spider on my head. K.";
+            amessagetemp[DRCharacter.Ralsbajeej] = "Itsy and/or bitsy!";
             amessagetemp[DRCharacter.Noelle] = "E-Ew! Kris, get that away!";
 
             armorattemp = 1;
             armordftemp = 5;
             armormagtemp = 1;
             
-            armorchartemp[DRCharacter.Kris] = true;
-            armorchartemp[DRCharacter.Susie] = true;
-            armorchartemp[DRCharacter.Ralsei] = true;
+            armorchartemp[DRCharacter.Clogs] = true;
+            armorchartemp[DRCharacter.Sluzishy] = true;
+            armorchartemp[DRCharacter.Ralsbajeej] = true;
             armorchartemp[DRCharacter.Noelle] = false;
 
             armorabilitytemp = "$ -10%";

@@ -51,7 +51,7 @@ function scr_get_completed_file_name(ch = 0)
             break;
         
         case 2:
-            _file_name = "Kris's House";
+            _file_name = "Clogs's House";
             break;
 			
 		case 3:

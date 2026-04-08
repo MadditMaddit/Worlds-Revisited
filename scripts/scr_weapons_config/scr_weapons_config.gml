@@ -74,17 +74,17 @@ function scr_weaponinfo(weaponid)
         case DRWeapon.WoodBlade:
             weaponnametemp = "Wood Blade";
             weapondesctemp = "A wooden practice blade with a carbon-#reinforced core.";
-            wmessagetemp[DRCharacter.Susie] = "What's this!? A CHOPSTICK?";
+            wmessagetemp[DRCharacter.Sluzishy] = "What's this!? A CHOPSTICK?";
             
             if (global.plot < 30 && global.chapter == 1)
-                wmessagetemp[DRCharacter.Susie] = "... You have a SWORD!?";
+                wmessagetemp[DRCharacter.Sluzishy] = "... You have a SWORD!?";
             
-            wmessagetemp[DRCharacter.Ralsei] = "That's yours, Kris...";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "That's yours, Clogs...";
             wmessagetemp[DRCharacter.Noelle] = "(It has bite marks...)";
 
-            weaponchartemp[DRCharacter.Kris] = true;
-            weaponchartemp[DRCharacter.Susie] = false;
-            weaponchartemp[DRCharacter.Ralsei] = false;
+            weaponchartemp[DRCharacter.Clogs] = true;
+            weaponchartemp[DRCharacter.Sluzishy] = false;
+            weaponchartemp[DRCharacter.Ralsbajeej] = false;
 
             weaponicontemp = DRIcon.Sword;
             value = 60;
@@ -94,13 +94,13 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "Mane Ax";
             weapondesctemp = "Beginner's ax forged from the#mane of a dragon whelp.";
             
-            wmessagetemp[DRCharacter.Susie] = "I'm too GOOD for that.";
-            wmessagetemp[DRCharacter.Ralsei] = "Ummm... it's a bit big.";
+            wmessagetemp[DRCharacter.Sluzishy] = "I'm too GOOD for that.";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "Ummm... it's a bit big.";
             wmessagetemp[DRCharacter.Noelle] = "It... smells nice...";
 
-            weaponchartemp[DRCharacter.Kris] = false;
-            weaponchartemp[DRCharacter.Susie] = false;
-            weaponchartemp[DRCharacter.Ralsei] = false;
+            weaponchartemp[DRCharacter.Clogs] = false;
+            weaponchartemp[DRCharacter.Sluzishy] = false;
+            weaponchartemp[DRCharacter.Ralsbajeej] = false;
 
             weaponicontemp = DRIcon.Axe;
             value = 80;
@@ -110,13 +110,13 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "Red Scarf";
             weapondesctemp = "A basic scarf made of lightly#magical fiber.";
 
-            wmessagetemp[DRCharacter.Susie] = "No. Just... no.";
-            wmessagetemp[DRCharacter.Ralsei] = "Comfy! Touch it, Kris!";
+            wmessagetemp[DRCharacter.Sluzishy] = "No. Just... no.";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "Comfy! Touch it, Clogs!";
             wmessagetemp[DRCharacter.Noelle] = "Huh? No, I'm not cold.";
             
-            weaponchartemp[DRCharacter.Kris] = false;
-            weaponchartemp[DRCharacter.Susie] = false;
-            weaponchartemp[DRCharacter.Ralsei] = true;
+            weaponchartemp[DRCharacter.Clogs] = false;
+            weaponchartemp[DRCharacter.Sluzishy] = false;
+            weaponchartemp[DRCharacter.Ralsbajeej] = true;
 
             weaponicontemp = DRIcon.Scarf;
             value = 100;
@@ -126,17 +126,17 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "EverybodyWeapon";
             weapondesctemp = "It felt right for everyone.";
 
-            wmessagetemp[DRCharacter.Susie] = "Uhhh... Ok.";
-            wmessagetemp[DRCharacter.Ralsei] = "A perfect fit!";
+            wmessagetemp[DRCharacter.Sluzishy] = "Uhhh... Ok.";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "A perfect fit!";
             wmessagetemp[DRCharacter.Noelle] = "Wh... what is this?";
 
             weaponattemp = 12;
             weapondftemp = 6;
             weaponmagtemp = 8;
 
-            weaponchartemp[DRCharacter.Kris] = true;
-            weaponchartemp[DRCharacter.Susie] = true;
-            weaponchartemp[DRCharacter.Ralsei] = true;
+            weaponchartemp[DRCharacter.Clogs] = true;
+            weaponchartemp[DRCharacter.Sluzishy] = true;
+            weaponchartemp[DRCharacter.Ralsbajeej] = true;
             weaponchartemp[DRCharacter.Noelle] = true;
 
             weaponicontemp = DRIcon.None;
@@ -147,15 +147,15 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "Spookysword";
             weapondesctemp = "A black-and-orange sword with a bat hilt.";
 
-            wmessagetemp[DRCharacter.Susie] = "Ugh, it's too small!";
-            wmessagetemp[DRCharacter.Ralsei] = "Oh, it's too scary!";
+            wmessagetemp[DRCharacter.Sluzishy] = "Ugh, it's too small!";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "Oh, it's too scary!";
             wmessagetemp[DRCharacter.Noelle] = "(It's kinda cool...)";
 
             weaponattemp = 2;
 
-            weaponchartemp[DRCharacter.Kris] = true;
-            weaponchartemp[DRCharacter.Susie] = false;
-            weaponchartemp[DRCharacter.Ralsei] = false;
+            weaponchartemp[DRCharacter.Clogs] = true;
+            weaponchartemp[DRCharacter.Sluzishy] = false;
+            weaponchartemp[DRCharacter.Ralsbajeej] = false;
 
             weaponicontemp = DRIcon.Sword;
             weaponabilityicontemp = DRIcon.UPStat;
@@ -167,15 +167,15 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "Brave Ax";
             weapondesctemp = "A glossy ax from a block warrior.#Suitable for heroes.";
 
-            wmessagetemp[DRCharacter.Susie] = "Well, if I have to.";
-            wmessagetemp[DRCharacter.Ralsei] = "It's a bit too heavy...";
+            wmessagetemp[DRCharacter.Sluzishy] = "Well, if I have to.";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "It's a bit too heavy...";
             wmessagetemp[DRCharacter.Noelle] = "(W-wow, what presence...)";
 
             weaponattemp = 2;
             
-            weaponchartemp[DRCharacter.Kris] = false;
-            weaponchartemp[DRCharacter.Susie] = true;
-            weaponchartemp[DRCharacter.Ralsei] = false;
+            weaponchartemp[DRCharacter.Clogs] = false;
+            weaponchartemp[DRCharacter.Sluzishy] = true;
+            weaponchartemp[DRCharacter.Ralsbajeej] = false;
 
             weaponicontemp = DRIcon.Axe;
             weaponabilityicontemp = DRIcon.UPStat;
@@ -187,16 +187,16 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "Devilsknife";
             weapondesctemp = "Skull-emblazoned scythe-ax.#Reduces Rudebuster's cost by 10";
 
-            wmessagetemp[DRCharacter.Susie] = "Let the games begin!";
-            wmessagetemp[DRCharacter.Ralsei] = "It's too, um, evil.";
+            wmessagetemp[DRCharacter.Sluzishy] = "Let the games begin!";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "It's too, um, evil.";
             wmessagetemp[DRCharacter.Noelle] = "...? It smiled at me?";
 
             weaponattemp = 5;
             weaponmagtemp = 4;
 
-            weaponchartemp[DRCharacter.Kris] = false;
-            weaponchartemp[DRCharacter.Susie] = true;
-            weaponchartemp[DRCharacter.Ralsei] = false;
+            weaponchartemp[DRCharacter.Clogs] = false;
+            weaponchartemp[DRCharacter.Sluzishy] = true;
+            weaponchartemp[DRCharacter.Ralsbajeej] = false;
 
             weaponicontemp = DRIcon.Axe;
             weaponabilityicontemp = DRIcon.DOWNStat;
@@ -208,15 +208,15 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "Trefoil";
             weapondesctemp = "Mossy rapier with a clover emblem.#Increases $ found by 5%.";
 
-            wmessagetemp[DRCharacter.Susie] = "That tacky thing? No!";
-            wmessagetemp[DRCharacter.Ralsei] = "Not my shade of green...";
+            wmessagetemp[DRCharacter.Sluzishy] = "That tacky thing? No!";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "Not my shade of green...";
             wmessagetemp[DRCharacter.Noelle] = "Okay! ...? What do you mean, unused!?";
 
             weaponattemp = 4;
             
-            weaponchartemp[DRCharacter.Kris] = true;
-            weaponchartemp[DRCharacter.Susie] = false;
-            weaponchartemp[DRCharacter.Ralsei] = false;
+            weaponchartemp[DRCharacter.Clogs] = true;
+            weaponchartemp[DRCharacter.Sluzishy] = false;
+            weaponchartemp[DRCharacter.Ralsbajeej] = false;
 
             weaponicontemp = DRIcon.Sword;
             weaponabilityicontemp = DRIcon.UPStat;
@@ -228,15 +228,15 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "Ragger";
             weapondesctemp = "A rugged scarf that cuts enemies like a dagger.";
 
-            wmessagetemp[DRCharacter.Susie] = "Ow! That can't be comfy!";
-            wmessagetemp[DRCharacter.Ralsei] = "Feels prickly... Nice!";
+            wmessagetemp[DRCharacter.Sluzishy] = "Ow! That can't be comfy!";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "Feels prickly... Nice!";
             wmessagetemp[DRCharacter.Noelle] = "Ouch! ... kind of nice";
 
             weaponattemp = 2;
             
-            weaponchartemp[DRCharacter.Kris] = false;
-            weaponchartemp[DRCharacter.Susie] = false;
-            weaponchartemp[DRCharacter.Ralsei] = true;
+            weaponchartemp[DRCharacter.Clogs] = false;
+            weaponchartemp[DRCharacter.Sluzishy] = false;
+            weaponchartemp[DRCharacter.Ralsbajeej] = true;
 
             weaponicontemp = DRIcon.Scarf;
             value = 200;
@@ -246,15 +246,15 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "DaintyScarf";
             weapondesctemp = "Delicate scarf that increases healing#power but has no attack.";
 
-            wmessagetemp[DRCharacter.Susie] = "IT'S MADE OF DOILIES!";
-            wmessagetemp[DRCharacter.Ralsei] = "I'll protect everyone!";
+            wmessagetemp[DRCharacter.Sluzishy] = "IT'S MADE OF DOILIES!";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "I'll protect everyone!";
             wmessagetemp[DRCharacter.Noelle] = "S-stop covering me with it!";
             
             weaponmagtemp = 2;
 
-            weaponchartemp[DRCharacter.Kris] = false;
-            weaponchartemp[DRCharacter.Susie] = false;
-            weaponchartemp[DRCharacter.Ralsei] = true;
+            weaponchartemp[DRCharacter.Clogs] = false;
+            weaponchartemp[DRCharacter.Sluzishy] = false;
+            weaponchartemp[DRCharacter.Ralsbajeej] = true;
 
             weaponicontemp = DRIcon.Scarf;
             weaponabilityicontemp = DRIcon.UPStat;
@@ -266,15 +266,15 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "TwistedSwd";
             weapondesctemp = "A strange blade";
 
-            wmessagetemp[DRCharacter.Susie] = "... uhh, looks bad.";
-            wmessagetemp[DRCharacter.Ralsei] = "It's like a spiral.";
+            wmessagetemp[DRCharacter.Sluzishy] = "... uhh, looks bad.";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "It's like a spiral.";
             wmessagetemp[DRCharacter.Noelle] = "It's... kind of scary...";
             
             weaponattemp = 16;
             
-            weaponchartemp[DRCharacter.Kris] = true;
-            weaponchartemp[DRCharacter.Susie] = false;
-            weaponchartemp[DRCharacter.Ralsei] = false;
+            weaponchartemp[DRCharacter.Clogs] = true;
+            weaponchartemp[DRCharacter.Sluzishy] = false;
+            weaponchartemp[DRCharacter.Ralsbajeej] = false;
 
             weaponicontemp = DRIcon.Sword;
             weaponabilityicontemp = DRIcon.DOWNStat;
@@ -286,13 +286,13 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "SnowRing";
             weapondesctemp = "A ring with the emblem of the#snowflake";
 
-            wmessagetemp[DRCharacter.Susie] = "Smells like Noelle";
-            wmessagetemp[DRCharacter.Ralsei] = "Are you... proposing?";
+            wmessagetemp[DRCharacter.Sluzishy] = "Smells like Noelle";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "Are you... proposing?";
             wmessagetemp[DRCharacter.Noelle] = "(Thank goodness...)";
             
-            weaponchartemp[DRCharacter.Kris] = false;
-            weaponchartemp[DRCharacter.Susie] = false;
-            weaponchartemp[DRCharacter.Ralsei] = false;
+            weaponchartemp[DRCharacter.Clogs] = false;
+            weaponchartemp[DRCharacter.Sluzishy] = false;
+            weaponchartemp[DRCharacter.Ralsbajeej] = false;
             weaponchartemp[DRCharacter.Noelle] = true;
 
             weaponicontemp = DRIcon.Ring;
@@ -303,16 +303,16 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "ThornRing";
             weapondesctemp = "Wearer takes damage from pain#Reduces the TP cost of ice spells";
 
-            wmessagetemp[DRCharacter.Susie] = "A torture device?";
-            wmessagetemp[DRCharacter.Ralsei] = "...";
+            wmessagetemp[DRCharacter.Sluzishy] = "A torture device?";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "...";
             wmessagetemp[DRCharacter.Noelle] = " ";
 
             weaponattemp = 14;
             weaponmagtemp = 12;
             
-            weaponchartemp[DRCharacter.Kris] = false;
-            weaponchartemp[DRCharacter.Susie] = false;
-            weaponchartemp[DRCharacter.Ralsei] = false;
+            weaponchartemp[DRCharacter.Clogs] = false;
+            weaponchartemp[DRCharacter.Sluzishy] = false;
+            weaponchartemp[DRCharacter.Ralsbajeej] = false;
             weaponchartemp[DRCharacter.Noelle] = true;
 
             weaponicontemp = DRIcon.Ring;
@@ -325,16 +325,16 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "BounceBlade";
             weapondesctemp = "A pink saber with a rubber blade.#Weak, but increases defence.";
 
-            wmessagetemp[DRCharacter.Susie] = "What is this, rubber?";
-            wmessagetemp[DRCharacter.Ralsei] = "Soft and squishy!";
+            wmessagetemp[DRCharacter.Sluzishy] = "What is this, rubber?";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "Soft and squishy!";
             wmessagetemp[DRCharacter.Noelle] = "S-stop thwacking me!";
 
             weaponattemp = 2;
             weapondftemp = 1;
             
-            weaponchartemp[DRCharacter.Kris] = true;
-            weaponchartemp[DRCharacter.Susie] = false;
-            weaponchartemp[DRCharacter.Ralsei] = false;
+            weaponchartemp[DRCharacter.Clogs] = true;
+            weaponchartemp[DRCharacter.Sluzishy] = false;
+            weaponchartemp[DRCharacter.Ralsbajeej] = false;
             weaponchartemp[DRCharacter.Noelle] = false;
 
             weaponicontemp = DRIcon.Sword;
@@ -347,16 +347,16 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "CheerScarf";
             weapondesctemp = "A scarf with colorful you-can-do-it#imagery. Gains more TP from criticals.";
 
-            wmessagetemp[DRCharacter.Susie] = "Smiley faces? Ecch.";
-            wmessagetemp[DRCharacter.Ralsei] = "You can do it!";
+            wmessagetemp[DRCharacter.Sluzishy] = "Smiley faces? Ecch.";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "You can do it!";
             wmessagetemp[DRCharacter.Noelle] = "Now THIS is a tacky scarf! Faha!";
 
             weaponattemp = 1;
             weaponmagtemp = 2;
             
-            weaponchartemp[DRCharacter.Kris] = false;
-            weaponchartemp[DRCharacter.Susie] = false;
-            weaponchartemp[DRCharacter.Ralsei] = true;
+            weaponchartemp[DRCharacter.Clogs] = false;
+            weaponchartemp[DRCharacter.Sluzishy] = false;
+            weaponchartemp[DRCharacter.Ralsbajeej] = true;
             weaponchartemp[DRCharacter.Noelle] = false;
 
             weaponicontemp = DRIcon.Scarf;
@@ -369,15 +369,15 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "MechaSaber";
             weapondesctemp = "The blade extends when you press the hilt.#CHA-CHK!";
 
-            wmessagetemp[DRCharacter.Susie] = "*chk chk chk chk* Nah.";
-            wmessagetemp[DRCharacter.Ralsei] = "You'd look cool holding it, Kris!";
+            wmessagetemp[DRCharacter.Sluzishy] = "*chk chk chk chk* Nah.";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "You'd look cool holding it, Kris!";
             wmessagetemp[DRCharacter.Noelle] = "*chk* A-AHH! Scared myself...";
 
             weaponattemp = 4;
             
-            weaponchartemp[DRCharacter.Kris] = true;
-            weaponchartemp[DRCharacter.Susie] = false;
-            weaponchartemp[DRCharacter.Ralsei] = false;
+            weaponchartemp[DRCharacter.Clogs] = true;
+            weaponchartemp[DRCharacter.Sluzishy] = false;
+            weaponchartemp[DRCharacter.Ralsbajeej] = false;
             weaponchartemp[DRCharacter.Noelle] = false;
 
             weaponicontemp = DRIcon.Sword;
@@ -390,15 +390,15 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "AutoAxe";
             weapondesctemp = "Make sure to charge it by#plugging it into the wall.";
 
-            wmessagetemp[DRCharacter.Susie] = "*chainsaw noises* Hahaha!!";
-            wmessagetemp[DRCharacter.Ralsei] = "(Is this a good idea?)";
+            wmessagetemp[DRCharacter.Sluzishy] = "*chainsaw noises* Hahaha!!";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "(Is this a good idea?)";
             wmessagetemp[DRCharacter.Noelle] = "*zrrt* A-AHH! Scared myself...";
 
             weaponattemp = 4;
             
-            weaponchartemp[DRCharacter.Kris] = false;
-            weaponchartemp[DRCharacter.Susie] = true;
-            weaponchartemp[DRCharacter.Ralsei] = false;
+            weaponchartemp[DRCharacter.Clogs] = false;
+            weaponchartemp[DRCharacter.Sluzishy] = true;
+            weaponchartemp[DRCharacter.Ralsbajeej] = false;
             weaponchartemp[DRCharacter.Noelle] = false;
 
             weaponicontemp = DRIcon.Axe;
@@ -411,16 +411,16 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "FiberScarf";
             weapondesctemp = "A scarf made of soft microfiber.#Balances attack and magic.";
 
-            wmessagetemp[DRCharacter.Susie] = "(Soft...)";
-            wmessagetemp[DRCharacter.Ralsei] = "Oh! My fur's staticy!";
+            wmessagetemp[DRCharacter.Sluzishy] = "(Soft...)";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "Oh! My fur's staticy!";
             wmessagetemp[DRCharacter.Noelle] = "Sure, I'll... huh? It's a weapon?";
 
             weaponattemp = 3;
             weaponmagtemp = 2;
 
-            weaponchartemp[DRCharacter.Kris] = false;
-            weaponchartemp[DRCharacter.Susie] = false;
-            weaponchartemp[DRCharacter.Ralsei] = true;
+            weaponchartemp[DRCharacter.Clogs] = false;
+            weaponchartemp[DRCharacter.Sluzishy] = false;
+            weaponchartemp[DRCharacter.Ralsbajeej] = true;
             weaponchartemp[DRCharacter.Noelle] = false;
 
             weaponicontemp = DRIcon.Scarf;
@@ -431,16 +431,16 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "Ragger2";
             weapondesctemp = "A sharp and scratchy scarf.#Worse healing, better attack.";
 
-            wmessagetemp[DRCharacter.Susie] = "This is Ralsei's deal.";
-            wmessagetemp[DRCharacter.Ralsei] = "I'm a prickly prince!";
+            wmessagetemp[DRCharacter.Sluzishy] = "This is Ralsei's deal.";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "I'm a prickly prince!";
             wmessagetemp[DRCharacter.Noelle] = "(It's like Santa's beard?)";
 
             weaponattemp = 5;
             weaponmagtemp = -1;
 
-            weaponchartemp[DRCharacter.Kris] = false;
-            weaponchartemp[DRCharacter.Susie] = false;
-            weaponchartemp[DRCharacter.Ralsei] = true;
+            weaponchartemp[DRCharacter.Clogs] = false;
+            weaponchartemp[DRCharacter.Sluzishy] = false;
+            weaponchartemp[DRCharacter.Ralsbajeej] = true;
             weaponchartemp[DRCharacter.Noelle] = false;
             weaponicontemp = DRIcon.Scarf;
 
@@ -453,13 +453,13 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "BrokenSwd";
             weapondesctemp = "A rejected sword cut into 2 pieces.#Not even you can equip this...";
 
-            wmessagetemp[DRCharacter.Susie] = "... this is trash.";
-            wmessagetemp[DRCharacter.Ralsei] = "Should we fix this...?";
+            wmessagetemp[DRCharacter.Sluzishy] = "... this is trash.";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "Should we fix this...?";
             wmessagetemp[DRCharacter.Noelle] = "(Wh... why give this to me?)";
             
-            weaponchartemp[DRCharacter.Kris] = false;
-            weaponchartemp[DRCharacter.Susie] = false;
-            weaponchartemp[DRCharacter.Ralsei] = false;
+            weaponchartemp[DRCharacter.Clogs] = false;
+            weaponchartemp[DRCharacter.Sluzishy] = false;
+            weaponchartemp[DRCharacter.Ralsbajeej] = false;
             weaponchartemp[DRCharacter.Noelle] = false;
 
             weaponicontemp = DRIcon.Sword;
@@ -472,16 +472,16 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "PuppetScarf";
             weapondesctemp = "A scarf made of strange strings.#For those that abandon healing.";
 
-            wmessagetemp[DRCharacter.Susie] = "No way, that's creepy.";
-            wmessagetemp[DRCharacter.Ralsei] = "If I have to fight...";
+            wmessagetemp[DRCharacter.Sluzishy] = "No way, that's creepy.";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "If I have to fight...";
             wmessagetemp[DRCharacter.Noelle] = "(Feels like guitar strings...)";
 
             weaponattemp = 10;
             weaponmagtemp = -6;
 
-            weaponchartemp[DRCharacter.Kris] = false;
-            weaponchartemp[DRCharacter.Susie] = false;
-            weaponchartemp[DRCharacter.Ralsei] = true;
+            weaponchartemp[DRCharacter.Clogs] = false;
+            weaponchartemp[DRCharacter.Sluzishy] = false;
+            weaponchartemp[DRCharacter.Ralsbajeej] = true;
             weaponchartemp[DRCharacter.Noelle] = false;
 
             weaponicontemp = DRIcon.Scarf;
@@ -492,16 +492,16 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "FreezeRing";
             weapondesctemp = "A ring with a snowglobe on it.#... is that someone inside?";
 
-            wmessagetemp[DRCharacter.Susie] = "Heh, you steal this? Heh.";
-            wmessagetemp[DRCharacter.Ralsei] = "It's beautiful...";
+            wmessagetemp[DRCharacter.Sluzishy] = "Heh, you steal this? Heh.";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "It's beautiful...";
             wmessagetemp[DRCharacter.Noelle] = "...";
 
             weaponattemp = 4;
             weaponmagtemp = 4;
             
-            weaponchartemp[DRCharacter.Kris] = false;
-            weaponchartemp[DRCharacter.Susie] = false;
-            weaponchartemp[DRCharacter.Ralsei] = false;
+            weaponchartemp[DRCharacter.Clogs] = false;
+            weaponchartemp[DRCharacter.Sluzishy] = false;
+            weaponchartemp[DRCharacter.Ralsbajeej] = false;
             weaponchartemp[DRCharacter.Noelle] = true;
 
             weaponicontemp = DRIcon.Ring;
@@ -512,15 +512,15 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "Saber10";
             weapondesctemp = "A saber made of 10 cactus needles.#Fortunately, can deal more than 10 damage.";
 
-            wmessagetemp[DRCharacter.Susie] = "Nah, I'd snap it.";
-            wmessagetemp[DRCharacter.Ralsei] = "You want to... pierce my ears...?";
+            wmessagetemp[DRCharacter.Sluzishy] = "Nah, I'd snap it.";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "You want to... pierce my ears...?";
             wmessagetemp[DRCharacter.Noelle] = "(I'm not against using it, but...)";
 
             weaponattemp = 6;
             
-            weaponchartemp[DRCharacter.Kris] = true;
-            weaponchartemp[DRCharacter.Susie] = false;
-            weaponchartemp[DRCharacter.Ralsei] = false;
+            weaponchartemp[DRCharacter.Clogs] = true;
+            weaponchartemp[DRCharacter.Sluzishy] = false;
+            weaponchartemp[DRCharacter.Ralsbajeej] = false;
             weaponchartemp[DRCharacter.Noelle] = false;
 
             weaponicontemp = DRIcon.Sword;
@@ -531,15 +531,15 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "ToxicAxe";
             weapondesctemp = "An axe used to clear wastelands#in a fetid swamp. Not poison, but gross.";
 
-            wmessagetemp[DRCharacter.Susie] = "Eat dirt, losers.";
-            wmessagetemp[DRCharacter.Ralsei] = "Could I wash it off first?";
+            wmessagetemp[DRCharacter.Sluzishy] = "Eat dirt, losers.";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "Could I wash it off first?";
             wmessagetemp[DRCharacter.Noelle] = "N-no way! Susie wouldn't use that!";
 
             weaponattemp = 6;
 
-            weaponchartemp[DRCharacter.Kris] = false;
-            weaponchartemp[DRCharacter.Susie] = true;
-            weaponchartemp[DRCharacter.Ralsei] = false;
+            weaponchartemp[DRCharacter.Clogs] = false;
+            weaponchartemp[DRCharacter.Sluzishy] = true;
+            weaponchartemp[DRCharacter.Ralsbajeej] = false;
             weaponchartemp[DRCharacter.Noelle] = false;
 
             weaponicontemp = DRIcon.Axe;
@@ -550,16 +550,16 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "FlexScarf";
             weapondesctemp = "A scarf that is warm and fuzzy, but with#a metal core that lets it keep its shape.";
             
-            wmessagetemp[DRCharacter.Susie] = "Looks like a giant caterpillar.  ";
-            wmessagetemp[DRCharacter.Ralsei] = "So pliable, like me!";
+            wmessagetemp[DRCharacter.Sluzishy] = "Looks like a giant caterpillar.  ";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "So pliable, like me!";
             wmessagetemp[DRCharacter.Noelle] = "Twist it and... it's a wreath!";
 
             weaponattemp = 4;
             weaponmagtemp = 1;
             
-            weaponchartemp[DRCharacter.Kris] = false;
-            weaponchartemp[DRCharacter.Susie] = false;
-            weaponchartemp[DRCharacter.Ralsei] = true;
+            weaponchartemp[DRCharacter.Clogs] = false;
+            weaponchartemp[DRCharacter.Sluzishy] = false;
+            weaponchartemp[DRCharacter.Ralsbajeej] = true;
             weaponchartemp[DRCharacter.Noelle] = false;
 
             weaponicontemp = DRIcon.Scarf;
@@ -570,15 +570,15 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "BlackShard";
             weapondesctemp = "A dagger-like shard of the Black Knife.#Strikes the weakness of dark-element enemies.";
             
-            wmessagetemp[DRCharacter.Susie] = "... how is this a weapon?";
-            wmessagetemp[DRCharacter.Ralsei] = "I... shouldn't use it.";
+            wmessagetemp[DRCharacter.Sluzishy] = "... how is this a weapon?";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "I... shouldn't use it.";
             wmessagetemp[DRCharacter.Noelle] = " ";
 
             weaponattemp = 16;
             
-            weaponchartemp[DRCharacter.Kris] = true;
-            weaponchartemp[DRCharacter.Susie] = false;
-            weaponchartemp[DRCharacter.Ralsei] = false;
+            weaponchartemp[DRCharacter.Clogs] = true;
+            weaponchartemp[DRCharacter.Sluzishy] = false;
+            weaponchartemp[DRCharacter.Ralsbajeej] = false;
             weaponchartemp[DRCharacter.Noelle] = true;
 
             weaponicontemp = DRIcon.Shard;
@@ -590,16 +590,16 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "JingleBlade";
             weapondesctemp = "A lance-like sword with red-and-white stripes.#Perfect for jousting.";
 
-            wmessagetemp[DRCharacter.Susie] = "Sleigh the bad guys.";
-            wmessagetemp[DRCharacter.Ralsei] = "Mmm! Minty and festive!";
+            wmessagetemp[DRCharacter.Sluzishy] = "Sleigh the bad guys.";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "Mmm! Minty and festive!";
             wmessagetemp[DRCharacter.Noelle] = "What is this, a barber pole?";
 
             weaponattemp = 7;
             weapondftemp = 1;
             
-            weaponchartemp[DRCharacter.Kris] = true;
-            weaponchartemp[DRCharacter.Susie] = false;
-            weaponchartemp[DRCharacter.Ralsei] = false;
+            weaponchartemp[DRCharacter.Clogs] = true;
+            weaponchartemp[DRCharacter.Sluzishy] = false;
+            weaponchartemp[DRCharacter.Ralsbajeej] = false;
             weaponchartemp[DRCharacter.Noelle] = true;
 
             weaponicontemp = DRIcon.Sword;
@@ -612,17 +612,17 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "ScarfMark";
             weapondesctemp = "A thin scarf with a deep sheen. Holy writing has#been pressed into it, imbuing it with magic.";
 
-            wmessagetemp[DRCharacter.Susie] = "Heheh...";
-            wmessagetemp[DRCharacter.Ralsei] = "I'll keep my place.";
+            wmessagetemp[DRCharacter.Sluzishy] = "Heheh...";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "I'll keep my place.";
             wmessagetemp[DRCharacter.Noelle] = "Look, ribbon dancing!";
 
             weaponattemp = 4;
             weapondftemp = 1;
             weaponmagtemp = 1;
             
-            weaponchartemp[DRCharacter.Kris] = false;
-            weaponchartemp[DRCharacter.Susie] = false;
-            weaponchartemp[DRCharacter.Ralsei] = true;
+            weaponchartemp[DRCharacter.Clogs] = false;
+            weaponchartemp[DRCharacter.Sluzishy] = false;
+            weaponchartemp[DRCharacter.Ralsbajeej] = true;
             weaponchartemp[DRCharacter.Noelle] = false;
 
             weaponicontemp = DRIcon.Scarf;
@@ -633,15 +633,15 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "JusticeAxe";
             weapondesctemp = "It has no special powers. However, in order to#attain this item, you became much stronger!";
 
-            wmessagetemp[DRCharacter.Susie] = "Watch this, old man!";
-            wmessagetemp[DRCharacter.Ralsei] = "... isn't Susie amazing?";
+            wmessagetemp[DRCharacter.Sluzishy] = "Watch this, old man!";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "... isn't Susie amazing?";
             wmessagetemp[DRCharacter.Noelle] = "... Susie beat up an old man!?";
 
             weaponattemp = 12;
             
-            weaponchartemp[DRCharacter.Kris] = false;
-            weaponchartemp[DRCharacter.Susie] = true;
-            weaponchartemp[DRCharacter.Ralsei] = false;
+            weaponchartemp[DRCharacter.Clogs] = false;
+            weaponchartemp[DRCharacter.Sluzishy] = true;
+            weaponchartemp[DRCharacter.Ralsbajeej] = false;
             weaponchartemp[DRCharacter.Noelle] = false;
 
             weaponicontemp = DRIcon.Axe;
@@ -654,15 +654,15 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "Winglade";
             weapondesctemp = "A majestic sword with a white feathered hilt.#Slightly increases money won.";
 
-            wmessagetemp[DRCharacter.Susie] = "Don't make me sneeze!";
-            wmessagetemp[DRCharacter.Ralsei] = "Th-that tickles!";
+            wmessagetemp[DRCharacter.Sluzishy] = "Don't make me sneeze!";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "Th-that tickles!";
             wmessagetemp[DRCharacter.Noelle] = "... whose feather is this?";
 
             weaponattemp = 8;
             
-            weaponchartemp[DRCharacter.Kris] = true;
-            weaponchartemp[DRCharacter.Susie] = false;
-            weaponchartemp[DRCharacter.Ralsei] = false;
+            weaponchartemp[DRCharacter.Clogs] = true;
+            weaponchartemp[DRCharacter.Sluzishy] = false;
+            weaponchartemp[DRCharacter.Ralsbajeej] = false;
             weaponchartemp[DRCharacter.Noelle] = false;
 
             weaponicontemp = DRIcon.Sword;
@@ -675,15 +675,15 @@ function scr_weaponinfo(weaponid)
             weaponnametemp = "AbsorbAx";
             weapondesctemp = "A long, curved axe with an indent.#Scoop up HP when you attack.";
 
-            wmessagetemp[DRCharacter.Susie] = "Scoopin' time.";
-            wmessagetemp[DRCharacter.Ralsei] = "Don't scoop me!";
+            wmessagetemp[DRCharacter.Sluzishy] = "Scoopin' time.";
+            wmessagetemp[DRCharacter.Ralsbajeej] = "Don't scoop me!";
             wmessagetemp[DRCharacter.Noelle] = "That red... is that blood?";
 
             weaponattemp = 8;
             
-            weaponchartemp[DRCharacter.Kris] = false;
-            weaponchartemp[DRCharacter.Susie] = true;
-            weaponchartemp[DRCharacter.Ralsei] = false;
+            weaponchartemp[DRCharacter.Clogs] = false;
+            weaponchartemp[DRCharacter.Sluzishy] = true;
+            weaponchartemp[DRCharacter.Ralsbajeej] = false;
             weaponchartemp[DRCharacter.Noelle] = false;
 
             weaponicontemp = DRIcon.Axe;

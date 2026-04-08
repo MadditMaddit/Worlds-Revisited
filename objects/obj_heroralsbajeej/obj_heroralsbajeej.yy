@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ralsei_idle",
-    "path":"sprites/spr_ralsei_idle/spr_ralsei_idle.yy",
+    "name":"spr_ralsbajeej_idle",
+    "path":"sprites/spr_ralsbajeej_idle/spr_ralsbajeej_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

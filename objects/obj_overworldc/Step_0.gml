@@ -103,7 +103,7 @@ if (global.interact == 5)
                     {
                         msgset(0, "* (Clogs doesn't want to throw this away...)/");
                         msgnext("* (It would be like throwing away someone's..^1. ???)/");
-                        msgnext("* (..^1. You don't understand it.)/%");
+                        msgnext("* (..^1. You wouldn't get it.)/%");
                         script_execute(scr_writetext, 0, "x", 0, 0);
                     }
                     else if (dontthrowtype == 3)

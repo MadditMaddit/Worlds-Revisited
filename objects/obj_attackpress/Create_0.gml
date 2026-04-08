@@ -232,19 +232,19 @@ if (my_method == 2)
 haveauto = 0;
 autoed = 0;
 
-if (global.charauto[DRCharacter.Susie] == 1)
+if (global.charauto[DRCharacter.Sluzishy] == 1)
 {
-    if (global.char[0] == DRCharacter.Susie || global.char[1] == DRCharacter.Susie || global.char[2] == DRCharacter.Susie)
+    if (global.char[0] == DRCharacter.Sluzishy || global.char[1] == DRCharacter.Sluzishy || global.char[2] == DRCharacter.Sluzishy)
     {
         sus = 0;
         
-        if (global.char[1] == DRCharacter.Susie)
+        if (global.char[1] == DRCharacter.Sluzishy)
             sus = 1;
         
-        if (global.char[2] == DRCharacter.Susie)
+        if (global.char[2] == DRCharacter.Sluzishy)
             sus = 2;
         
-        if (global.hp[DRCharacter.Susie] >= 0 && global.charmove[sus] == 1)
+        if (global.hp[DRCharacter.Sluzishy] >= 0 && global.charmove[sus] == 1)
         {
             haveauto = 1;
             

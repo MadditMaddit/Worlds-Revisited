@@ -30,18 +30,18 @@ if (EVENT == 1)
         global.currentsong[1] = mus_loop(global.currentsong[0]);
         var voice = choose(0, 1);
         
-        if (!scr_havechar(DRCharacter.Susie))
+        if (!scr_havechar(DRCharacter.Sluzishy))
             voice = 1;
-        else if (!scr_havechar(DRCharacter.Ralsei))
+        else if (!scr_havechar(DRCharacter.Ralsbajeej))
             voice = 0;
         
-        if (scr_havechar(DRCharacter.Susie) || scr_havechar(DRCharacter.Ralsei))
+        if (scr_havechar(DRCharacter.Sluzishy) || scr_havechar(DRCharacter.Ralsbajeej))
         {
             if (voice == 0)
             {
                 scr_speaker("no_name");
                 msgset(0, "  Come on^1,&  that all you got!?/");
-                msgnext("  Kris^1,&  get up...!/%");
+                msgnext("  Clogs^1,&  get up...!/%");
                 global.typer = 61;
                 global.fc = 0;
             }

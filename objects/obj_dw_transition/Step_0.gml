@@ -22,29 +22,29 @@ if (linecon == 1)
     }
 }
 
-if (sus_f != 0)
+if (sluz_f != 0)
 {
-    if (sus_v > 0)
+    if (sluz_v > 0)
     {
-        sus_v -= sus_f;
+        sluz_v -= sluz_f;
         
-        if (sus_v < 0)
-            sus_v = 0;
+        if (sluz_v < 0)
+            sluz_v = 0;
     }
     
-    if (sus_v < 0)
+    if (sluz_v < 0)
     {
-        sus_v += sus_f;
+        sluz_v += sluz_f;
         
-        if (sus_v > 0)
-            sus_v = 0;
+        if (sluz_v > 0)
+            sluz_v = 0;
     }
 }
 
-if (sus_v != 0)
+if (sluz_v != 0)
 {
-    sus_y += sus_v;
-    kris_y += sus_v;
+    sluz_y += sluz_v;
+    clogs_y += sluz_v;
 }
 
 if (fake_screenshake == 1)

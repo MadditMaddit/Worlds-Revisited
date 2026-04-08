@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_npc_originalstarwalker",
-    "path":"sprites/spr_npc_originalstarwalker/spr_npc_originalstarwalker.yy",
+    "name":"spr_originalmoonstalker",
+    "path":"sprites/spr_originalmoonstalker/spr_originalmoonstalker.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -42,30 +42,30 @@ if con == 0 && obj_mainchara.x < x {
 		starcat.visible = false;
 	} else {
 		scr_losechar();
-		scr_getchar(DRCharacter.Susie);
-		scr_getchar(DRCharacter.Ralsei);
+		scr_getchar(DRCharacter.Sluzishy);
+		scr_getchar(DRCharacter.Ralsbajeej);
 		
-		var suscat = scr_makecaterpillar(obj_mainchara.x + 40, cameray() - 100, DRCharacter.Susie, 1);
+		var suscat = scr_makecaterpillar(obj_mainchara.x + 40, cameray() - 100, DRCharacter.Sluzishy, 1);
 		suscat.visible = false;
-		var ralcat = scr_makecaterpillar(obj_mainchara.x + 80, cameray() - 100, DRCharacter.Ralsei, 2);
+		var ralcat = scr_makecaterpillar(obj_mainchara.x + 80, cameray() - 100, DRCharacter.Ralsbajeej, 2);
 		ralcat.visible = false;
 	}
 	
-	c_sel(su);
+	c_sel(sluz);
 	c_walktoobject(mod_obj_marker_c, 0, 0, 35);
 			
-	c_sel(ra);
+	c_sel(ralsb);
 	c_walktoobject(mod_obj_marker_d, 0, 0, 35);
 	
 	c_wait(35);
 	
 	if getsStarwalker {
-		c_sel(su); c_facing("r");
-		c_sel(ra); c_facing("r");
+		c_sel(sluz); c_facing("r");
+		c_sel(ralsb); c_facing("r");
 	
 		c_wait(20);
-		c_sel(su); c_walk("l", 20, 30);
-		c_sel(ra); c_walk("l", 20, 30);
+		c_sel(sluz); c_walk("l", 20, 30);
+		c_sel(ralsb); c_walk("l", 20, 30);
 	} else {
 		c_wait(20);
 		c_sel(star); c_walk("l", 20, 30);
@@ -73,14 +73,14 @@ if con == 0 && obj_mainchara.x < x {
 	
 	c_wait(30);
 	
-	c_panobj(kr_actor, 15);
+	c_panobj(clo_actor, 15);
 	c_wait(16);
 	c_pannable(false);
 	
-	c_sel(kr);
+	c_sel(clo);
 	c_facing("d");
 	
-	c_actortokris();
+	c_actortoclogs();
 	c_actortocaterpillar();
 	c_terminatekillactors();
 }

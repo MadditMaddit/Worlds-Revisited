@@ -263,7 +263,7 @@ function scr_litemuseb(idx, lightWorldId)
         
         case DRLightItem.BoxOfHeartCandy:
             var consume_item = 0;
-            var have_susie = scr_havechar(DRCharacter.Susie);
+            var have_susie = scr_havechar(DRCharacter.Sluzishy);
             var sans_npc = 0;
             
             /*if (i_ex(obj_marker))
@@ -316,15 +316,15 @@ function scr_litemuseb(idx, lightWorldId)
                 consume_item = 1;
                 global.lhp = 19;
                 global.flag[342] = 2;
-                scr_speaker("susie");
-                msgset(0, "\\E7* Woah^1, Kris^1, where the hell'd you get that?/");
+                scr_speaker("sluzishy");
+                msgset(0, "\\E7* Woah^1, Clogs^1, where the hell'd you get that?/");
                 msgnext("\\E6* ..^1. someone gave it to you?/");
                 msgnext("\\EY* HAHAHA!^1! YEAH RIGHT!!^1! You stole it^1, didn't you!?/");
                 msgnext("\\E2* Well^1, c'mon!^1! Let's eat it and hide the evidence!!/");
                 scr_anyface_next("no_name", 0);
-                msgnext("* (You and Susie shared the heart-shaped box of candies.)/");
+                msgnext("* (You and Sluzishy shared the heart-shaped box of candies.)/");
                 msgnext("* (Both of you had a feeling in your chest...)/");
-                scr_anyface_next("susie", 12);
+                scr_anyface_next("sluzishy", 12);
                 msgnext("\\EC* Ow^1, my stomach.../");
                 scr_anyface_next("no_name", 0);
                 msgnext("* (..^1. that you shouldn't have eaten all of it.)/%");

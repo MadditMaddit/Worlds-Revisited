@@ -43,7 +43,7 @@ if (top == 1)
         {
             if (bottom == 1)
             {
-                draw_kris = 1;
+                draw_clogs = 1;
                 fake_v = 1;
             }
         }
@@ -89,16 +89,16 @@ if (top == 1)
 
 if (bottom == 1)
 {
-    if (draw_kris == 1)
+    if (draw_clogs == 1)
     {
         fake_v -= 0.2;
-        kris_y += fake_v;
-        sus_y += fake_v;
+        clogs_y += fake_v;
+        sluz_y += fake_v;
         siner += (1 + (siner / 60));
         
-        if (kris_only == 0)
-            draw_sprite_ext(spr_susie_dw_fall_d, siner / 6, sus_x, sus_y, 2, 2, 0, c_white, 1);
+        if (clogs_only == 0)
+            draw_sprite_ext(spr_susie_dw_fall_d, siner / 6, sluz_x, sluz_y, 2, 2, 0, c_white, 1);
         
-        draw_sprite_ext(spr_kris_fall_d_dw, siner / 6, kris_x, kris_y, 2, 2, 0, c_white, 1);
+        draw_sprite_ext(spr_kris_fall_d_dw, siner / 6, clogs_x, clogs_y, 2, 2, 0, c_white, 1);
     }
 }

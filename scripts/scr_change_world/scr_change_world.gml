@@ -14,13 +14,13 @@ function scr_become_dark()
         }
     }
     
-    global.hp[DRCharacter.Kris] = ceil((global.lhp / global.lmaxhp) * global.maxhp[DRCharacter.Kris]);
+    global.hp[DRCharacter.Clogs] = ceil((global.lhp / global.lmaxhp) * global.maxhp[DRCharacter.Clogs]);
     
-    if (global.hp[DRCharacter.Kris] < 1)
-        global.hp[DRCharacter.Kris] = 1;
+    if (global.hp[DRCharacter.Clogs] < 1)
+        global.hp[DRCharacter.Clogs] = 1;
     
-    if (global.hp[DRCharacter.Kris] > global.maxhp[DRCharacter.Kris])
-        global.hp[DRCharacter.Kris] = global.maxhp[DRCharacter.Kris];
+    if (global.hp[DRCharacter.Clogs] > global.maxhp[DRCharacter.Clogs])
+        global.hp[DRCharacter.Clogs] = global.maxhp[DRCharacter.Clogs];
 }
 
 function scr_become_light()
@@ -44,7 +44,7 @@ function scr_become_light()
     else
         scr_litemremove(DRLightItem.Glass);
     
-    global.lhp = ceil((global.hp[DRCharacter.Kris] / global.maxhp[DRCharacter.Kris]) * global.lmaxhp);
+    global.lhp = ceil((global.hp[DRCharacter.Clogs] / global.maxhp[DRCharacter.Clogs]) * global.lmaxhp);
     
     if global.lhp < 1
         global.lhp = 1;
@@ -52,7 +52,7 @@ function scr_become_light()
     if global.lhp > global.lmaxhp
         global.lhp = global.lmaxhp;
     
-    scr_equip_lw_weapon_by_dw_id(global.charweapon[DRCharacter.Kris]);
+    scr_equip_lw_weapon_by_dw_id(global.charweapon[DRCharacter.Clogs]);
     global.lwstrength = get_lw_weapon_strength(global.lweapon);
     
     if scr_weaponcheck_inventory(DRWeapon.BlackShard) > 0 || scr_weaponcheck_equipped_any(DRWeapon.BlackShard) > 0
@@ -63,7 +63,7 @@ function scr_become_light()
     
     var armorconverted = 0;
     
-    if scr_armorcheck_equipped(DRCharacter.Kris, DRArmor.SilverWatch) > 0
+    if scr_armorcheck_equipped(DRCharacter.Clogs, DRArmor.SilverWatch) > 0
     {
         armorconverted = 1;
         global.larmor = DRLightItem.Wristwatch;

@@ -94,7 +94,7 @@ function c_emote()
 
 function c_actormoveparty(t)
 {
-    __mcactor = scr_findactor("kris");
+    __mcactor = scr_findactor("clogs");
     
     if (__mcactor >= 0)
     {

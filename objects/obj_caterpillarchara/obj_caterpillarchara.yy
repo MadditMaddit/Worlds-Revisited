@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ralsei_walk_down",
-    "path":"sprites/spr_ralsei_walk_down/spr_ralsei_walk_down.yy",
+    "name":"spr_ralsbajeej_down",
+    "path":"sprites/spr_ralsbajeej_down/spr_ralsbajeej_down.yy",
   },
   "spriteMaskId":null,
   "visible":true,

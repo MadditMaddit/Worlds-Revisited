@@ -73,9 +73,9 @@ function scr_gamestart()
     global.time = 0;
     global.fighting = 0;
 	
-    global.char[0] = DRCharacter.Kris;
-    global.char[1] = DRCharacter.Susie;
-    global.char[2] = DRCharacter.Ralsei;
+    global.char[0] = DRCharacter.Clogs;
+    global.char[1] = DRCharacter.Sluzishy;
+    global.char[2] = DRCharacter.Ralsbajeej;
 	
 	global.lang = "en";
 	
@@ -327,7 +327,7 @@ function scr_gamestart()
 	
     global.phone[0] = DRPhoneNumbers.Home;
 	
-    global.lcharname = "Kris";
+    global.lcharname = "Clogs";
     global.lweapon = DRLightItem.Pencil;
     global.larmor = DRLightItem.Bandage;
 	

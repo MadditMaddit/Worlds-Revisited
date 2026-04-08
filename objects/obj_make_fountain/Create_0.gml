@@ -1,6 +1,6 @@
 con = 50;
 active = 0;
-drawkris = 1;
+drawclogs = 1;
 image_speed = 0;
 image_index = 0;
 image_xscale = 1;

@@ -21,9 +21,9 @@ function scr_chapter_get_recruit_color(chapter) {
 function scr_gamestart_chapter_override()
 {
     global.plot = 0;
-    global.char[0] = DRCharacter.Kris;
-    global.char[1] = DRCharacter.Susie;
-    global.char[2] = DRCharacter.Ralsei;
+    global.char[0] = DRCharacter.Clogs;
+    global.char[1] = DRCharacter.Sluzishy;
+    global.char[2] = DRCharacter.Ralsbajeej;
 	
     scr_litemremove(DRLightItem.HotChocolate);
     scr_litemremove(DRLightItem.Bouquet);

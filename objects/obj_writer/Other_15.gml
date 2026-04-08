@@ -90,7 +90,7 @@ if (formatted == 0)
                     if (nextchar2 == "u")
                         global.fc = 18;
                     
-                    if (nextchar2 == "K")
+                    if (nextchar2 == "C")
                         global.fc = 20;
                     
                     if (nextchar2 == "Q")
