@@ -39,7 +39,7 @@
   "origin":0,
   "parent":{
     "name":"Fonts",
-    "path":"folders/DELTARUNE/Sprites/Menus/Fonts.yy",
+    "path":"folders/WR/Sprites/Menus/Fonts.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

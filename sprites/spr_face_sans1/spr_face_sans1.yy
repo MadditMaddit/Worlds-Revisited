@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Sans",
-    "path":"folders/DELTARUNE/Sprites/Faces/Lightners/Sans.yy",
+    "path":"folders/WR/Sprites/Faces/Lightners/Sans.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

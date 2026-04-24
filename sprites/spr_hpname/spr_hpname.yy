@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_hpname",
   "bboxMode":0,
-  "bbox_bottom":7,
+  "bbox_bottom":8,
   "bbox_left":0,
   "bbox_right":15,
   "bbox_top":0,
@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Heroes",
-    "path":"folders/DELTARUNE/Sprites/Menus/Dark Menu/Heroes.yy",
+    "path":"folders/WR/Sprites/Menus/Dark Menu/Heroes.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -20,9 +20,8 @@ if scr_debug() {
 	
 	draw_set_halign(textalign_center);
 	
-	var _t = string_hash_to_newline("DELTARUNE Ch. " + string(global.chapter) + " " + global.versionno + "#Running in Editor");
+	var _t = string_hash_to_newline(global.versionno);
 	draw_text(xcent, starty, _t);
-	draw_text(xcent, balign, room_get_name(room));
 	
 	draw_set_font(prev_font);
 	draw_set_color(prev_color);

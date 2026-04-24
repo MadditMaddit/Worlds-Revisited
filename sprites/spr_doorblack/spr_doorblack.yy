@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Interactables",
-    "path":"folders/DELTARUNE/Sprites/Interactables.yy",
+    "path":"folders/WR/Sprites/Interactables.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

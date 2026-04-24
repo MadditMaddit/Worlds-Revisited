@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"World",
-    "path":"folders/DELTARUNE/Objects/World.yy",
+    "path":"folders/WR/Objects/World.yy",
   },
   "parentObjectId":{
     "name":"obj_solidblock",

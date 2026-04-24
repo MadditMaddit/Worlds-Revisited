@@ -4,7 +4,7 @@
   "bboxMode":0,
   "bbox_bottom":42,
   "bbox_left":0,
-  "bbox_right":58,
+  "bbox_right":57,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -48,7 +48,7 @@
   "origin":9,
   "parent":{
     "name":"Dark",
-    "path":"folders/DELTARUNE/Sprites/Characters/Sluzishy/Dark.yy",
+    "path":"folders/WR/Sprites/Characters/Sluzishy/Dark.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

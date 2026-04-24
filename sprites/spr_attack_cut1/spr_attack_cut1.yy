@@ -30,7 +30,7 @@
   "origin":4,
   "parent":{
     "name":"Attacks",
-    "path":"folders/DELTARUNE/Sprites/Battle/Attacks.yy",
+    "path":"folders/WR/Sprites/Battle/Attacks.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

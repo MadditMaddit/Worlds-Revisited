@@ -15,7 +15,7 @@
   "name":"snd_levelup",
   "parent":{
     "name":"Menus",
-    "path":"folders/DELTARUNE/Sounds/Dark/Menus.yy",
+    "path":"folders/WR/Sounds/Dark/Menus.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

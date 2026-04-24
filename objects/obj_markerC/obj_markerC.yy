@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Markers",
-    "path":"folders/DELTARUNE/Objects/World/Markers.yy",
+    "path":"folders/WR/Objects/World/Markers.yy",
   },
   "parentObjectId":null,
   "persistent":false,

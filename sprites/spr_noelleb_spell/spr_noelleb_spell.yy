@@ -34,7 +34,7 @@
   "origin":9,
   "parent":{
     "name":"Battle",
-    "path":"folders/DELTARUNE/Sprites/Characters/Noelle/Battle.yy",
+    "path":"folders/WR/Sprites/Characters/Noelle/Battle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

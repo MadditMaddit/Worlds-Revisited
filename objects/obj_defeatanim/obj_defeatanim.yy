@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Effects",
-    "path":"folders/DELTARUNE/Objects/Battle/Effects.yy",
+    "path":"folders/WR/Objects/Battle/Effects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

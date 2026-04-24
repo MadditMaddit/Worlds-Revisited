@@ -27,7 +27,7 @@
   "origin":0,
   "parent":{
     "name":"Chapter 1",
-    "path":"folders/DELTARUNE/Sprites/Enemies/Vanilla/Chapter 1.yy",
+    "path":"folders/WR/Sprites/Enemies/Vanilla/Chapter 1.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

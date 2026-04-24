@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Cutscenes",
-    "path":"folders/DELTARUNE/Cutscenes.yy",
+    "path":"folders/WR/Cutscenes.yy",
   },
   "parentObjectId":null,
   "persistent":false,

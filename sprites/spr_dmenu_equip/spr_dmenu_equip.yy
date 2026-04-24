@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Dark Menu",
-    "path":"folders/DELTARUNE/Sprites/Menus/Dark Menu.yy",
+    "path":"folders/WR/Sprites/Menus/Dark Menu.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

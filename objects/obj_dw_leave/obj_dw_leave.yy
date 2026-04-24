@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Transitions",
-    "path":"folders/DELTARUNE/Objects/World/Transitions.yy",
+    "path":"folders/WR/Objects/World/Transitions.yy",
   },
   "parentObjectId":null,
   "persistent":false,

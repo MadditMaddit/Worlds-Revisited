@@ -28,7 +28,7 @@
   "origin":0,
   "parent":{
     "name":"Actions",
-    "path":"folders/DELTARUNE/Sprites/Battle/Actions.yy",
+    "path":"folders/WR/Sprites/Battle/Actions.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -905,7 +905,7 @@
   "name":"fnt_dotumche",
   "parent":{
     "name":"Main",
-    "path":"folders/DELTARUNE/Fonts/Main.yy",
+    "path":"folders/WR/Fonts/Main.yy",
   },
   "pointRounding":0,
   "ranges":[

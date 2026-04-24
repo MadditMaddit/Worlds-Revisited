@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Writers",
-    "path":"folders/DELTARUNE/Objects/Menus/Writers.yy",
+    "path":"folders/WR/Objects/Menus/Writers.yy",
   },
   "parentObjectId":null,
   "persistent":false,

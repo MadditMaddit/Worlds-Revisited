@@ -27,7 +27,7 @@
   "origin":0,
   "parent":{
     "name":"Asgore",
-    "path":"folders/DELTARUNE/Sprites/Faces/Lightners/Asgore.yy",
+    "path":"folders/WR/Sprites/Faces/Lightners/Asgore.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

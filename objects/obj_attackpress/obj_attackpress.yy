@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Phases",
-    "path":"folders/DELTARUNE/Objects/Battle/Phases.yy",
+    "path":"folders/WR/Objects/Battle/Phases.yy",
   },
   "parentObjectId":null,
   "persistent":false,

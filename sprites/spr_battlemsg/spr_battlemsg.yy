@@ -40,7 +40,7 @@
   "origin":2,
   "parent":{
     "name":"HUD",
-    "path":"folders/DELTARUNE/Sprites/Battle/HUD.yy",
+    "path":"folders/WR/Sprites/Battle/HUD.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

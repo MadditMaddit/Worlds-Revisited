@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Doors",
-    "path":"folders/DELTARUNE/Sprites/Editor/Doors.yy",
+    "path":"folders/WR/Sprites/Editor/Doors.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

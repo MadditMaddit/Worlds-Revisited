@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Jockington",
-    "path":"folders/DELTARUNE/Sprites/Faces/Lightners/Jockington.yy",
+    "path":"folders/WR/Sprites/Faces/Lightners/Jockington.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

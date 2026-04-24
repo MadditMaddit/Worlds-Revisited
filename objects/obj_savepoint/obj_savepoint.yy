@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Essentials",
-    "path":"folders/DELTARUNE/Objects/World/Essentials.yy",
+    "path":"folders/WR/Objects/World/Essentials.yy",
   },
   "parentObjectId":{
     "name":"obj_interactablesolid",

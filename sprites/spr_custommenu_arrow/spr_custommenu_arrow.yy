@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Custom",
-    "path":"folders/DELTARUNE/Sprites/Menus/Custom.yy",
+    "path":"folders/WR/Sprites/Menus/Custom.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

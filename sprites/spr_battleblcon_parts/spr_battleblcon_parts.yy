@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"Battle Icons",
-    "path":"folders/DELTARUNE/Sprites/Battle/HUD/Battle Icons.yy",
+    "path":"folders/WR/Sprites/Battle/HUD/Battle Icons.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

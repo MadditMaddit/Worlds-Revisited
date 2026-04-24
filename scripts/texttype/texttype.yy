@@ -6,7 +6,7 @@
   "name":"texttype",
   "parent":{
     "name":"Dialogue Boxes",
-    "path":"folders/DELTARUNE/Scripts/Dialogue Boxes.yy",
+    "path":"folders/WR/Scripts/Dialogue Boxes.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

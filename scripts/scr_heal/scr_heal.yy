@@ -6,7 +6,7 @@
   "name":"scr_heal",
   "parent":{
     "name":"Battle",
-    "path":"folders/DELTARUNE/Scripts/Battle.yy",
+    "path":"folders/WR/Scripts/Battle.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

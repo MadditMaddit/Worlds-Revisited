@@ -6,7 +6,7 @@
   "name":"scr_facing_letter_to_number",
   "parent":{
     "name":"Cutscenes",
-    "path":"folders/DELTARUNE/Scripts/Cutscenes.yy",
+    "path":"folders/WR/Scripts/Cutscenes.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

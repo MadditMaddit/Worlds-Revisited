@@ -6,7 +6,7 @@
   "name":"scr_funnytext",
   "parent":{
     "name":"Funnytext",
-    "path":"folders/DELTARUNE/Scripts/Funnytext.yy",
+    "path":"folders/WR/Scripts/Funnytext.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

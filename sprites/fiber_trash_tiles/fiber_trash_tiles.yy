@@ -30,7 +30,7 @@
   "origin":0,
   "parent":{
     "name":"Source Sprites",
-    "path":"folders/DELTARUNE/Tilesets/Dark World/Source Sprites.yy",
+    "path":"folders/WR/Tilesets/Dark World/Source Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

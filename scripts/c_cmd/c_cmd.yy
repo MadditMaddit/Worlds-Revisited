@@ -6,7 +6,7 @@
   "name":"c_cmd",
   "parent":{
     "name":"Cutscenes",
-    "path":"folders/DELTARUNE/Scripts/Cutscenes.yy",
+    "path":"folders/WR/Scripts/Cutscenes.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

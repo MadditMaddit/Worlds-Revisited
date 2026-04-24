@@ -6,7 +6,7 @@
   "name":"scr_spellinfo",
   "parent":{
     "name":"Inventory",
-    "path":"folders/DELTARUNE/Scripts/Inventory.yy",
+    "path":"folders/WR/Scripts/Inventory.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

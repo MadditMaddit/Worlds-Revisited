@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Heroes",
-    "path":"folders/DELTARUNE/Sprites/Menus/Dark Menu/Heroes.yy",
+    "path":"folders/WR/Sprites/Menus/Dark Menu/Heroes.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

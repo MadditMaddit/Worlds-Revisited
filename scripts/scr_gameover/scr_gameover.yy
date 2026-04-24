@@ -6,7 +6,7 @@
   "name":"scr_gameover",
   "parent":{
     "name":"World",
-    "path":"folders/DELTARUNE/Scripts/World.yy",
+    "path":"folders/WR/Scripts/World.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

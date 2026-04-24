@@ -29,7 +29,7 @@
   "origin":9,
   "parent":{
     "name":"Dark",
-    "path":"folders/DELTARUNE/Sprites/Characters/Clogs/Dark.yy",
+    "path":"folders/WR/Sprites/Characters/Clogs/Dark.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

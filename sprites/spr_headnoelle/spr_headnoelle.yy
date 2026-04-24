@@ -36,7 +36,7 @@
   "origin":0,
   "parent":{
     "name":"Heads",
-    "path":"folders/DELTARUNE/Sprites/Menus/Dark Menu/Heroes/Heads.yy",
+    "path":"folders/WR/Sprites/Menus/Dark Menu/Heroes/Heads.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

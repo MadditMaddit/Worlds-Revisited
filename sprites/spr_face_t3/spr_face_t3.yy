@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Toriel",
-    "path":"folders/DELTARUNE/Sprites/Faces/Lightners/Toriel.yy",
+    "path":"folders/WR/Sprites/Faces/Lightners/Toriel.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

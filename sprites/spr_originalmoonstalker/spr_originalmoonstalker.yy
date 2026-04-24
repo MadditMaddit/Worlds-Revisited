@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Moonstalker",
-    "path":"folders/DELTARUNE/Sprites/Characters/Moonstalker.yy",
+    "path":"folders/WR/Sprites/Characters/Moonstalker.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

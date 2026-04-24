@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Events",
-    "path":"folders/DELTARUNE/Objects/Events.yy",
+    "path":"folders/WR/Objects/Events.yy",
   },
   "parentObjectId":null,
   "persistent":false,

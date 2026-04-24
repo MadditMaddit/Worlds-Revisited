@@ -6,7 +6,7 @@
   "name":"scr_script_repeat",
   "parent":{
     "name":"Engine",
-    "path":"folders/DELTARUNE/Scripts/Engine.yy",
+    "path":"folders/WR/Scripts/Engine.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

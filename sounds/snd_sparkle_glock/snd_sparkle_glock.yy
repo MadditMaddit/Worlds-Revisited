@@ -15,7 +15,7 @@
   "name":"snd_sparkle_glock",
   "parent":{
     "name":"Game",
-    "path":"folders/DELTARUNE/Sounds/Light/Game.yy",
+    "path":"folders/WR/Sounds/Light/Game.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

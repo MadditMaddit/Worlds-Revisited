@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Chapter 1",
-    "path":"folders/DELTARUNE/Tilesets/Dark World/Source Sprites/Chapter 1.yy",
+    "path":"folders/WR/Tilesets/Dark World/Source Sprites/Chapter 1.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

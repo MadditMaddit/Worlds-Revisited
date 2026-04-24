@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Emotes",
-    "path":"folders/DELTARUNE/Sprites/Emotes.yy",
+    "path":"folders/WR/Sprites/Emotes.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

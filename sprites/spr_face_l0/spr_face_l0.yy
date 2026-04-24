@@ -40,7 +40,7 @@
   "origin":0,
   "parent":{
     "name":"Darkners",
-    "path":"folders/DELTARUNE/Sprites/Faces/Darkners.yy",
+    "path":"folders/WR/Sprites/Faces/Darkners.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

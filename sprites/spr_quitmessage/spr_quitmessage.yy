@@ -49,7 +49,7 @@
   "origin":0,
   "parent":{
     "name":"Menus",
-    "path":"folders/DELTARUNE/Sprites/Menus.yy",
+    "path":"folders/WR/Sprites/Menus.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

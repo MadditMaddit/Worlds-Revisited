@@ -3,7 +3,7 @@
   "%Name":"spr_sluzishy_walk_left",
   "bboxMode":0,
   "bbox_bottom":42,
-  "bbox_left":0,
+  "bbox_left":1,
   "bbox_right":58,
   "bbox_top":0,
   "collisionKind":1,
@@ -29,7 +29,7 @@
   "origin":9,
   "parent":{
     "name":"Dark",
-    "path":"folders/DELTARUNE/Sprites/Characters/Sluzishy/Dark.yy",
+    "path":"folders/WR/Sprites/Characters/Sluzishy/Dark.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

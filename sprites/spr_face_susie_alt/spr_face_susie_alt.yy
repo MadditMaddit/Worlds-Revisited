@@ -66,7 +66,7 @@
   "origin":0,
   "parent":{
     "name":"Chapter 2+",
-    "path":"folders/DELTARUNE/Sprites/Faces/Lightners/Susie/Chapter 2+.yy",
+    "path":"folders/WR/Sprites/Faces/Lightners/Susie/Chapter 2+.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

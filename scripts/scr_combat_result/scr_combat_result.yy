@@ -6,7 +6,7 @@
   "name":"scr_combat_result",
   "parent":{
     "name":"System",
-    "path":"folders/DELTARUNE/Scripts/Battle/System.yy",
+    "path":"folders/WR/Scripts/Battle/System.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

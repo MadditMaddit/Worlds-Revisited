@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"You",
-    "path":"folders/DELTARUNE/Sprites/Characters/You.yy",
+    "path":"folders/WR/Sprites/Characters/You.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

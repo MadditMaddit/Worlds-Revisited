@@ -30,7 +30,7 @@
   "origin":4,
   "parent":{
     "name":"Light",
-    "path":"folders/DELTARUNE/Sprites/Characters/Clogs/Light.yy",
+    "path":"folders/WR/Sprites/Characters/Clogs/Light.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

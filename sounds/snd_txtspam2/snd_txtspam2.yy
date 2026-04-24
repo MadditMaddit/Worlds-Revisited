@@ -15,7 +15,7 @@
   "name":"snd_txtspam2",
   "parent":{
     "name":"Dialogue",
-    "path":"folders/DELTARUNE/Sounds/Dark/Dialogue.yy",
+    "path":"folders/WR/Sounds/Dark/Dialogue.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

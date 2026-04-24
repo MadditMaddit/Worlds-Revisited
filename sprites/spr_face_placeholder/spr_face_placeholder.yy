@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Faces",
-    "path":"folders/DELTARUNE/Sprites/Faces.yy",
+    "path":"folders/WR/Sprites/Faces.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

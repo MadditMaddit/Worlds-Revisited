@@ -36,7 +36,7 @@
   "origin":0,
   "parent":{
     "name":"Battle",
-    "path":"folders/DELTARUNE/Sprites/Characters/Ralsbajeej/Battle.yy",
+    "path":"folders/WR/Sprites/Characters/Ralsbajeej/Battle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

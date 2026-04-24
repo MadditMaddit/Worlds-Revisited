@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"Objects",
-    "path":"folders/DELTARUNE/Sprites/Objects.yy",
+    "path":"folders/WR/Sprites/Objects.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

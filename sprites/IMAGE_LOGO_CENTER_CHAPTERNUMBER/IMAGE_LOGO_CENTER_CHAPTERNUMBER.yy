@@ -36,7 +36,7 @@
   "origin":4,
   "parent":{
     "name":"Logo",
-    "path":"folders/DELTARUNE/Sprites/Menus/Logo.yy",
+    "path":"folders/WR/Sprites/Menus/Logo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

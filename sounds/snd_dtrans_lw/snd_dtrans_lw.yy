@@ -15,7 +15,7 @@
   "name":"snd_dtrans_lw",
   "parent":{
     "name":"Contact",
-    "path":"folders/DELTARUNE/Sounds/Contact.yy",
+    "path":"folders/WR/Sounds/Contact.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

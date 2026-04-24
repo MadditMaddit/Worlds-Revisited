@@ -13,7 +13,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Heroes",
-    "path":"folders/DELTARUNE/Objects/Battle/Heroes.yy",
+    "path":"folders/WR/Objects/Battle/Heroes.yy",
   },
   "parentObjectId":null,
   "persistent":false,

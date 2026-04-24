@@ -27,7 +27,7 @@
   "origin":0,
   "parent":{
     "name":"Legend",
-    "path":"folders/DELTARUNE/Sprites/Legend.yy",
+    "path":"folders/WR/Sprites/Legend.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

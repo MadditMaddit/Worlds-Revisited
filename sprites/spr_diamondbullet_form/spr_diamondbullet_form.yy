@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"Bullets",
-    "path":"folders/DELTARUNE/Sprites/Battle/Bullets.yy",
+    "path":"folders/WR/Sprites/Battle/Bullets.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Debug",
-    "path":"folders/DELTARUNE/Objects/Debug.yy",
+    "path":"folders/WR/Objects/Debug.yy",
   },
   "parentObjectId":null,
   "persistent":false,

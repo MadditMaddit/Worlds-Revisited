@@ -15,7 +15,7 @@
   "name":"snd_rudebuster_hit",
   "parent":{
     "name":"Spells",
-    "path":"folders/DELTARUNE/Sounds/Dark/Spells.yy",
+    "path":"folders/WR/Sounds/Dark/Spells.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

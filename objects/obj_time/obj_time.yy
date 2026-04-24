@@ -17,7 +17,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Engine",
-    "path":"folders/DELTARUNE/Objects/Engine.yy",
+    "path":"folders/WR/Objects/Engine.yy",
   },
   "parentObjectId":null,
   "persistent":true,

@@ -15,7 +15,7 @@
   "name":"AUDIO_INTRONOISE",
   "parent":{
     "name":"Contact",
-    "path":"folders/DELTARUNE/Sounds/Contact.yy",
+    "path":"folders/WR/Sounds/Contact.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

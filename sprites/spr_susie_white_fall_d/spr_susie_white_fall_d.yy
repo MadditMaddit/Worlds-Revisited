@@ -28,7 +28,7 @@
   "origin":0,
   "parent":{
     "name":"Light",
-    "path":"folders/DELTARUNE/Sprites/Characters/Sluzishy/Light.yy",
+    "path":"folders/WR/Sprites/Characters/Sluzishy/Light.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

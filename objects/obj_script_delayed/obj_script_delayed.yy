@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Sub",
-    "path":"folders/DELTARUNE/Cutscenes/Sub.yy",
+    "path":"folders/WR/Cutscenes/Sub.yy",
   },
   "parentObjectId":null,
   "persistent":false,

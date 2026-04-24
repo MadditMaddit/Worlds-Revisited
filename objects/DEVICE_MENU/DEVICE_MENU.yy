@@ -13,7 +13,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Contact",
-    "path":"folders/DELTARUNE/Objects/Menus/Contact.yy",
+    "path":"folders/WR/Objects/Menus/Contact.yy",
   },
   "parentObjectId":null,
   "persistent":false,

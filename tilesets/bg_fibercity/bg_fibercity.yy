@@ -1,0 +1,43 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"bg_fibercity",
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        128,176,175,0,149,0,0,0,150,0,0,0,0,0,0,0,127,0,0,0,102,0,0,0,129,0,0,0,154,0,0,0,0,0,101,0,103,0,155,
+        0,153,0,0,0,0,0,0,
+      ],},
+  ],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"bg_fibercity",
+  "out_columns":16,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Fiber City (fc) assets",
+    "path":"folders/Fiber City (fc) assets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"spr_fibercity",
+    "path":"sprites/spr_fibercity/spr_fibercity.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":40,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":40,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":260,
+}

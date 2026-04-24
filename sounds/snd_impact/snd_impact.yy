@@ -15,7 +15,7 @@
   "name":"snd_impact",
   "parent":{
     "name":"Battle",
-    "path":"folders/DELTARUNE/Sounds/Dark/Battle.yy",
+    "path":"folders/WR/Sounds/Dark/Battle.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Game",
-    "path":"folders/DELTARUNE/Objects/Menus/Game.yy",
+    "path":"folders/WR/Objects/Menus/Game.yy",
   },
   "parentObjectId":null,
   "persistent":false,

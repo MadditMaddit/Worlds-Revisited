@@ -29,7 +29,7 @@
   "origin":0,
   "parent":{
     "name":"Stats",
-    "path":"folders/DELTARUNE/Sprites/Menus/Dark Menu/Stats.yy",
+    "path":"folders/WR/Sprites/Menus/Dark Menu/Stats.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

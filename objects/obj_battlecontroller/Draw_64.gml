@@ -4,7 +4,7 @@ if scr_debug() {
 	draw_set_font(fnt_main); // i want the smaller font in the dark world to see more shit
 	
 	var labelheight = string_height("Sample String ABCDEFGHIJKLMNOPQRSTUVWXYZ!");
-	draw_text(24, 24, "obj_battlecontroller");
+	draw_text(24, 24, "");
 	
 	for (p = 0; p < array_length(global.monstertype); p++) {
 		if global.monstertype[p] == DREnemy.None continue;

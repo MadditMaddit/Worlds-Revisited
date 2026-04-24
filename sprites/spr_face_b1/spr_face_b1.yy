@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Light",
-    "path":"folders/DELTARUNE/Sprites/Faces/Lightners/Berdly/Light.yy",
+    "path":"folders/WR/Sprites/Faces/Lightners/Berdly/Light.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

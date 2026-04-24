@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Editor",
-    "path":"folders/DELTARUNE/Sprites/Editor.yy",
+    "path":"folders/WR/Sprites/Editor.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

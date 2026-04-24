@@ -1,17 +1,17 @@
 function scr_chapter_config() {
-	global.chapter = 4;
-	global.versionno = "v0.90-modkit-3";
+global.chapter = 4;
+	global.versionno = "";
 	
 	global.newFileStartingRoom = room_lw_test;
-	global.isStartingRoomDarkWorld = false;
+	global.isStartingRoomDarkWorld = false;	
 }
 
 function scr_chapter_get_recruit_color(chapter) {
 	
 	switch (chapter) {
-		case 1: return c_purple;
-		case 2: return c_aqua;
-		case 3: return c_green;
+		case 1: return make_color_rgb(102, 45, 145);
+		case 2: return make_color_rgb(255, 0, 0);
+		case 3: return make_color_rgb(0, 255, 0);
 		case 4: return c_blue;
 	}
 	

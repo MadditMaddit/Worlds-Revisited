@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Actors",
-    "path":"folders/DELTARUNE/Objects/Actors.yy",
+    "path":"folders/WR/Objects/Actors.yy",
   },
   "parentObjectId":null,
   "persistent":false,

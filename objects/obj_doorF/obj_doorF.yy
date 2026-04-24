@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Doors",
-    "path":"folders/DELTARUNE/Objects/World/Doors.yy",
+    "path":"folders/WR/Objects/World/Doors.yy",
   },
   "parentObjectId":{
     "name":"obj_doorparent",

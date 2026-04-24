@@ -40,7 +40,7 @@
   "origin":9,
   "parent":{
     "name":"Spells",
-    "path":"folders/DELTARUNE/Sprites/Battle/Spells.yy",
+    "path":"folders/WR/Sprites/Battle/Spells.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

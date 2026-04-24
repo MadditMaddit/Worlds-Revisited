@@ -27,7 +27,7 @@
   "origin":0,
   "parent":{
     "name":"Toby",
-    "path":"folders/DELTARUNE/Sprites/Characters/Toby.yy",
+    "path":"folders/WR/Sprites/Characters/Toby.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

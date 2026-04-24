@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Characters",
-    "path":"folders/DELTARUNE/Objects/Characters.yy",
+    "path":"folders/WR/Objects/Characters.yy",
   },
   "parentObjectId":null,
   "persistent":false,

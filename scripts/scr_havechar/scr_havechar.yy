@@ -6,7 +6,7 @@
   "name":"scr_havechar",
   "parent":{
     "name":"Party",
-    "path":"folders/DELTARUNE/Scripts/Party.yy",
+    "path":"folders/WR/Scripts/Party.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

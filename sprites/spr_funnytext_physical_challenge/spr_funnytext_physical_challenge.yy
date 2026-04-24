@@ -43,7 +43,7 @@
   "origin":0,
   "parent":{
     "name":"Funnytext",
-    "path":"folders/DELTARUNE/Sprites/Textbox/Funnytext.yy",
+    "path":"folders/WR/Sprites/Textbox/Funnytext.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

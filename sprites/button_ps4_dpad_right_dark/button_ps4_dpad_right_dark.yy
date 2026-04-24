@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"PS4",
-    "path":"folders/DELTARUNE/Sprites/Menus/Buttons/PS4.yy",
+    "path":"folders/WR/Sprites/Menus/Buttons/PS4.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

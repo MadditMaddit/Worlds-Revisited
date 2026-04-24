@@ -13,7 +13,7 @@
   "out_tilevborder":2,
   "parent":{
     "name":"Chapter 1",
-    "path":"folders/DELTARUNE/Tilesets/Dark World/Tilesets/Chapter 1.yy",
+    "path":"folders/WR/Tilesets/Dark World/Tilesets/Chapter 1.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

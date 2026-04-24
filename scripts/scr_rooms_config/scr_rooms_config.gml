@@ -17,7 +17,7 @@ function scr_roomname(roomid)
     switch (roomid) {
 		case 0: roomname = "---"; break;
 		
-		case room_dw_test: roomname = "Dark World - Testbed"; break;
+		case room_spamrot_appear: roomname = "Dark World - Testbed"; break;
 		case room_lw_test: roomname = "Light World - Testbed"; break;
 	}
 	

@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Buttons",
-    "path":"folders/DELTARUNE/Sprites/Menus/Dark Menu/Buttons.yy",
+    "path":"folders/WR/Sprites/Menus/Dark Menu/Buttons.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -29,7 +29,7 @@
   "origin":0,
   "parent":{
     "name":"Light",
-    "path":"folders/DELTARUNE/Sprites/Characters/Noelle/Light.yy",
+    "path":"folders/WR/Sprites/Characters/Noelle/Light.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

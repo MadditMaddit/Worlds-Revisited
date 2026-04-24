@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Markers",
-    "path":"folders/DELTARUNE/Sprites/Editor/Markers.yy",
+    "path":"folders/WR/Sprites/Editor/Markers.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

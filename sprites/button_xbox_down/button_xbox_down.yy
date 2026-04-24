@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Xbox",
-    "path":"folders/DELTARUNE/Sprites/Menus/Buttons/Xbox.yy",
+    "path":"folders/WR/Sprites/Menus/Buttons/Xbox.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

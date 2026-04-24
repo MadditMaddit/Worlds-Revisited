@@ -6,7 +6,7 @@
   "name":"scr_litem",
   "parent":{
     "name":"Light",
-    "path":"folders/DELTARUNE/Scripts/Inventory/Light.yy",
+    "path":"folders/WR/Scripts/Inventory/Light.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

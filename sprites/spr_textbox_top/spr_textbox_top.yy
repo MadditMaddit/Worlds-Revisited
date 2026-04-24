@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Textbox",
-    "path":"folders/DELTARUNE/Sprites/Textbox.yy",
+    "path":"folders/WR/Sprites/Textbox.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Effects",
-    "path":"folders/DELTARUNE/Objects/World/Transitions/Effects.yy",
+    "path":"folders/WR/Objects/World/Transitions/Effects.yy",
   },
   "parentObjectId":null,
   "persistent":true,

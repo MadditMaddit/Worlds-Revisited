@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"Battle",
-    "path":"folders/DELTARUNE/Sprites/Characters/Sluzishy/Battle.yy",
+    "path":"folders/WR/Sprites/Characters/Sluzishy/Battle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

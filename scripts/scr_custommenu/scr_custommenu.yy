@@ -6,7 +6,7 @@
   "name":"scr_custommenu",
   "parent":{
     "name":"Menus",
-    "path":"folders/DELTARUNE/Scripts/Menus.yy",
+    "path":"folders/WR/Scripts/Menus.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

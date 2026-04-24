@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Misc",
-    "path":"folders/DELTARUNE/Sprites/Faces/Lightners/Misc.yy",
+    "path":"folders/WR/Sprites/Faces/Lightners/Misc.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

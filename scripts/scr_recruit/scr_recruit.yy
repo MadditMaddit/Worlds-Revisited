@@ -6,7 +6,7 @@
   "name":"scr_recruit",
   "parent":{
     "name":"Config",
-    "path":"folders/DELTARUNE/Scripts/Config.yy",
+    "path":"folders/WR/Scripts/Config.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

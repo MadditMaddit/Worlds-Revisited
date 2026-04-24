@@ -27,7 +27,7 @@
   "origin":0,
   "parent":{
     "name":"Noelle",
-    "path":"folders/DELTARUNE/Sprites/Faces/Lightners/Noelle.yy",
+    "path":"folders/WR/Sprites/Faces/Lightners/Noelle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

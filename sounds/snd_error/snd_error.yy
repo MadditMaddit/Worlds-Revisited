@@ -15,7 +15,7 @@
   "name":"snd_error",
   "parent":{
     "name":"Game",
-    "path":"folders/DELTARUNE/Sounds/Dark/Game.yy",
+    "path":"folders/WR/Sounds/Dark/Game.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

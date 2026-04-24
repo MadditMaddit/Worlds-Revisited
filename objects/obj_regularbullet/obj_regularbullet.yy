@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Bullets",
-    "path":"folders/DELTARUNE/Objects/Battle/Bullets.yy",
+    "path":"folders/WR/Objects/Battle/Bullets.yy",
   },
   "parentObjectId":{
     "name":"obj_collidebullet",

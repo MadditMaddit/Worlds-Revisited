@@ -30,7 +30,7 @@
   "origin":0,
   "parent":{
     "name":"Contact",
-    "path":"folders/DELTARUNE/Sprites/Menus/Contact.yy",
+    "path":"folders/WR/Sprites/Menus/Contact.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

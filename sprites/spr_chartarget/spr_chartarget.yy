@@ -27,7 +27,7 @@
   "origin":0,
   "parent":{
     "name":"Marks",
-    "path":"folders/DELTARUNE/Sprites/Battle/Marks.yy",
+    "path":"folders/WR/Sprites/Battle/Marks.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

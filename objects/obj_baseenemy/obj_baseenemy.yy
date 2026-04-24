@@ -13,7 +13,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Enemies",
-    "path":"folders/DELTARUNE/Objects/Battle/Enemies.yy",
+    "path":"folders/WR/Objects/Battle/Enemies.yy",
   },
   "parentObjectId":{
     "name":"obj_monsterparent",

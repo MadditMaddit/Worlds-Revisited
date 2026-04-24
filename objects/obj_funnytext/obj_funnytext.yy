@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Dialogue",
-    "path":"folders/DELTARUNE/Objects/Dialogue.yy",
+    "path":"folders/WR/Objects/Dialogue.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"HUD",
-    "path":"folders/DELTARUNE/Objects/Battle/HUD.yy",
+    "path":"folders/WR/Objects/Battle/HUD.yy",
   },
   "parentObjectId":null,
   "persistent":false,
