@@ -26,7 +26,7 @@ if (EVENT == 1)
     {
         EVENT = 3;
         alarm[4] = 30;
-        global.currentsong[0] = snd_init("AUDIO_DEFEAT.ogg");
+        global.currentsong[0] = snd_init("gameover.ogg");
         global.currentsong[1] = mus_loop(global.currentsong[0]);
         var voice = choose(0, 1);
         

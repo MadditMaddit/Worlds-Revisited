@@ -8,16 +8,16 @@ if con == 0 && obj_mainchara.x < x && global.interact == 0{
 	c_pannable(true);
 	c_panobj(mod_obj_marker_k, 35);
 	
-	c_sel(kr);
+	c_sel(clo);
 		c_walktoobject(mod_obj_marker_a, 0, 0, 35);
 		
-	c_sel(su);
+	c_sel(sus);
 		c_walktoobject(mod_obj_marker_b, 0, 0, 35);
 		
 	c_wait(35);
 	
-	c_sel(kr); c_facing("d");
-	c_sel(su); c_facing("l");
+	c_sel(clo); c_facing("d");
+	c_sel(sus); c_facing("l");
 	
 	c_wait(10);
 	
@@ -30,7 +30,7 @@ if con == 0 && obj_mainchara.x < x && global.interact == 0{
 	c_wait(40);
 	
 	fountain = instance_create(mod_obj_marker_a.x - 6, mod_obj_marker_a.y - 22, obj_make_fountain);
-	c_sel(kr);
+	c_sel(clo);
 	c_visible(false);
 	c_var_instance(fountain, "active", true);
 	c_var_instance(fountain, "ceilheight", 300);

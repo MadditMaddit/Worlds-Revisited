@@ -12,8 +12,8 @@ function global_flagname_init()
 	global.flagname[10] = "Has Wrist Protector"
 	global.flagname[11] = "AutoRun"
 	global.flagname[12] = "Disable Screenshake"
-	global.flagname[29] = "Susie Ch1 Eyes"
-	global.flagname[30] = "Ralsei Ch1 Hat"
+	global.flagname[29] = "Sluzishy Ch1 Eyes"
+	global.flagname[30] = "Ralsbajeej Ch1 Hat"
 	global.flagname[31] = "Footsteps"
 	global.flagname[32] = "Party Item Comments"
 	global.flagname[35] = "Game Over Type"
@@ -32,7 +32,7 @@ function global_flagname_init()
 	// Moss
 	global.flagname[106] = "Moss Ch1"
 	global.flagname[920] = "Moss Ch2"
-	global.flagname[922] = "Sus Moss Ch2"
+	global.flagname[922] = "Sluz Moss Ch2"
 	global.flagname[921] = "Noe Moss Ch2"
 	global.flagname[1078] = "Moss Ch3"
 	global.flagname[1592] = "Moss Ch4"
@@ -60,7 +60,7 @@ function global_flagname_init()
 	global.flagname[40] = "Fled Or Fatal Kill Enemies"
 	global.flagname[41] = "Spared Enemies"
 	global.flagname[42] = "Pacified Enemies"
-	global.flagname[43] = "Susie Attacks"
+	global.flagname[43] = "Sluzishy Attacks"
 	global.flagname[44] = "Total Kills"
 	global.flagname[54] = "Encounter Flag"
 	global.flagname[50] = "Battle End Result"
@@ -69,7 +69,7 @@ function global_flagname_init()
 	global.flagname[53] = "End of Battle Enemy Stats [2]"
 	global.flagname[45] = "Frozen Solid."
 	global.flagname[925] = "Ice Shocks"
-	global.flagname[1045] = "Sus Heal Strength"
+	global.flagname[1045] = "Sluz Heal Strength"
 }
 
 function global_flagname_menu_init(arg0, arg1, arg2, arg3)

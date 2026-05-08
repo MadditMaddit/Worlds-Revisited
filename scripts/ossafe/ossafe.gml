@@ -255,13 +255,13 @@ function ossafe_savedata_save()
         buffer_async_group_begin("Deltarune");
         buffer_async_group_option("showdialog", 0);
         buffer_async_group_option("savepadindex", 0);
-        buffer_async_group_option("slottitle", "DELTARUNE");
-        buffer_async_group_option("subtitle", "DELTARUNE Save Data");
+        buffer_async_group_option("slottitle", "DELTARUNE: Worlds Revisited");
+        buffer_async_group_option("subtitle", "DELTARUNE: Worlds Revisited Save Data");
         buffer_async_group_option("saveslotsize", slot_size);
         var json = json_encode(global.savedata);
         global.savedata_buffer = buffer_create(string_byte_length(json) + 1, buffer_grow, 1);
         buffer_write(global.savedata_buffer, buffer_string, json);
-        buffer_save_async(global.savedata_buffer, "deltarune.sav", 0, buffer_get_size(global.savedata_buffer));
+        buffer_save_async(global.savedata_buffer, "WR.sav", 0, buffer_get_size(global.savedata_buffer));
         global.savedata_async_load = false;
         global.savedata_debuginfo = "save in progress";
         global.savedata_async_id = buffer_async_group_end();
@@ -279,11 +279,11 @@ function ossafe_savedata_load()
         buffer_async_group_begin("Deltarune");
         buffer_async_group_option("showdialog", 0);
         buffer_async_group_option("savepadindex", 0);
-        buffer_async_group_option("slottitle", "DELTARUNE");
-        buffer_async_group_option("subtitle", "DELTARUNE Save Data");
+        buffer_async_group_option("slottitle", "DELTARUNE: Worlds Revisited");
+        buffer_async_group_option("subtitle", "DELTARUNE: Worlds Revisited Save Data");
         buffer_async_group_option("saveslotsize", slot_size);
         global.savedata_buffer = buffer_create(1, buffer_grow, 1);
-        buffer_load_async(global.savedata_buffer, "deltarune.sav", 0, -1);
+        buffer_load_async(global.savedata_buffer, "WR.sav", 0, -1);
         global.savedata_async_load = true;
         global.savedata_debuginfo = "load in progress";
         global.savedata_async_id = buffer_async_group_end();
@@ -498,7 +498,7 @@ function scr_windowcaption(ch1_title)
     if (global.tempflag[10] != 1 && global.chapter == 1)
         window_set_caption(ch1_title);
     else
-        window_set_caption("DELTARUNE Chapter " + string(global.chapter));
+        window_set_caption("WR Chapter " + string(global.chapter));
 }
 
 function d_arrow(arg0, arg1, arg2, arg3, arg4)
